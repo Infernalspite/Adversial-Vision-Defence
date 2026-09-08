@@ -1,0 +1,7 @@
+{
+  "image": "0188_n02979186_27697.png",
+  "category": "clean",
+  "source": "evaluation",
+  "ground_truth_class": "binoculars",
+  "attack_type": null
+}

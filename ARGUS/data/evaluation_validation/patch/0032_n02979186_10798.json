@@ -1,0 +1,12 @@
+{
+  "image": "0032_n02979186_10798.png",
+  "category": "adversarial",
+  "attack_type": "patch",
+  "ground_truth_class": "tape player",
+  "source_image": "clean\\0032_n02979186_10798.png",
+  "parameters": {
+    "patch_size": 0.2,
+    "location": "center",
+    "iterations": 10
+  }
+}

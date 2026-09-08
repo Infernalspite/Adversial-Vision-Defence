@@ -1,0 +1,22 @@
+{
+  "sample_id": "0017_ILSVRC2012_val_00027785",
+  "image": "0017_ILSVRC2012_val_00027785.png",
+  "category": "adversarial",
+  "source_image": "data/sources/test/0017_ILSVRC2012_val_00027785.jpeg",
+  "source_split": "test",
+  "clean_image": "clean\\0017_ILSVRC2012_val_00027785.png",
+  "class_name": null,
+  "class_id": null,
+  "ground_truth_class": null,
+  "attack_type": "pgd",
+  "is_adversarial": true,
+  "adversarial_image": "pgd\\0017_ILSVRC2012_val_00027785.png",
+  "mask_path": null,
+  "generation_parameters": {
+    "epsilon": 0.03,
+    "step_size": 0.005,
+    "iterations": 10,
+    "random_start": false
+  },
+  "seed": 7
+}

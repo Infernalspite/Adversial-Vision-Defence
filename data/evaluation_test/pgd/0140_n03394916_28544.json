@@ -1,0 +1,22 @@
+{
+  "sample_id": "0140_n03394916_28544",
+  "image": "0140_n03394916_28544.png",
+  "category": "adversarial",
+  "source_image": "data/sources/test/0140_n03394916_28544.jpeg",
+  "source_split": "test",
+  "clean_image": "clean\\0140_n03394916_28544.png",
+  "class_name": "French horn",
+  "class_id": 5,
+  "ground_truth_class": "French horn",
+  "attack_type": "pgd",
+  "is_adversarial": true,
+  "adversarial_image": "pgd\\0140_n03394916_28544.png",
+  "mask_path": null,
+  "generation_parameters": {
+    "epsilon": 0.03,
+    "step_size": 0.005,
+    "iterations": 10,
+    "random_start": false
+  },
+  "seed": 7
+}

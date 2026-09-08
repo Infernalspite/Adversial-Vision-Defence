@@ -1,0 +1,13 @@
+{
+  "image": "0169_ILSVRC2012_val_00016833.png",
+  "category": "adversarial",
+  "attack_type": "pgd",
+  "ground_truth_class": "English setter",
+  "source_image": "clean\\0169_ILSVRC2012_val_00016833.png",
+  "parameters": {
+    "epsilon": 0.03,
+    "step_size": 0.005,
+    "iterations": 10,
+    "random_start": false
+  }
+}

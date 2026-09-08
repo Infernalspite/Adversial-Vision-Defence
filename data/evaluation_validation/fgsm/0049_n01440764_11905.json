@@ -1,0 +1,19 @@
+{
+  "sample_id": "0049_n01440764_11905",
+  "image": "0049_n01440764_11905.png",
+  "category": "adversarial",
+  "source_image": "data/sources/validation/0049_n01440764_11905.jpeg",
+  "source_split": "validation",
+  "clean_image": "clean\\0049_n01440764_11905.png",
+  "class_name": "tench",
+  "class_id": 0,
+  "ground_truth_class": "tench",
+  "attack_type": "fgsm",
+  "is_adversarial": true,
+  "adversarial_image": "fgsm\\0049_n01440764_11905.png",
+  "mask_path": null,
+  "generation_parameters": {
+    "epsilon": 0.01
+  },
+  "seed": 7
+}

@@ -1,0 +1,13 @@
+{
+  "sample_id": "0072_n02102040_7056",
+  "image": "0072_n02102040_7056.png",
+  "category": "clean",
+  "source_image": "data/sources/test/0072_n02102040_7056.jpeg",
+  "source_split": "test",
+  "class_name": "English springer",
+  "class_id": 1,
+  "ground_truth_class": "English springer",
+  "attack_type": null,
+  "is_adversarial": false,
+  "seed": 7
+}

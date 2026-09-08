@@ -1,0 +1,7 @@
+{
+  "image": "0072_ILSVRC2012_val_00019414.png",
+  "category": "clean",
+  "source": "evaluation",
+  "ground_truth_class": "English springer",
+  "attack_type": null
+}

@@ -1,0 +1,21 @@
+{
+  "sample_id": "0021_n02979186_26224",
+  "image": "0021_n02979186_26224.png",
+  "category": "adversarial",
+  "source_image": "data/sources/test/0021_n02979186_26224.jpeg",
+  "source_split": "test",
+  "clean_image": "clean\\0021_n02979186_26224.png",
+  "class_name": "cassette player",
+  "class_id": 2,
+  "ground_truth_class": "cassette player",
+  "attack_type": "patch",
+  "is_adversarial": true,
+  "adversarial_image": "patch\\0021_n02979186_26224.png",
+  "mask_path": "patch\\0021_n02979186_26224_mask.png",
+  "generation_parameters": {
+    "patch_size": 0.2,
+    "location": "center",
+    "iterations": 10
+  },
+  "seed": 7
+}

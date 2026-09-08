@@ -1,0 +1,13 @@
+{
+  "sample_id": "0174_n03394916_7606",
+  "image": "0174_n03394916_7606.png",
+  "category": "clean",
+  "source_image": "data/sources/validation/0174_n03394916_7606.jpeg",
+  "source_split": "validation",
+  "class_name": "French horn",
+  "class_id": 5,
+  "ground_truth_class": "French horn",
+  "attack_type": null,
+  "is_adversarial": false,
+  "seed": 7
+}

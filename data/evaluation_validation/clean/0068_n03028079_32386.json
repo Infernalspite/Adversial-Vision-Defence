@@ -1,0 +1,13 @@
+{
+  "sample_id": "0068_n03028079_32386",
+  "image": "0068_n03028079_32386.png",
+  "category": "clean",
+  "source_image": "data/sources/validation/0068_n03028079_32386.jpeg",
+  "source_split": "validation",
+  "class_name": "church",
+  "class_id": 4,
+  "ground_truth_class": "church",
+  "attack_type": null,
+  "is_adversarial": false,
+  "seed": 7
+}

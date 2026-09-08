@@ -1,0 +1,13 @@
+{
+  "sample_id": "0093_n03417042_14645",
+  "image": "0093_n03417042_14645.png",
+  "category": "clean",
+  "source_image": "data/sources/validation/0093_n03417042_14645.jpeg",
+  "source_split": "validation",
+  "class_name": "garbage truck",
+  "class_id": 6,
+  "ground_truth_class": "garbage truck",
+  "attack_type": null,
+  "is_adversarial": false,
+  "seed": 7
+}

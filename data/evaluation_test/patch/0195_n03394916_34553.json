@@ -1,0 +1,21 @@
+{
+  "sample_id": "0195_n03394916_34553",
+  "image": "0195_n03394916_34553.png",
+  "category": "adversarial",
+  "source_image": "data/sources/test/0195_n03394916_34553.jpeg",
+  "source_split": "test",
+  "clean_image": "clean\\0195_n03394916_34553.png",
+  "class_name": "French horn",
+  "class_id": 5,
+  "ground_truth_class": "French horn",
+  "attack_type": "patch",
+  "is_adversarial": true,
+  "adversarial_image": "patch\\0195_n03394916_34553.png",
+  "mask_path": "patch\\0195_n03394916_34553_mask.png",
+  "generation_parameters": {
+    "patch_size": 0.2,
+    "location": "center",
+    "iterations": 10
+  },
+  "seed": 7
+}

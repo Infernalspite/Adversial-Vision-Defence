@@ -1,0 +1,7 @@
+{
+  "image": "0125_n03417042_6815.png",
+  "category": "clean",
+  "source": "evaluation",
+  "ground_truth_class": "school bus",
+  "attack_type": null
+}

@@ -1,0 +1,21 @@
+{
+  "sample_id": "0089_n03417042_14037",
+  "image": "0089_n03417042_14037.png",
+  "category": "adversarial",
+  "source_image": "data/sources/test/0089_n03417042_14037.jpeg",
+  "source_split": "test",
+  "clean_image": "clean\\0089_n03417042_14037.png",
+  "class_name": "garbage truck",
+  "class_id": 6,
+  "ground_truth_class": "garbage truck",
+  "attack_type": "patch",
+  "is_adversarial": true,
+  "adversarial_image": "patch\\0089_n03417042_14037.png",
+  "mask_path": "patch\\0089_n03417042_14037_mask.png",
+  "generation_parameters": {
+    "patch_size": 0.2,
+    "location": "center",
+    "iterations": 10
+  },
+  "seed": 7
+}

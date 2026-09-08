@@ -1,0 +1,7 @@
+{
+  "image": "0198_n03888257_11255.png",
+  "category": "clean",
+  "source": "evaluation",
+  "ground_truth_class": "plow",
+  "attack_type": null
+}

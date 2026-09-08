@@ -1,0 +1,12 @@
+{
+  "image": "0057_n03417042_17233.png",
+  "category": "adversarial",
+  "attack_type": "patch",
+  "ground_truth_class": "garbage truck",
+  "source_image": "clean\\0057_n03417042_17233.png",
+  "parameters": {
+    "patch_size": 0.2,
+    "location": "center",
+    "iterations": 10
+  }
+}

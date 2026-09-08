@@ -1,0 +1,10 @@
+{
+  "image": "0001_n02979186_2887.png",
+  "category": "adversarial",
+  "attack_type": "fgsm",
+  "ground_truth_class": "tape player",
+  "source_image": "clean\\0001_n02979186_2887.png",
+  "parameters": {
+    "epsilon": 0.01
+  }
+}

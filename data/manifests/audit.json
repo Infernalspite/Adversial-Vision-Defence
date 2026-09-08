@@ -1,0 +1,12 @@
+{
+  "source_counts": {
+    "baseline": 200,
+    "validation": 200,
+    "test": 200
+  },
+  "source_overlaps": {
+    "baseline:validation": [],
+    "baseline:test": [],
+    "test:validation": []
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "image": "0128_n03000684_455.png",
+  "category": "adversarial",
+  "attack_type": "fgsm",
+  "ground_truth_class": "chain saw",
+  "source_image": "clean\\0128_n03000684_455.png",
+  "parameters": {
+    "epsilon": 0.01
+  }
+}

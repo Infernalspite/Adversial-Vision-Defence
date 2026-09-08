@@ -1,0 +1,7 @@
+{
+  "image": "0077_n01440764_5108.png",
+  "category": "clean",
+  "source": "evaluation",
+  "ground_truth_class": "tench",
+  "attack_type": null
+}

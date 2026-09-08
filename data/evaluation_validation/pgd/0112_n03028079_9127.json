@@ -1,0 +1,22 @@
+{
+  "sample_id": "0112_n03028079_9127",
+  "image": "0112_n03028079_9127.png",
+  "category": "adversarial",
+  "source_image": "data/sources/validation/0112_n03028079_9127.jpeg",
+  "source_split": "validation",
+  "clean_image": "clean\\0112_n03028079_9127.png",
+  "class_name": "church",
+  "class_id": 4,
+  "ground_truth_class": "church",
+  "attack_type": "pgd",
+  "is_adversarial": true,
+  "adversarial_image": "pgd\\0112_n03028079_9127.png",
+  "mask_path": null,
+  "generation_parameters": {
+    "epsilon": 0.03,
+    "step_size": 0.005,
+    "iterations": 10,
+    "random_start": false
+  },
+  "seed": 7
+}

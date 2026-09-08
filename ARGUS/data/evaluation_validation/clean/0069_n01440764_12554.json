@@ -1,0 +1,7 @@
+{
+  "image": "0069_n01440764_12554.png",
+  "category": "clean",
+  "source": "evaluation",
+  "ground_truth_class": "barracouta",
+  "attack_type": null
+}

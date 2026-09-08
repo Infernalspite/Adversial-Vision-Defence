@@ -1,0 +1,10 @@
+{
+  "image": "0130_n03445777_5434.png",
+  "category": "adversarial",
+  "attack_type": "fgsm",
+  "ground_truth_class": "spotlight",
+  "source_image": "clean\\0130_n03445777_5434.png",
+  "parameters": {
+    "epsilon": 0.01
+  }
+}

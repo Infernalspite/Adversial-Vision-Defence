@@ -1,0 +1,10 @@
+{
+  "image": "0029_n03394916_37544.png",
+  "category": "adversarial",
+  "attack_type": "fgsm",
+  "ground_truth_class": "Loafer",
+  "source_image": "clean\\0029_n03394916_37544.png",
+  "parameters": {
+    "epsilon": 0.01
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "sample_id": "0054_n03425413_20186",
+  "image": "0054_n03425413_20186.png",
+  "category": "adversarial",
+  "source_image": "data/sources/validation/0054_n03425413_20186.jpeg",
+  "source_split": "validation",
+  "clean_image": "clean\\0054_n03425413_20186.png",
+  "class_name": "gas pump",
+  "class_id": 7,
+  "ground_truth_class": "gas pump",
+  "attack_type": "fgsm",
+  "is_adversarial": true,
+  "adversarial_image": "fgsm\\0054_n03425413_20186.png",
+  "mask_path": null,
+  "generation_parameters": {
+    "epsilon": 0.01
+  },
+  "seed": 7
+}

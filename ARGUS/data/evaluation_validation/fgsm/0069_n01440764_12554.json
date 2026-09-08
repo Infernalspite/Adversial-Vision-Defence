@@ -1,0 +1,10 @@
+{
+  "image": "0069_n01440764_12554.png",
+  "category": "adversarial",
+  "attack_type": "fgsm",
+  "ground_truth_class": "barracouta",
+  "source_image": "clean\\0069_n01440764_12554.png",
+  "parameters": {
+    "epsilon": 0.01
+  }
+}

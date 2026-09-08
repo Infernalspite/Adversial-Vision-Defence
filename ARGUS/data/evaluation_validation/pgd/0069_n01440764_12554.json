@@ -1,0 +1,13 @@
+{
+  "image": "0069_n01440764_12554.png",
+  "category": "adversarial",
+  "attack_type": "pgd",
+  "ground_truth_class": "barracouta",
+  "source_image": "clean\\0069_n01440764_12554.png",
+  "parameters": {
+    "epsilon": 0.03,
+    "step_size": 0.005,
+    "iterations": 10,
+    "random_start": false
+  }
+}

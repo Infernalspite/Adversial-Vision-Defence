@@ -1,0 +1,12 @@
+{
+  "image": "0173_n02102040_3417.png",
+  "category": "adversarial",
+  "attack_type": "patch",
+  "ground_truth_class": "English springer",
+  "source_image": "clean\\0173_n02102040_3417.png",
+  "parameters": {
+    "patch_size": 0.2,
+    "location": "center",
+    "iterations": 10
+  }
+}

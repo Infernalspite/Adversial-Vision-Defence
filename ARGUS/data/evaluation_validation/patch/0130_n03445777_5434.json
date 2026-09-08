@@ -1,0 +1,12 @@
+{
+  "image": "0130_n03445777_5434.png",
+  "category": "adversarial",
+  "attack_type": "patch",
+  "ground_truth_class": "spotlight",
+  "source_image": "clean\\0130_n03445777_5434.png",
+  "parameters": {
+    "patch_size": 0.2,
+    "location": "center",
+    "iterations": 10
+  }
+}

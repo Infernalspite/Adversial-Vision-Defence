@@ -1,0 +1,12 @@
+{
+  "image": "0045_n02102040_1129.png",
+  "category": "adversarial",
+  "attack_type": "patch",
+  "ground_truth_class": "Tibetan terrier",
+  "source_image": "clean\\0045_n02102040_1129.png",
+  "parameters": {
+    "patch_size": 0.2,
+    "location": "center",
+    "iterations": 10
+  }
+}

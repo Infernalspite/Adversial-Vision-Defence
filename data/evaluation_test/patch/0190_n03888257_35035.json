@@ -1,0 +1,21 @@
+{
+  "sample_id": "0190_n03888257_35035",
+  "image": "0190_n03888257_35035.png",
+  "category": "adversarial",
+  "source_image": "data/sources/test/0190_n03888257_35035.jpeg",
+  "source_split": "test",
+  "clean_image": "clean\\0190_n03888257_35035.png",
+  "class_name": "parachute",
+  "class_id": 9,
+  "ground_truth_class": "parachute",
+  "attack_type": "patch",
+  "is_adversarial": true,
+  "adversarial_image": "patch\\0190_n03888257_35035.png",
+  "mask_path": "patch\\0190_n03888257_35035_mask.png",
+  "generation_parameters": {
+    "patch_size": 0.2,
+    "location": "center",
+    "iterations": 10
+  },
+  "seed": 7
+}

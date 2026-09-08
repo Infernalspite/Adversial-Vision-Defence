@@ -1,0 +1,13 @@
+{
+  "image": "0079_n03425413_32995.png",
+  "category": "adversarial",
+  "attack_type": "pgd",
+  "ground_truth_class": "tractor",
+  "source_image": "clean\\0079_n03425413_32995.png",
+  "parameters": {
+    "epsilon": 0.03,
+    "step_size": 0.005,
+    "iterations": 10,
+    "random_start": false
+  }
+}

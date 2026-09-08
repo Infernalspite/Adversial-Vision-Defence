@@ -1,0 +1,10 @@
+{
+  "image": "0199_n03888257_52194.png",
+  "category": "adversarial",
+  "attack_type": "fgsm",
+  "ground_truth_class": "parachute",
+  "source_image": "clean\\0199_n03888257_52194.png",
+  "parameters": {
+    "epsilon": 0.01
+  }
+}

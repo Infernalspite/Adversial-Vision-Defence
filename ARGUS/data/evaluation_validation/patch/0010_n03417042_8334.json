@@ -1,0 +1,12 @@
+{
+  "image": "0010_n03417042_8334.png",
+  "category": "adversarial",
+  "attack_type": "patch",
+  "ground_truth_class": "thresher",
+  "source_image": "clean\\0010_n03417042_8334.png",
+  "parameters": {
+    "patch_size": 0.2,
+    "location": "center",
+    "iterations": 10
+  }
+}

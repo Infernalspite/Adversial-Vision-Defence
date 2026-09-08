@@ -1,0 +1,12 @@
+{
+  "image": "0146_n03888257_34737.png",
+  "category": "adversarial",
+  "attack_type": "patch",
+  "ground_truth_class": "parachute",
+  "source_image": "clean\\0146_n03888257_34737.png",
+  "parameters": {
+    "patch_size": 0.2,
+    "location": "center",
+    "iterations": 10
+  }
+}

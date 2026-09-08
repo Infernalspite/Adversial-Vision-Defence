@@ -1,0 +1,13 @@
+{
+  "sample_id": "0043_n01440764_13905",
+  "image": "0043_n01440764_13905.png",
+  "category": "clean",
+  "source_image": "data/sources/test/0043_n01440764_13905.jpeg",
+  "source_split": "test",
+  "class_name": "tench",
+  "class_id": 0,
+  "ground_truth_class": "tench",
+  "attack_type": null,
+  "is_adversarial": false,
+  "seed": 7
+}

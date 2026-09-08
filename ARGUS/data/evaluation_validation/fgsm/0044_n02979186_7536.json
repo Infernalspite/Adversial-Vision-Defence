@@ -1,0 +1,10 @@
+{
+  "image": "0044_n02979186_7536.png",
+  "category": "adversarial",
+  "attack_type": "fgsm",
+  "ground_truth_class": "cassette",
+  "source_image": "clean\\0044_n02979186_7536.png",
+  "parameters": {
+    "epsilon": 0.01
+  }
+}

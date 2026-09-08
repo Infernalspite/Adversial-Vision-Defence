@@ -1,0 +1,21 @@
+{
+  "sample_id": "0190_n02102040_2316",
+  "image": "0190_n02102040_2316.png",
+  "category": "adversarial",
+  "source_image": "data/sources/validation/0190_n02102040_2316.jpeg",
+  "source_split": "validation",
+  "clean_image": "clean\\0190_n02102040_2316.png",
+  "class_name": "English springer",
+  "class_id": 1,
+  "ground_truth_class": "English springer",
+  "attack_type": "patch",
+  "is_adversarial": true,
+  "adversarial_image": "patch\\0190_n02102040_2316.png",
+  "mask_path": "patch\\0190_n02102040_2316_mask.png",
+  "generation_parameters": {
+    "patch_size": 0.2,
+    "location": "center",
+    "iterations": 10
+  },
+  "seed": 7
+}

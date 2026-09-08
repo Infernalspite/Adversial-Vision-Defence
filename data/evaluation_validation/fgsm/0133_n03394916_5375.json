@@ -1,0 +1,19 @@
+{
+  "sample_id": "0133_n03394916_5375",
+  "image": "0133_n03394916_5375.png",
+  "category": "adversarial",
+  "source_image": "data/sources/validation/0133_n03394916_5375.jpeg",
+  "source_split": "validation",
+  "clean_image": "clean\\0133_n03394916_5375.png",
+  "class_name": "French horn",
+  "class_id": 5,
+  "ground_truth_class": "French horn",
+  "attack_type": "fgsm",
+  "is_adversarial": true,
+  "adversarial_image": "fgsm\\0133_n03394916_5375.png",
+  "mask_path": null,
+  "generation_parameters": {
+    "epsilon": 0.01
+  },
+  "seed": 7
+}

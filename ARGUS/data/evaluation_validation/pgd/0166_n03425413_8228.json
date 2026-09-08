@@ -1,0 +1,13 @@
+{
+  "image": "0166_n03425413_8228.png",
+  "category": "adversarial",
+  "attack_type": "pgd",
+  "ground_truth_class": "gas pump",
+  "source_image": "clean\\0166_n03425413_8228.png",
+  "parameters": {
+    "epsilon": 0.03,
+    "step_size": 0.005,
+    "iterations": 10,
+    "random_start": false
+  }
+}

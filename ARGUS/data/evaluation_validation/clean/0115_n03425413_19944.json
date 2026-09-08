@@ -1,0 +1,7 @@
+{
+  "image": "0115_n03425413_19944.png",
+  "category": "clean",
+  "source": "evaluation",
+  "ground_truth_class": "gas pump",
+  "attack_type": null
+}

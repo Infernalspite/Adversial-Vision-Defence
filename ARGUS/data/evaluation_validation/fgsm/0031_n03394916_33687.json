@@ -1,0 +1,10 @@
+{
+  "image": "0031_n03394916_33687.png",
+  "category": "adversarial",
+  "attack_type": "fgsm",
+  "ground_truth_class": "French horn",
+  "source_image": "clean\\0031_n03394916_33687.png",
+  "parameters": {
+    "epsilon": 0.01
+  }
+}

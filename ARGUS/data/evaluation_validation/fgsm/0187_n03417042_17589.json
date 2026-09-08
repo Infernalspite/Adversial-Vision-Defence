@@ -1,0 +1,10 @@
+{
+  "image": "0187_n03417042_17589.png",
+  "category": "adversarial",
+  "attack_type": "fgsm",
+  "ground_truth_class": "garbage truck",
+  "source_image": "clean\\0187_n03417042_17589.png",
+  "parameters": {
+    "epsilon": 0.01
+  }
+}

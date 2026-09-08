@@ -1,0 +1,12 @@
+{
+  "image": "0036_n03445777_10633.png",
+  "category": "adversarial",
+  "attack_type": "patch",
+  "ground_truth_class": "croquet ball",
+  "source_image": "clean\\0036_n03445777_10633.png",
+  "parameters": {
+    "patch_size": 0.2,
+    "location": "center",
+    "iterations": 10
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "sample_id": "0149_n03417042_6804",
+  "image": "0149_n03417042_6804.png",
+  "category": "adversarial",
+  "source_image": "data/sources/validation/0149_n03417042_6804.jpeg",
+  "source_split": "validation",
+  "clean_image": "clean\\0149_n03417042_6804.png",
+  "class_name": "garbage truck",
+  "class_id": 6,
+  "ground_truth_class": "garbage truck",
+  "attack_type": "pgd",
+  "is_adversarial": true,
+  "adversarial_image": "pgd\\0149_n03417042_6804.png",
+  "mask_path": null,
+  "generation_parameters": {
+    "epsilon": 0.03,
+    "step_size": 0.005,
+    "iterations": 10,
+    "random_start": false
+  },
+  "seed": 7
+}

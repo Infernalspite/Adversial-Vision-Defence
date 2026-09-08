@@ -1,0 +1,10 @@
+{
+  "image": "0040_n03000684_4049.png",
+  "category": "adversarial",
+  "attack_type": "fgsm",
+  "ground_truth_class": "snowplow",
+  "source_image": "clean\\0040_n03000684_4049.png",
+  "parameters": {
+    "epsilon": 0.01
+  }
+}

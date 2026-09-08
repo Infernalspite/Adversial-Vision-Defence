@@ -1,0 +1,7 @@
+{
+  "image": "0003_ILSVRC2012_val_00016387.png",
+  "category": "clean",
+  "source": "evaluation",
+  "ground_truth_class": "parachute",
+  "attack_type": null
+}

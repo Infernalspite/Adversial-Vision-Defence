@@ -1,0 +1,7 @@
+{
+  "image": "0147_ILSVRC2012_val_00042487.png",
+  "category": "clean",
+  "source": "evaluation",
+  "ground_truth_class": "garbage truck",
+  "attack_type": null
+}

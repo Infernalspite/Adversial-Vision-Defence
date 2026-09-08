@@ -1,0 +1,12 @@
+{
+  "image": "0020_n03394916_30648.png",
+  "category": "adversarial",
+  "attack_type": "patch",
+  "ground_truth_class": "French horn",
+  "source_image": "clean\\0020_n03394916_30648.png",
+  "parameters": {
+    "patch_size": 0.2,
+    "location": "center",
+    "iterations": 10
+  }
+}

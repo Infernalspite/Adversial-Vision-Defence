@@ -1,0 +1,22 @@
+{
+  "sample_id": "0001_n02979186_3435",
+  "image": "0001_n02979186_3435.png",
+  "category": "adversarial",
+  "source_image": "data/sources/test/0001_n02979186_3435.jpeg",
+  "source_split": "test",
+  "clean_image": "clean\\0001_n02979186_3435.png",
+  "class_name": "cassette player",
+  "class_id": 2,
+  "ground_truth_class": "cassette player",
+  "attack_type": "pgd",
+  "is_adversarial": true,
+  "adversarial_image": "pgd\\0001_n02979186_3435.png",
+  "mask_path": null,
+  "generation_parameters": {
+    "epsilon": 0.03,
+    "step_size": 0.005,
+    "iterations": 10,
+    "random_start": false
+  },
+  "seed": 7
+}

@@ -1,0 +1,13 @@
+{
+  "image": "0006_n03888257_50367.png",
+  "category": "adversarial",
+  "attack_type": "pgd",
+  "ground_truth_class": "parachute",
+  "source_image": "clean\\0006_n03888257_50367.png",
+  "parameters": {
+    "epsilon": 0.03,
+    "step_size": 0.005,
+    "iterations": 10,
+    "random_start": false
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "image": "0045_n02102040_1129.png",
+  "category": "adversarial",
+  "attack_type": "fgsm",
+  "ground_truth_class": "Tibetan terrier",
+  "source_image": "clean\\0045_n02102040_1129.png",
+  "parameters": {
+    "epsilon": 0.01
+  }
+}

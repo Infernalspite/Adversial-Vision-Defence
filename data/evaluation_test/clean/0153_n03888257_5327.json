@@ -1,0 +1,13 @@
+{
+  "sample_id": "0153_n03888257_5327",
+  "image": "0153_n03888257_5327.png",
+  "category": "clean",
+  "source_image": "data/sources/test/0153_n03888257_5327.jpeg",
+  "source_split": "test",
+  "class_name": "parachute",
+  "class_id": 9,
+  "ground_truth_class": "parachute",
+  "attack_type": null,
+  "is_adversarial": false,
+  "seed": 7
+}

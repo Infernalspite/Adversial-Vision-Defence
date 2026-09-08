@@ -1,0 +1,19 @@
+{
+  "sample_id": "0014_n03888257_20473",
+  "image": "0014_n03888257_20473.png",
+  "category": "adversarial",
+  "source_image": "data/sources/test/0014_n03888257_20473.jpeg",
+  "source_split": "test",
+  "clean_image": "clean\\0014_n03888257_20473.png",
+  "class_name": "parachute",
+  "class_id": 9,
+  "ground_truth_class": "parachute",
+  "attack_type": "fgsm",
+  "is_adversarial": true,
+  "adversarial_image": "fgsm\\0014_n03888257_20473.png",
+  "mask_path": null,
+  "generation_parameters": {
+    "epsilon": 0.01
+  },
+  "seed": 7
+}

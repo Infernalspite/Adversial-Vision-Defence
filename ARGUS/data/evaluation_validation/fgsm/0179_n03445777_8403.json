@@ -1,0 +1,10 @@
+{
+  "image": "0179_n03445777_8403.png",
+  "category": "adversarial",
+  "attack_type": "fgsm",
+  "ground_truth_class": "golf ball",
+  "source_image": "clean\\0179_n03445777_8403.png",
+  "parameters": {
+    "epsilon": 0.01
+  }
+}

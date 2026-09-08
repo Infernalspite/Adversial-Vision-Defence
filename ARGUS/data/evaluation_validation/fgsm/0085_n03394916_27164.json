@@ -1,0 +1,10 @@
+{
+  "image": "0085_n03394916_27164.png",
+  "category": "adversarial",
+  "attack_type": "fgsm",
+  "ground_truth_class": "cornet",
+  "source_image": "clean\\0085_n03394916_27164.png",
+  "parameters": {
+    "epsilon": 0.01
+  }
+}

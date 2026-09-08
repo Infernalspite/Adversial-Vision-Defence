@@ -1,0 +1,10 @@
+{
+  "image": "0175_n03028079_24587.png",
+  "category": "adversarial",
+  "attack_type": "fgsm",
+  "ground_truth_class": "mosque",
+  "source_image": "clean\\0175_n03028079_24587.png",
+  "parameters": {
+    "epsilon": 0.01
+  }
+}

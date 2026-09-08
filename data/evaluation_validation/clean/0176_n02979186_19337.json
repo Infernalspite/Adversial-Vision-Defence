@@ -1,0 +1,13 @@
+{
+  "sample_id": "0176_n02979186_19337",
+  "image": "0176_n02979186_19337.png",
+  "category": "clean",
+  "source_image": "data/sources/validation/0176_n02979186_19337.jpeg",
+  "source_split": "validation",
+  "class_name": "cassette player",
+  "class_id": 2,
+  "ground_truth_class": "cassette player",
+  "attack_type": null,
+  "is_adversarial": false,
+  "seed": 7
+}

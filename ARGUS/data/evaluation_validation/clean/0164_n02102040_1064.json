@@ -1,0 +1,7 @@
+{
+  "image": "0164_n02102040_1064.png",
+  "category": "clean",
+  "source": "evaluation",
+  "ground_truth_class": "bluetick",
+  "attack_type": null
+}

@@ -1,0 +1,7 @@
+{
+  "image": "0014_n03888257_44925.png",
+  "category": "clean",
+  "source": "evaluation",
+  "ground_truth_class": "parachute",
+  "attack_type": null
+}

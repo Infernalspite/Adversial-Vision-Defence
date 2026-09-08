@@ -1,0 +1,34 @@
+{
+  "timestamp": "2026-09-08T04:31:14.192292+00:00",
+  "dataset_root": "data\\evaluation_test",
+  "seed": 7,
+  "attack_parameters": {
+    "fgsm": {
+      "epsilon": 0.01
+    },
+    "pgd": {
+      "epsilon": 0.03,
+      "step_size": 0.005,
+      "iterations": 10,
+      "random_start": false
+    },
+    "patch": {
+      "patch_size": 0.2,
+      "location": "center",
+      "iterations": 10
+    }
+  },
+  "thresholds": {
+    "attack": 0.05,
+    "trust": 0.7,
+    "verification": 0.7
+  },
+  "detector_weights": {
+    "feature_squeezing": 0.0,
+    "frequency_analysis": 0.25,
+    "confidence_instability": 0.75,
+    "saliency_analysis": 0.0
+  },
+  "calibration": "data\\evaluation_validation\\calibration.json",
+  "git_commit": null
+}

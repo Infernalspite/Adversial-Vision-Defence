@@ -1,0 +1,21 @@
+{
+  "sample_id": "0049_n01440764_11905",
+  "image": "0049_n01440764_11905.png",
+  "category": "adversarial",
+  "source_image": "data/sources/validation/0049_n01440764_11905.jpeg",
+  "source_split": "validation",
+  "clean_image": "clean\\0049_n01440764_11905.png",
+  "class_name": "tench",
+  "class_id": 0,
+  "ground_truth_class": "tench",
+  "attack_type": "patch",
+  "is_adversarial": true,
+  "adversarial_image": "patch\\0049_n01440764_11905.png",
+  "mask_path": "patch\\0049_n01440764_11905_mask.png",
+  "generation_parameters": {
+    "patch_size": 0.2,
+    "location": "center",
+    "iterations": 10
+  },
+  "seed": 7
+}

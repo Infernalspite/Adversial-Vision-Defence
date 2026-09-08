@@ -1,0 +1,7 @@
+{
+  "image": "0184_n03417042_22196.png",
+  "category": "clean",
+  "source": "evaluation",
+  "ground_truth_class": "garbage truck",
+  "attack_type": null
+}

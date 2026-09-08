@@ -1,0 +1,13 @@
+{
+  "image": "0004_n02102040_3019.png",
+  "category": "adversarial",
+  "attack_type": "pgd",
+  "ground_truth_class": "Old English sheepdog",
+  "source_image": "clean\\0004_n02102040_3019.png",
+  "parameters": {
+    "epsilon": 0.03,
+    "step_size": 0.005,
+    "iterations": 10,
+    "random_start": false
+  }
+}

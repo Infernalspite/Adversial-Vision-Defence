@@ -1,0 +1,12 @@
+{
+  "image": "0007_n03000684_5784.png",
+  "category": "adversarial",
+  "attack_type": "patch",
+  "ground_truth_class": "chain saw",
+  "source_image": "clean\\0007_n03000684_5784.png",
+  "parameters": {
+    "patch_size": 0.2,
+    "location": "center",
+    "iterations": 10
+  }
+}

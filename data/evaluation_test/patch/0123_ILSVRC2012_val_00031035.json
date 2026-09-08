@@ -1,0 +1,21 @@
+{
+  "sample_id": "0123_ILSVRC2012_val_00031035",
+  "image": "0123_ILSVRC2012_val_00031035.png",
+  "category": "adversarial",
+  "source_image": "data/sources/test/0123_ILSVRC2012_val_00031035.jpeg",
+  "source_split": "test",
+  "clean_image": "clean\\0123_ILSVRC2012_val_00031035.png",
+  "class_name": null,
+  "class_id": null,
+  "ground_truth_class": null,
+  "attack_type": "patch",
+  "is_adversarial": true,
+  "adversarial_image": "patch\\0123_ILSVRC2012_val_00031035.png",
+  "mask_path": "patch\\0123_ILSVRC2012_val_00031035_mask.png",
+  "generation_parameters": {
+    "patch_size": 0.2,
+    "location": "center",
+    "iterations": 10
+  },
+  "seed": 7
+}

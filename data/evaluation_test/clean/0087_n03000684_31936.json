@@ -1,0 +1,13 @@
+{
+  "sample_id": "0087_n03000684_31936",
+  "image": "0087_n03000684_31936.png",
+  "category": "clean",
+  "source_image": "data/sources/test/0087_n03000684_31936.jpeg",
+  "source_split": "test",
+  "class_name": "chain saw",
+  "class_id": 3,
+  "ground_truth_class": "chain saw",
+  "attack_type": null,
+  "is_adversarial": false,
+  "seed": 7
+}

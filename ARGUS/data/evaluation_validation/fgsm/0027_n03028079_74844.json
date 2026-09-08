@@ -1,0 +1,10 @@
+{
+  "image": "0027_n03028079_74844.png",
+  "category": "adversarial",
+  "attack_type": "fgsm",
+  "ground_truth_class": "church",
+  "source_image": "clean\\0027_n03028079_74844.png",
+  "parameters": {
+    "epsilon": 0.01
+  }
+}

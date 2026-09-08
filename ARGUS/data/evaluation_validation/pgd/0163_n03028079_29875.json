@@ -1,0 +1,13 @@
+{
+  "image": "0163_n03028079_29875.png",
+  "category": "adversarial",
+  "attack_type": "pgd",
+  "ground_truth_class": "church",
+  "source_image": "clean\\0163_n03028079_29875.png",
+  "parameters": {
+    "epsilon": 0.03,
+    "step_size": 0.005,
+    "iterations": 10,
+    "random_start": false
+  }
+}

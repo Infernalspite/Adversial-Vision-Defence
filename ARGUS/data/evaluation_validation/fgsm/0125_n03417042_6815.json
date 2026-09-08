@@ -1,0 +1,10 @@
+{
+  "image": "0125_n03417042_6815.png",
+  "category": "adversarial",
+  "attack_type": "fgsm",
+  "ground_truth_class": "school bus",
+  "source_image": "clean\\0125_n03417042_6815.png",
+  "parameters": {
+    "epsilon": 0.01
+  }
+}

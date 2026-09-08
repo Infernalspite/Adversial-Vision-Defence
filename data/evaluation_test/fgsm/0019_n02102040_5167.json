@@ -1,0 +1,19 @@
+{
+  "sample_id": "0019_n02102040_5167",
+  "image": "0019_n02102040_5167.png",
+  "category": "adversarial",
+  "source_image": "data/sources/test/0019_n02102040_5167.jpeg",
+  "source_split": "test",
+  "clean_image": "clean\\0019_n02102040_5167.png",
+  "class_name": "English springer",
+  "class_id": 1,
+  "ground_truth_class": "English springer",
+  "attack_type": "fgsm",
+  "is_adversarial": true,
+  "adversarial_image": "fgsm\\0019_n02102040_5167.png",
+  "mask_path": null,
+  "generation_parameters": {
+    "epsilon": 0.01
+  },
+  "seed": 7
+}

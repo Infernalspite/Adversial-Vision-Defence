@@ -1,0 +1,13 @@
+{
+  "sample_id": "0108_ILSVRC2012_val_00024897",
+  "image": "0108_ILSVRC2012_val_00024897.png",
+  "category": "clean",
+  "source_image": "data/sources/test/0108_ILSVRC2012_val_00024897.jpeg",
+  "source_split": "test",
+  "class_name": null,
+  "class_id": null,
+  "ground_truth_class": null,
+  "attack_type": null,
+  "is_adversarial": false,
+  "seed": 7
+}

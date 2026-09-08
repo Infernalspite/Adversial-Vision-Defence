@@ -1,0 +1,1 @@
+export function AuditTimeline() { return <section className="rounded-lg border border-slate-700/60 bg-slate-900/70 p-5"><p className="mono text-xs tracking-widest text-slate-500">EXPLAINABLE AUDIT</p><div className="mt-4 border-l border-slate-700 pl-4 text-sm text-slate-400">Audit records will appear here once the pipeline is connected.</div></section> }

@@ -1,0 +1,13 @@
+{
+  "image": "0029_n03394916_37544.png",
+  "category": "adversarial",
+  "attack_type": "pgd",
+  "ground_truth_class": "Loafer",
+  "source_image": "clean\\0029_n03394916_37544.png",
+  "parameters": {
+    "epsilon": 0.03,
+    "step_size": 0.005,
+    "iterations": 10,
+    "random_start": false
+  }
+}

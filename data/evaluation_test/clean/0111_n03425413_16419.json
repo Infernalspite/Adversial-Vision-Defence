@@ -1,0 +1,13 @@
+{
+  "sample_id": "0111_n03425413_16419",
+  "image": "0111_n03425413_16419.png",
+  "category": "clean",
+  "source_image": "data/sources/test/0111_n03425413_16419.jpeg",
+  "source_split": "test",
+  "class_name": "gas pump",
+  "class_id": 7,
+  "ground_truth_class": "gas pump",
+  "attack_type": null,
+  "is_adversarial": false,
+  "seed": 7
+}

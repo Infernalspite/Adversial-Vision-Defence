@@ -1,0 +1,10 @@
+{
+  "image": "0117_n02979186_15096.png",
+  "category": "adversarial",
+  "attack_type": "fgsm",
+  "ground_truth_class": "harmonica",
+  "source_image": "clean\\0117_n02979186_15096.png",
+  "parameters": {
+    "epsilon": 0.01
+  }
+}

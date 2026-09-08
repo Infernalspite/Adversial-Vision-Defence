@@ -1,0 +1,10 @@
+{
+  "image": "0081_ILSVRC2012_val_00035918.png",
+  "category": "adversarial",
+  "attack_type": "fgsm",
+  "ground_truth_class": "golf ball",
+  "source_image": "clean\\0081_ILSVRC2012_val_00035918.png",
+  "parameters": {
+    "epsilon": 0.01
+  }
+}

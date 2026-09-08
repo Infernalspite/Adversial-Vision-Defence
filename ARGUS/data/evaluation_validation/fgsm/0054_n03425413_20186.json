@@ -1,0 +1,10 @@
+{
+  "image": "0054_n03425413_20186.png",
+  "category": "adversarial",
+  "attack_type": "fgsm",
+  "ground_truth_class": "gas pump",
+  "source_image": "clean\\0054_n03425413_20186.png",
+  "parameters": {
+    "epsilon": 0.01
+  }
+}

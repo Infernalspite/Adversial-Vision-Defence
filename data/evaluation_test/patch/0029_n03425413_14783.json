@@ -1,0 +1,21 @@
+{
+  "sample_id": "0029_n03425413_14783",
+  "image": "0029_n03425413_14783.png",
+  "category": "adversarial",
+  "source_image": "data/sources/test/0029_n03425413_14783.jpeg",
+  "source_split": "test",
+  "clean_image": "clean\\0029_n03425413_14783.png",
+  "class_name": "gas pump",
+  "class_id": 7,
+  "ground_truth_class": "gas pump",
+  "attack_type": "patch",
+  "is_adversarial": true,
+  "adversarial_image": "patch\\0029_n03425413_14783.png",
+  "mask_path": "patch\\0029_n03425413_14783_mask.png",
+  "generation_parameters": {
+    "patch_size": 0.2,
+    "location": "center",
+    "iterations": 10
+  },
+  "seed": 7
+}

@@ -1,0 +1,21 @@
+{
+  "sample_id": "0017_n03000684_8464",
+  "image": "0017_n03000684_8464.png",
+  "category": "adversarial",
+  "source_image": "data/sources/validation/0017_n03000684_8464.jpeg",
+  "source_split": "validation",
+  "clean_image": "clean\\0017_n03000684_8464.png",
+  "class_name": "chain saw",
+  "class_id": 3,
+  "ground_truth_class": "chain saw",
+  "attack_type": "patch",
+  "is_adversarial": true,
+  "adversarial_image": "patch\\0017_n03000684_8464.png",
+  "mask_path": "patch\\0017_n03000684_8464_mask.png",
+  "generation_parameters": {
+    "patch_size": 0.2,
+    "location": "center",
+    "iterations": 10
+  },
+  "seed": 7
+}

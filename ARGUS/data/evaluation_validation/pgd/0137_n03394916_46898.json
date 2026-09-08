@@ -1,0 +1,13 @@
+{
+  "image": "0137_n03394916_46898.png",
+  "category": "adversarial",
+  "attack_type": "pgd",
+  "ground_truth_class": "sax",
+  "source_image": "clean\\0137_n03394916_46898.png",
+  "parameters": {
+    "epsilon": 0.03,
+    "step_size": 0.005,
+    "iterations": 10,
+    "random_start": false
+  }
+}

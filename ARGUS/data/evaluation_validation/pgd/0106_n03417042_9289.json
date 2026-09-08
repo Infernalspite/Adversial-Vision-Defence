@@ -1,0 +1,13 @@
+{
+  "image": "0106_n03417042_9289.png",
+  "category": "adversarial",
+  "attack_type": "pgd",
+  "ground_truth_class": "garbage truck",
+  "source_image": "clean\\0106_n03417042_9289.png",
+  "parameters": {
+    "epsilon": 0.03,
+    "step_size": 0.005,
+    "iterations": 10,
+    "random_start": false
+  }
+}

@@ -1,0 +1,4 @@
+import type { ArgusAnalysisResult } from '../../types'
+import { formatPercent } from '../../utils/formatting'
+
+export function TrustScoreCard({ result }: { result: ArgusAnalysisResult | null }) { const score = result?.global_trust_score ?? 0; return <article className="panel score-card"><div className="section-kicker">SPATIAL TRUST</div><div className="score-line"><strong>{result ? formatPercent(score) : '—'}</strong>{result && <span className={score >= 0.7 ? 'status-badge calm' : 'status-badge danger'}>{score >= 0.7 ? 'HIGH TRUST' : 'LOW TRUST'}</span>}</div>{result ? <><p>{result.suspicious_regions.length} suspicious region{result.suspicious_regions.length === 1 ? '' : 's'} identified.</p><div className="metric-detail">{result.suspicious_regions.reduce((sum, region) => sum + region.area_percentage, 0).toFixed(1)}% of image localized</div></> : <p>Spatial confidence is generated after triage.</p>}</article> }

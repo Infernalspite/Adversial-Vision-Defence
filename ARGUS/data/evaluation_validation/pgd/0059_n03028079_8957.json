@@ -1,0 +1,13 @@
+{
+  "image": "0059_n03028079_8957.png",
+  "category": "adversarial",
+  "attack_type": "pgd",
+  "ground_truth_class": "palace",
+  "source_image": "clean\\0059_n03028079_8957.png",
+  "parameters": {
+    "epsilon": 0.03,
+    "step_size": 0.005,
+    "iterations": 10,
+    "random_start": false
+  }
+}

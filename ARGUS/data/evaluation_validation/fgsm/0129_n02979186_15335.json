@@ -1,0 +1,10 @@
+{
+  "image": "0129_n02979186_15335.png",
+  "category": "adversarial",
+  "attack_type": "fgsm",
+  "ground_truth_class": "seat belt",
+  "source_image": "clean\\0129_n02979186_15335.png",
+  "parameters": {
+    "epsilon": 0.01
+  }
+}

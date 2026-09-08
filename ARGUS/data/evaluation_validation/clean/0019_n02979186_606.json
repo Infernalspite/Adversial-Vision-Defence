@@ -1,0 +1,7 @@
+{
+  "image": "0019_n02979186_606.png",
+  "category": "clean",
+  "source": "evaluation",
+  "ground_truth_class": "microwave",
+  "attack_type": null
+}

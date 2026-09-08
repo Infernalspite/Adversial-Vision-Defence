@@ -1,0 +1,10 @@
+{
+  "image": "0112_n03028079_9127.png",
+  "category": "adversarial",
+  "attack_type": "fgsm",
+  "ground_truth_class": "castle",
+  "source_image": "clean\\0112_n03028079_9127.png",
+  "parameters": {
+    "epsilon": 0.01
+  }
+}

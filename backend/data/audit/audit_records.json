@@ -1,0 +1,379 @@
+[
+  {
+    "request_id": "4cf68a7e-75e4-4c9d-820f-eb00fea692f2",
+    "stage": "decision",
+    "message": "The system abstained because available evidence was insufficient to safely select an interpretation.",
+    "timestamp": "2026-09-08T09:32:47.184230+00:00",
+    "details": {
+      "original_prediction": "chain saw",
+      "defended_prediction": "chain saw",
+      "attack_score": 0.004052957473742316,
+      "trust_map": {
+        "global_trust_score": 0.8759156465530396
+      },
+      "suspicious_regions": [
+        {
+          "region_id": 1,
+          "x": 224,
+          "y": 149,
+          "width": 1,
+          "height": 19,
+          "area_pixels": 19,
+          "area_percentage": 0.03560652911302262,
+          "anomaly_score": 0.7343518435955048,
+          "trust_score": 0.26564815640449524
+        }
+      ],
+      "selected_defense": "none",
+      "verification_score": 1.0,
+      "final_state": "ABSTAIN",
+      "final_prediction": null,
+      "decision_reasons": [
+        "No defense produced a verified recovery result."
+      ],
+      "processing_time_ms": 596.1245000016788
+    },
+    "record_hash": "0f833876e30c93b04f2db945b0988b722f2687cc015afe86c6f9077d28c15414",
+    "previous_record_hash": null
+  },
+  {
+    "request_id": "2fdb79a7-e5ef-4592-8f00-3d24e19532ee",
+    "stage": "decision",
+    "message": "The system abstained because available evidence was insufficient to safely select an interpretation.",
+    "timestamp": "2026-09-08T09:34:16.704209+00:00",
+    "details": {
+      "original_prediction": "packet",
+      "defended_prediction": "packet",
+      "attack_score": 0.13890677593375111,
+      "trust_map": {
+        "global_trust_score": 0.8773626089096069
+      },
+      "suspicious_regions": [
+        {
+          "region_id": 1,
+          "x": 224,
+          "y": 149,
+          "width": 1,
+          "height": 19,
+          "area_pixels": 19,
+          "area_percentage": 0.03560652911302262,
+          "anomaly_score": 0.7343518435955048,
+          "trust_score": 0.26564815640449524
+        }
+      ],
+      "selected_defense": "none",
+      "verification_score": 1.0,
+      "final_state": "ABSTAIN",
+      "final_prediction": null,
+      "decision_reasons": [
+        "Adversarial evidence remained high.",
+        "No defense produced a verified recovery result."
+      ],
+      "processing_time_ms": 430.0421000007191
+    },
+    "record_hash": "9b339bcdc13dead806c4ca40b113f3b571de9d7e5fc7bb1a8ffb4d74722576af",
+    "previous_record_hash": "0f833876e30c93b04f2db945b0988b722f2687cc015afe86c6f9077d28c15414"
+  },
+  {
+    "request_id": "497a1c8c-5e92-42d2-96dd-d09c7d8e7f85",
+    "stage": "decision",
+    "message": "The system abstained because available evidence was insufficient to safely select an interpretation.",
+    "timestamp": "2026-09-08T09:34:48.061991+00:00",
+    "details": {
+      "original_prediction": "chain saw",
+      "defended_prediction": "chain saw",
+      "attack_score": 0.004052957473742316,
+      "trust_map": {
+        "global_trust_score": 0.8759156465530396
+      },
+      "suspicious_regions": [
+        {
+          "region_id": 1,
+          "x": 224,
+          "y": 149,
+          "width": 1,
+          "height": 19,
+          "area_pixels": 19,
+          "area_percentage": 0.03560652911302262,
+          "anomaly_score": 0.7343518435955048,
+          "trust_score": 0.26564815640449524
+        }
+      ],
+      "selected_defense": "none",
+      "verification_score": 1.0,
+      "final_state": "ABSTAIN",
+      "final_prediction": null,
+      "decision_reasons": [
+        "No defense produced a verified recovery result."
+      ],
+      "processing_time_ms": 461.5628999999899
+    },
+    "record_hash": "fa9db0b876267749cc128b781001d5ef4fa5289b3cbf42672981fedeb2634613",
+    "previous_record_hash": "9b339bcdc13dead806c4ca40b113f3b571de9d7e5fc7bb1a8ffb4d74722576af"
+  },
+  {
+    "request_id": "7b62ca1a-f059-4611-bc0b-9a539f96508d",
+    "stage": "decision",
+    "message": "The system abstained because available evidence was insufficient to safely select an interpretation.",
+    "timestamp": "2026-09-08T09:35:04.897528+00:00",
+    "details": {
+      "original_prediction": "ice lolly",
+      "defended_prediction": "ice lolly",
+      "attack_score": 0.0011446241410704926,
+      "trust_map": {
+        "global_trust_score": 0.9795262813568115
+      },
+      "suspicious_regions": [],
+      "selected_defense": "none",
+      "verification_score": 1.0,
+      "final_state": "ABSTAIN",
+      "final_prediction": null,
+      "decision_reasons": [
+        "No defense produced a verified recovery result."
+      ],
+      "processing_time_ms": 936.5386999998009
+    },
+    "record_hash": "5c771202eadd58a32827379544748bda975ccfc879f8205f877d5fad4cdb752b",
+    "previous_record_hash": "fa9db0b876267749cc128b781001d5ef4fa5289b3cbf42672981fedeb2634613"
+  },
+  {
+    "request_id": "38430c25-0d81-46f0-8b92-253f66c38f0b",
+    "stage": "decision",
+    "message": "The system abstained because available evidence was insufficient to safely select an interpretation.",
+    "timestamp": "2026-09-08T09:36:09.833301+00:00",
+    "details": {
+      "original_prediction": "bathtub",
+      "defended_prediction": "bathtub",
+      "attack_score": 0.13859430096855685,
+      "trust_map": {
+        "global_trust_score": 0.97927325963974
+      },
+      "suspicious_regions": [],
+      "selected_defense": "none",
+      "verification_score": 1.0,
+      "final_state": "ABSTAIN",
+      "final_prediction": null,
+      "decision_reasons": [
+        "Adversarial evidence remained high.",
+        "No defense produced a verified recovery result."
+      ],
+      "processing_time_ms": 841.535899999144
+    },
+    "record_hash": "435da038c33e19d413460f3c8324a066a01bca7a6a87a81124945f4f1b4de38f",
+    "previous_record_hash": "5c771202eadd58a32827379544748bda975ccfc879f8205f877d5fad4cdb752b"
+  },
+  {
+    "request_id": "b62f73f8-cbe4-4d27-98da-87a88d8ef9dd",
+    "stage": "decision",
+    "message": "The system abstained because available evidence was insufficient to safely select an interpretation.",
+    "timestamp": "2026-09-08T09:36:28.547838+00:00",
+    "details": {
+      "original_prediction": "kimono",
+      "defended_prediction": "kimono",
+      "attack_score": 0.021625302588464925,
+      "trust_map": {
+        "global_trust_score": 0.9757955074310303
+      },
+      "suspicious_regions": [],
+      "selected_defense": "none",
+      "verification_score": 1.0,
+      "final_state": "ABSTAIN",
+      "final_prediction": null,
+      "decision_reasons": [
+        "No defense produced a verified recovery result."
+      ],
+      "processing_time_ms": 880.5374000003212
+    },
+    "record_hash": "66422eeead92366a472571250ed99a106eb29ea5fd68476fabc31cf5475dfc3a",
+    "previous_record_hash": "435da038c33e19d413460f3c8324a066a01bca7a6a87a81124945f4f1b4de38f"
+  },
+  {
+    "request_id": "403b0970-3339-4b69-b624-731eb1a1e566",
+    "stage": "decision",
+    "message": "The system abstained because available evidence was insufficient to safely select an interpretation.",
+    "timestamp": "2026-09-08T09:41:46.203624+00:00",
+    "details": {
+      "original_prediction": "ice lolly",
+      "defended_prediction": "ice lolly",
+      "attack_score": 0.0011446241410704926,
+      "trust_map": {
+        "global_trust_score": 0.9795262813568115
+      },
+      "suspicious_regions": [],
+      "selected_defense": "none",
+      "verification_score": 1.0,
+      "final_state": "ABSTAIN",
+      "final_prediction": null,
+      "decision_reasons": [
+        "No defense produced a verified recovery result."
+      ],
+      "processing_time_ms": 869.1295999997237
+    },
+    "record_hash": "25dc3399e6ec1da6acad21e359c76ded2b70e49209165cb94d45b5a79002b1d9",
+    "previous_record_hash": "66422eeead92366a472571250ed99a106eb29ea5fd68476fabc31cf5475dfc3a"
+  },
+  {
+    "request_id": "15aaabe6-86f4-4a41-9a41-e635aecdbed0",
+    "stage": "decision",
+    "message": "The system abstained because available evidence was insufficient to safely select an interpretation.",
+    "timestamp": "2026-09-08T09:42:14.155714+00:00",
+    "details": {
+      "original_prediction": "honeycomb",
+      "defended_prediction": "honeycomb",
+      "attack_score": 0.1444030499007163,
+      "trust_map": {
+        "global_trust_score": 0.8723309636116028
+      },
+      "suspicious_regions": [],
+      "selected_defense": "none",
+      "verification_score": 1.0,
+      "final_state": "ABSTAIN",
+      "final_prediction": null,
+      "decision_reasons": [
+        "Adversarial evidence remained high.",
+        "No defense produced a verified recovery result."
+      ],
+      "processing_time_ms": 437.7779999995255
+    },
+    "record_hash": "9d149cbbf33180decdd31758f229007d34469f28676701d78ac74b326e9cb787",
+    "previous_record_hash": "25dc3399e6ec1da6acad21e359c76ded2b70e49209165cb94d45b5a79002b1d9"
+  },
+  {
+    "request_id": "e3a6053d-aea6-46d7-8551-ebefb6b131f1",
+    "stage": "decision",
+    "message": "The system abstained because available evidence was insufficient to safely select an interpretation.",
+    "timestamp": "2026-09-08T09:43:23.556321+00:00",
+    "details": {
+      "original_prediction": "bathtub",
+      "defended_prediction": "bathtub",
+      "attack_score": 0.1387975921174764,
+      "trust_map": {
+        "global_trust_score": 0.9301362633705139
+      },
+      "suspicious_regions": [],
+      "selected_defense": "none",
+      "verification_score": 1.0,
+      "final_state": "ABSTAIN",
+      "final_prediction": null,
+      "decision_reasons": [
+        "Adversarial evidence remained high.",
+        "No defense produced a verified recovery result."
+      ],
+      "processing_time_ms": 670.5131999988225
+    },
+    "record_hash": "7aa7c1da3f23a11f4f927718f9f5dd9e6cbacf5ebce0a08f53e3597f6d8d7dff",
+    "previous_record_hash": "9d149cbbf33180decdd31758f229007d34469f28676701d78ac74b326e9cb787"
+  },
+  {
+    "request_id": "735b7715-9adc-42b7-bd23-f99219972be7",
+    "stage": "decision",
+    "message": "The system abstained because available evidence was insufficient to safely select an interpretation.",
+    "timestamp": "2026-09-08T10:08:57.456460+00:00",
+    "details": {
+      "original_prediction": "groom",
+      "defended_prediction": "groom",
+      "attack_score": 0.13826153208656172,
+      "trust_map": {
+        "global_trust_score": 0.9722619652748108
+      },
+      "suspicious_regions": [
+        {
+          "region_id": 1,
+          "x": 758,
+          "y": 458,
+          "width": 1,
+          "height": 29,
+          "area_pixels": 29,
+          "area_percentage": 0.003146701388888889,
+          "anomaly_score": 0.8006356656551361,
+          "trust_score": 0.1993643343448639
+        },
+        {
+          "region_id": 2,
+          "x": 776,
+          "y": 419,
+          "width": 80,
+          "height": 2,
+          "area_pixels": 148,
+          "area_percentage": 0.01605902777777778,
+          "anomaly_score": 0.7847112119197845,
+          "trust_score": 0.21528878808021545
+        }
+      ],
+      "selected_defense": "none",
+      "verification_score": 1.0,
+      "final_state": "ABSTAIN",
+      "final_prediction": null,
+      "decision_reasons": [
+        "Adversarial evidence remained high.",
+        "No defense produced a verified recovery result."
+      ],
+      "processing_time_ms": 911.7992999999842
+    },
+    "record_hash": "4e477decc9bdb54ca0443209e67f71deedb326323f09aa102bb7040d680d12d2",
+    "previous_record_hash": "7aa7c1da3f23a11f4f927718f9f5dd9e6cbacf5ebce0a08f53e3597f6d8d7dff"
+  },
+  {
+    "request_id": "17ed8aee-f794-4e36-8e03-8f4bc3a336bf",
+    "stage": "decision",
+    "message": "The system abstained because available evidence was insufficient to safely select an interpretation.",
+    "timestamp": "2026-09-08T10:15:28.395851+00:00",
+    "details": {
+      "original_prediction": "bathtub",
+      "defended_prediction": "bathtub",
+      "attack_score": 0.1387975921174764,
+      "trust_map": {
+        "global_trust_score": 0.9301362633705139
+      },
+      "suspicious_regions": [],
+      "selected_defense": "none",
+      "verification_score": 1.0,
+      "final_state": "ABSTAIN",
+      "final_prediction": null,
+      "decision_reasons": [
+        "Adversarial evidence remained high.",
+        "No defense produced a verified recovery result."
+      ],
+      "processing_time_ms": 632.50859999971
+    },
+    "record_hash": "f6a16b2865500366d00f0cb9fda070f9f6694a40878af81f28e2e4e9e2cd51a8",
+    "previous_record_hash": "4e477decc9bdb54ca0443209e67f71deedb326323f09aa102bb7040d680d12d2"
+  },
+  {
+    "request_id": "3b087756-192d-47f6-8537-4574b1ade134",
+    "stage": "decision",
+    "message": "The system abstained because available evidence was insufficient to safely select an interpretation.",
+    "timestamp": "2026-09-08T10:16:19.206080+00:00",
+    "details": {
+      "original_prediction": "chain saw",
+      "defended_prediction": "chain saw",
+      "attack_score": 0.004052957473742316,
+      "trust_map": {
+        "global_trust_score": 0.8759156465530396
+      },
+      "suspicious_regions": [
+        {
+          "region_id": 1,
+          "x": 224,
+          "y": 149,
+          "width": 1,
+          "height": 19,
+          "area_pixels": 19,
+          "area_percentage": 0.03560652911302262,
+          "anomaly_score": 0.7343518435955048,
+          "trust_score": 0.26564815640449524
+        }
+      ],
+      "selected_defense": "none",
+      "verification_score": 1.0,
+      "final_state": "ABSTAIN",
+      "final_prediction": null,
+      "decision_reasons": [
+        "No defense produced a verified recovery result."
+      ],
+      "processing_time_ms": 440.77999999717576
+    },
+    "record_hash": "9e8fa12abf9eae742d635678aafe59109329a601448348c703a58f28df1a66bd",
+    "previous_record_hash": "f6a16b2865500366d00f0cb9fda070f9f6694a40878af81f28e2e4e9e2cd51a8"
+  }
+]

@@ -1,0 +1,7 @@
+{
+  "image": "0178_n03028079_17035.png",
+  "category": "clean",
+  "source": "evaluation",
+  "ground_truth_class": "church",
+  "attack_type": null
+}

@@ -1,0 +1,12 @@
+{
+  "image": "0141_n02979186_1148.png",
+  "category": "adversarial",
+  "attack_type": "patch",
+  "ground_truth_class": "racer",
+  "source_image": "clean\\0141_n02979186_1148.png",
+  "parameters": {
+    "patch_size": 0.2,
+    "location": "center",
+    "iterations": 10
+  }
+}

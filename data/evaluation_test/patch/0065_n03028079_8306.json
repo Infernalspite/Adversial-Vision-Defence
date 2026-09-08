@@ -1,0 +1,21 @@
+{
+  "sample_id": "0065_n03028079_8306",
+  "image": "0065_n03028079_8306.png",
+  "category": "adversarial",
+  "source_image": "data/sources/test/0065_n03028079_8306.jpeg",
+  "source_split": "test",
+  "clean_image": "clean\\0065_n03028079_8306.png",
+  "class_name": "church",
+  "class_id": 4,
+  "ground_truth_class": "church",
+  "attack_type": "patch",
+  "is_adversarial": true,
+  "adversarial_image": "patch\\0065_n03028079_8306.png",
+  "mask_path": "patch\\0065_n03028079_8306_mask.png",
+  "generation_parameters": {
+    "patch_size": 0.2,
+    "location": "center",
+    "iterations": 10
+  },
+  "seed": 7
+}

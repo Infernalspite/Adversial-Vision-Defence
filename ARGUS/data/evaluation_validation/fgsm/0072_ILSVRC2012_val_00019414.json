@@ -1,0 +1,10 @@
+{
+  "image": "0072_ILSVRC2012_val_00019414.png",
+  "category": "adversarial",
+  "attack_type": "fgsm",
+  "ground_truth_class": "English springer",
+  "source_image": "clean\\0072_ILSVRC2012_val_00019414.png",
+  "parameters": {
+    "epsilon": 0.01
+  }
+}

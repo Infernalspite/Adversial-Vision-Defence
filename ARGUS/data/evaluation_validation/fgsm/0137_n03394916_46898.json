@@ -1,0 +1,10 @@
+{
+  "image": "0137_n03394916_46898.png",
+  "category": "adversarial",
+  "attack_type": "fgsm",
+  "ground_truth_class": "sax",
+  "source_image": "clean\\0137_n03394916_46898.png",
+  "parameters": {
+    "epsilon": 0.01
+  }
+}

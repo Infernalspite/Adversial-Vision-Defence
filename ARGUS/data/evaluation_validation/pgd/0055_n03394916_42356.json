@@ -1,0 +1,13 @@
+{
+  "image": "0055_n03394916_42356.png",
+  "category": "adversarial",
+  "attack_type": "pgd",
+  "ground_truth_class": "groom",
+  "source_image": "clean\\0055_n03394916_42356.png",
+  "parameters": {
+    "epsilon": 0.03,
+    "step_size": 0.005,
+    "iterations": 10,
+    "random_start": false
+  }
+}

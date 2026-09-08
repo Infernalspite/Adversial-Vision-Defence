@@ -1,0 +1,10 @@
+{
+  "image": "0019_n02979186_606.png",
+  "category": "adversarial",
+  "attack_type": "fgsm",
+  "ground_truth_class": "microwave",
+  "source_image": "clean\\0019_n02979186_606.png",
+  "parameters": {
+    "epsilon": 0.01
+  }
+}

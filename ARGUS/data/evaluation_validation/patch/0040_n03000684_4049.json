@@ -1,0 +1,12 @@
+{
+  "image": "0040_n03000684_4049.png",
+  "category": "adversarial",
+  "attack_type": "patch",
+  "ground_truth_class": "snowplow",
+  "source_image": "clean\\0040_n03000684_4049.png",
+  "parameters": {
+    "patch_size": 0.2,
+    "location": "center",
+    "iterations": 10
+  }
+}

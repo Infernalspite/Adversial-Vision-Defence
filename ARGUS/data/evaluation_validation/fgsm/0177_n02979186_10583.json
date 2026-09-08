@@ -1,0 +1,10 @@
+{
+  "image": "0177_n02979186_10583.png",
+  "category": "adversarial",
+  "attack_type": "fgsm",
+  "ground_truth_class": "cassette player",
+  "source_image": "clean\\0177_n02979186_10583.png",
+  "parameters": {
+    "epsilon": 0.01
+  }
+}

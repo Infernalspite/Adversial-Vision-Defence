@@ -1,0 +1,27 @@
+{
+  "timestamp": "2026-09-08T02:38:03.479381+00:00",
+  "dataset_root": "data\\evaluation_validation",
+  "seed": 7,
+  "attack_parameters": {
+    "fgsm": {
+      "epsilon": 0.01
+    },
+    "pgd": {
+      "epsilon": 0.03,
+      "step_size": 0.005,
+      "iterations": 10,
+      "random_start": false
+    },
+    "patch": {
+      "patch_size": 0.2,
+      "location": "center",
+      "iterations": 10
+    }
+  },
+  "thresholds": {
+    "attack": 0.7,
+    "trust": 0.7,
+    "verification": 0.7
+  },
+  "git_commit": null
+}

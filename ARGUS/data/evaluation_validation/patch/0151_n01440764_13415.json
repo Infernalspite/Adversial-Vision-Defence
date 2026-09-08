@@ -1,0 +1,12 @@
+{
+  "image": "0151_n01440764_13415.png",
+  "category": "adversarial",
+  "attack_type": "patch",
+  "ground_truth_class": "tench",
+  "source_image": "clean\\0151_n01440764_13415.png",
+  "parameters": {
+    "patch_size": 0.2,
+    "location": "center",
+    "iterations": 10
+  }
+}

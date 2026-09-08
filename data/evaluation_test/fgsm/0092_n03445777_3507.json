@@ -1,0 +1,19 @@
+{
+  "sample_id": "0092_n03445777_3507",
+  "image": "0092_n03445777_3507.png",
+  "category": "adversarial",
+  "source_image": "data/sources/test/0092_n03445777_3507.jpeg",
+  "source_split": "test",
+  "clean_image": "clean\\0092_n03445777_3507.png",
+  "class_name": "golf ball",
+  "class_id": 8,
+  "ground_truth_class": "golf ball",
+  "attack_type": "fgsm",
+  "is_adversarial": true,
+  "adversarial_image": "fgsm\\0092_n03445777_3507.png",
+  "mask_path": null,
+  "generation_parameters": {
+    "epsilon": 0.01
+  },
+  "seed": 7
+}

@@ -1,0 +1,19 @@
+{
+  "sample_id": "0027_n03000684_11628",
+  "image": "0027_n03000684_11628.png",
+  "category": "adversarial",
+  "source_image": "data/sources/test/0027_n03000684_11628.jpeg",
+  "source_split": "test",
+  "clean_image": "clean\\0027_n03000684_11628.png",
+  "class_name": "chain saw",
+  "class_id": 3,
+  "ground_truth_class": "chain saw",
+  "attack_type": "fgsm",
+  "is_adversarial": true,
+  "adversarial_image": "fgsm\\0027_n03000684_11628.png",
+  "mask_path": null,
+  "generation_parameters": {
+    "epsilon": 0.01
+  },
+  "seed": 7
+}

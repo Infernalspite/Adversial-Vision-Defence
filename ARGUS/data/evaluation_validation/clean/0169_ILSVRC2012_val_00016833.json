@@ -1,0 +1,7 @@
+{
+  "image": "0169_ILSVRC2012_val_00016833.png",
+  "category": "clean",
+  "source": "evaluation",
+  "ground_truth_class": "English setter",
+  "attack_type": null
+}

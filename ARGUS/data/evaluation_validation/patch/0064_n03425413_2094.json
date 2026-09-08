@@ -1,0 +1,12 @@
+{
+  "image": "0064_n03425413_2094.png",
+  "category": "adversarial",
+  "attack_type": "patch",
+  "ground_truth_class": "gas pump",
+  "source_image": "clean\\0064_n03425413_2094.png",
+  "parameters": {
+    "patch_size": 0.2,
+    "location": "center",
+    "iterations": 10
+  }
+}

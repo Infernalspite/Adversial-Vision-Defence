@@ -1,0 +1,10 @@
+{
+  "image": "0048_ILSVRC2012_val_00040358.png",
+  "category": "adversarial",
+  "attack_type": "fgsm",
+  "ground_truth_class": "tench",
+  "source_image": "clean\\0048_ILSVRC2012_val_00040358.png",
+  "parameters": {
+    "epsilon": 0.01
+  }
+}

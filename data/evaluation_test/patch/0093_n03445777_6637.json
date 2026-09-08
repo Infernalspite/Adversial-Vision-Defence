@@ -1,0 +1,21 @@
+{
+  "sample_id": "0093_n03445777_6637",
+  "image": "0093_n03445777_6637.png",
+  "category": "adversarial",
+  "source_image": "data/sources/test/0093_n03445777_6637.jpeg",
+  "source_split": "test",
+  "clean_image": "clean\\0093_n03445777_6637.png",
+  "class_name": "golf ball",
+  "class_id": 8,
+  "ground_truth_class": "golf ball",
+  "attack_type": "patch",
+  "is_adversarial": true,
+  "adversarial_image": "patch\\0093_n03445777_6637.png",
+  "mask_path": "patch\\0093_n03445777_6637_mask.png",
+  "generation_parameters": {
+    "patch_size": 0.2,
+    "location": "center",
+    "iterations": 10
+  },
+  "seed": 7
+}

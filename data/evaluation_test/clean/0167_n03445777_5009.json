@@ -1,0 +1,13 @@
+{
+  "sample_id": "0167_n03445777_5009",
+  "image": "0167_n03445777_5009.png",
+  "category": "clean",
+  "source_image": "data/sources/test/0167_n03445777_5009.jpeg",
+  "source_split": "test",
+  "class_name": "golf ball",
+  "class_id": 8,
+  "ground_truth_class": "golf ball",
+  "attack_type": null,
+  "is_adversarial": false,
+  "seed": 7
+}

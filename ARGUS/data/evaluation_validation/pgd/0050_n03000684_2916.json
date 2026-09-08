@@ -1,0 +1,13 @@
+{
+  "image": "0050_n03000684_2916.png",
+  "category": "adversarial",
+  "attack_type": "pgd",
+  "ground_truth_class": "chain saw",
+  "source_image": "clean\\0050_n03000684_2916.png",
+  "parameters": {
+    "epsilon": 0.03,
+    "step_size": 0.005,
+    "iterations": 10,
+    "random_start": false
+  }
+}

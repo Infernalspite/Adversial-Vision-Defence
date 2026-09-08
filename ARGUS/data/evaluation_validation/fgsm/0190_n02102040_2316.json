@@ -1,0 +1,10 @@
+{
+  "image": "0190_n02102040_2316.png",
+  "category": "adversarial",
+  "attack_type": "fgsm",
+  "ground_truth_class": "English springer",
+  "source_image": "clean\\0190_n02102040_2316.png",
+  "parameters": {
+    "epsilon": 0.01
+  }
+}

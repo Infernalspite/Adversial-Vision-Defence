@@ -1,0 +1,279 @@
+{
+  "status": "ok",
+  "dataset": {
+    "clean": 200,
+    "fgsm": 200,
+    "pgd": 200,
+    "patch": 200
+  },
+  "categories": {
+    "clean": {
+      "attack": {
+        "attack_success_rate": 0.0
+      },
+      "detection": {
+        "tp": 0,
+        "fp": 47,
+        "tn": 153,
+        "fn": 0,
+        "tpr": 0.0,
+        "recall": 0.0,
+        "fpr": 0.235,
+        "precision": 0.0,
+        "f1": 0.0,
+        "roc_auc": 0.0
+      },
+      "defense": {
+        "successfully_attacked": 0,
+        "recovered": 0,
+        "defense_recovery_rate": 0.0,
+        "defense_failure_rate": 0.0,
+        "average_confidence_drop": 0.0,
+        "average_confidence_restored": -0.012765689343214036
+      },
+      "decisions": {
+        "trusted_count": 135,
+        "defended_count": 0,
+        "abstain_count": 65,
+        "trusted_rate": 0.675,
+        "defended_rate": 0.0,
+        "abstain_rate": 0.325,
+        "unsafe_acceptance_rate": 0.0,
+        "safe_rejection_rate": 0.0,
+        "clean_rejection_rate": 0.325
+      },
+      "localization": {
+        "samples": 0,
+        "average_iou": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "suspicious_area_percentage": 0.0
+      },
+      "latency": {
+        "count": 200,
+        "mean_ms": 592.4275960022351,
+        "median_ms": 579.1054500150494,
+        "p95_ms": 697.5063450168818,
+        "min_ms": 517.1713999588974,
+        "max_ms": 797.3026999970898
+      },
+      "patch_localization": {
+        "samples": 0,
+        "iou": 0.0,
+        "precision": 0.0,
+        "recall": 0.0
+      }
+    },
+    "fgsm": {
+      "attack": {
+        "attack_success_rate": 0.9620253164556962
+      },
+      "detection": {
+        "tp": 91,
+        "fp": 0,
+        "tn": 0,
+        "fn": 109,
+        "tpr": 0.455,
+        "recall": 0.455,
+        "fpr": 0.0,
+        "precision": 1.0,
+        "f1": 0.6254295532646048,
+        "roc_auc": 0.0
+      },
+      "defense": {
+        "successfully_attacked": 194,
+        "recovered": 2,
+        "defense_recovery_rate": 0.010309278350515464,
+        "defense_failure_rate": 0.67,
+        "average_confidence_drop": -0.25154964895918963,
+        "average_confidence_restored": -0.0005084764212369919
+      },
+      "decisions": {
+        "trusted_count": 66,
+        "defended_count": 0,
+        "abstain_count": 134,
+        "trusted_rate": 0.33,
+        "defended_rate": 0.0,
+        "abstain_rate": 0.67,
+        "unsafe_acceptance_rate": 0.33,
+        "safe_rejection_rate": 0.67,
+        "clean_rejection_rate": 0.0
+      },
+      "localization": {
+        "samples": 0,
+        "average_iou": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "suspicious_area_percentage": 0.0
+      },
+      "latency": {
+        "count": 200,
+        "mean_ms": 593.9440499985358,
+        "median_ms": 583.6527500068769,
+        "p95_ms": 704.8091200151248,
+        "min_ms": 543.7085999874398,
+        "max_ms": 748.6898999777623
+      },
+      "patch_localization": {
+        "samples": 0,
+        "iou": 0.0,
+        "precision": 0.0,
+        "recall": 0.0
+      }
+    },
+    "pgd": {
+      "attack": {
+        "attack_success_rate": 1.0
+      },
+      "detection": {
+        "tp": 8,
+        "fp": 0,
+        "tn": 0,
+        "fn": 192,
+        "tpr": 0.04,
+        "recall": 0.04,
+        "fpr": 0.0,
+        "precision": 1.0,
+        "f1": 0.07692307692307693,
+        "roc_auc": 0.0
+      },
+      "defense": {
+        "successfully_attacked": 200,
+        "recovered": 0,
+        "defense_recovery_rate": 0.0,
+        "defense_failure_rate": 0.04,
+        "average_confidence_drop": 0.21704710176214576,
+        "average_confidence_restored": -0.0017015251517295837
+      },
+      "decisions": {
+        "trusted_count": 192,
+        "defended_count": 0,
+        "abstain_count": 8,
+        "trusted_rate": 0.96,
+        "defended_rate": 0.0,
+        "abstain_rate": 0.04,
+        "unsafe_acceptance_rate": 0.96,
+        "safe_rejection_rate": 0.04,
+        "clean_rejection_rate": 0.0
+      },
+      "localization": {
+        "samples": 0,
+        "average_iou": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "suspicious_area_percentage": 0.0
+      },
+      "latency": {
+        "count": 200,
+        "mean_ms": 611.9612260002759,
+        "median_ms": 598.2289999956265,
+        "p95_ms": 719.5245900336886,
+        "min_ms": 473.392799962312,
+        "max_ms": 849.0836000419222
+      },
+      "patch_localization": {
+        "samples": 0,
+        "iou": 0.0,
+        "precision": 0.0,
+        "recall": 0.0
+      }
+    },
+    "patch": {
+      "attack": {
+        "attack_success_rate": 0.9810126582278481
+      },
+      "detection": {
+        "tp": 123,
+        "fp": 0,
+        "tn": 0,
+        "fn": 77,
+        "tpr": 0.615,
+        "recall": 0.615,
+        "fpr": 0.0,
+        "precision": 1.0,
+        "f1": 0.7616099071207431,
+        "roc_auc": 0.0
+      },
+      "defense": {
+        "successfully_attacked": 197,
+        "recovered": 20,
+        "defense_recovery_rate": 0.10152284263959391,
+        "defense_failure_rate": 0.625,
+        "average_confidence_drop": 0.06864780033007264,
+        "average_confidence_restored": -0.10237517757341266
+      },
+      "decisions": {
+        "trusted_count": 75,
+        "defended_count": 0,
+        "abstain_count": 125,
+        "trusted_rate": 0.375,
+        "defended_rate": 0.0,
+        "abstain_rate": 0.625,
+        "unsafe_acceptance_rate": 0.375,
+        "safe_rejection_rate": 0.625,
+        "clean_rejection_rate": 0.0
+      },
+      "localization": {
+        "samples": 0,
+        "average_iou": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "suspicious_area_percentage": 0.0
+      },
+      "latency": {
+        "count": 200,
+        "mean_ms": 623.45209300227,
+        "median_ms": 613.1587000272702,
+        "p95_ms": 715.2483050391311,
+        "min_ms": 569.8594999848865,
+        "max_ms": 756.3627999625169
+      },
+      "patch_localization": {
+        "samples": 200,
+        "iou": 0.25423615881790906,
+        "precision": 0.45849752689220913,
+        "recall": 0.401168212890625
+      }
+    }
+  },
+  "combined": {
+    "detection": {
+      "tp": 222,
+      "fp": 47,
+      "tn": 153,
+      "fn": 378,
+      "tpr": 0.37,
+      "recall": 0.37,
+      "fpr": 0.235,
+      "precision": 0.8252788104089219,
+      "f1": 0.5109321058688148,
+      "roc_auc": 0.5597583333333334
+    },
+    "defense": {
+      "successfully_attacked": 591,
+      "recovered": 22,
+      "defense_recovery_rate": 0.03722504230118443,
+      "defense_failure_rate": 0.445,
+      "average_confidence_drop": 0.011381751044342915,
+      "average_confidence_restored": -0.03486172638212641
+    },
+    "decisions": {
+      "trusted_count": 468,
+      "defended_count": 0,
+      "abstain_count": 332,
+      "trusted_rate": 0.585,
+      "defended_rate": 0.0,
+      "abstain_rate": 0.415,
+      "unsafe_acceptance_rate": 0.555,
+      "safe_rejection_rate": 0.445,
+      "clean_rejection_rate": 0.325
+    },
+    "localization": {
+      "samples": 0,
+      "average_iou": 0.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "suspicious_area_percentage": 0.0
+    }
+  }
+}

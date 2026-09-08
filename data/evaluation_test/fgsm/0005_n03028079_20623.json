@@ -1,0 +1,19 @@
+{
+  "sample_id": "0005_n03028079_20623",
+  "image": "0005_n03028079_20623.png",
+  "category": "adversarial",
+  "source_image": "data/sources/test/0005_n03028079_20623.jpeg",
+  "source_split": "test",
+  "clean_image": "clean\\0005_n03028079_20623.png",
+  "class_name": "church",
+  "class_id": 4,
+  "ground_truth_class": "church",
+  "attack_type": "fgsm",
+  "is_adversarial": true,
+  "adversarial_image": "fgsm\\0005_n03028079_20623.png",
+  "mask_path": null,
+  "generation_parameters": {
+    "epsilon": 0.01
+  },
+  "seed": 7
+}

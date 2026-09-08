@@ -1,0 +1,1 @@
+export function AttackScore() { return <section className="rounded-lg border border-slate-700/60 bg-slate-900/70 p-5"><p className="mono text-xs tracking-widest text-slate-500">UNIFIED ATTACK SCORE</p><div className="mt-4 text-4xl font-extrabold text-amber-300">—</div><p className="mt-2 text-sm text-slate-400">Triage evidence pending.</p></section> }

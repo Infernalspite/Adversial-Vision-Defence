@@ -1,0 +1,10 @@
+{
+  "image": "0035_n01440764_7514.png",
+  "category": "adversarial",
+  "attack_type": "fgsm",
+  "ground_truth_class": "tench",
+  "source_image": "clean\\0035_n01440764_7514.png",
+  "parameters": {
+    "epsilon": 0.01
+  }
+}

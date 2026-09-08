@@ -1,0 +1,10 @@
+{
+  "image": "0010_n03417042_8334.png",
+  "category": "adversarial",
+  "attack_type": "fgsm",
+  "ground_truth_class": "thresher",
+  "source_image": "clean\\0010_n03417042_8334.png",
+  "parameters": {
+    "epsilon": 0.01
+  }
+}

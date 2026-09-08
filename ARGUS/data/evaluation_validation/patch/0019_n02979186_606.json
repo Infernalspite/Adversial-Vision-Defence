@@ -1,0 +1,12 @@
+{
+  "image": "0019_n02979186_606.png",
+  "category": "adversarial",
+  "attack_type": "patch",
+  "ground_truth_class": "microwave",
+  "source_image": "clean\\0019_n02979186_606.png",
+  "parameters": {
+    "patch_size": 0.2,
+    "location": "center",
+    "iterations": 10
+  }
+}

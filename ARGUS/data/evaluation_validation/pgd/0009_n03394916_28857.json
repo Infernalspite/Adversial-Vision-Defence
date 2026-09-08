@@ -1,0 +1,13 @@
+{
+  "image": "0009_n03394916_28857.png",
+  "category": "adversarial",
+  "attack_type": "pgd",
+  "ground_truth_class": "French horn",
+  "source_image": "clean\\0009_n03394916_28857.png",
+  "parameters": {
+    "epsilon": 0.03,
+    "step_size": 0.005,
+    "iterations": 10,
+    "random_start": false
+  }
+}

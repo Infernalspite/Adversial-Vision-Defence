@@ -1,0 +1,13 @@
+{
+  "image": "0175_n03028079_24587.png",
+  "category": "adversarial",
+  "attack_type": "pgd",
+  "ground_truth_class": "mosque",
+  "source_image": "clean\\0175_n03028079_24587.png",
+  "parameters": {
+    "epsilon": 0.03,
+    "step_size": 0.005,
+    "iterations": 10,
+    "random_start": false
+  }
+}

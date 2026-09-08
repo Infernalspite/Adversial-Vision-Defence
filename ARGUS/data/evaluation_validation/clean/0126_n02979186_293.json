@@ -1,0 +1,7 @@
+{
+  "image": "0126_n02979186_293.png",
+  "category": "clean",
+  "source": "evaluation",
+  "ground_truth_class": "chest",
+  "attack_type": null
+}
