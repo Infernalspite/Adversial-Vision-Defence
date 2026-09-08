@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # ARGUS-AEGIS
 
 ARGUS-AEGIS is an MVP architecture for an autonomous adversarial defense and recovery fabric placed between visual inputs and an AI vision or decision model.
@@ -334,3 +335,6 @@ pytest tests/unit/test_detectors.py tests/integration/test_detection_api.py
 6. API route wiring and frontend API integration.
 
 See [docs/architecture.md](docs/architecture.md), [docs/api.md](docs/api.md), [docs/testing.md](docs/testing.md), and [docs/development.md](docs/development.md) for details.
+=======
+# Adversial-Vision-Defence
+>>>>>>> e675e1522db11cdbeb6cb240b64ecb85e6bd716b
