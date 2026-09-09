@@ -13,12 +13,12 @@
       },
       "detection": {
         "tp": 0,
-        "fp": 47,
-        "tn": 153,
+        "fp": 44,
+        "tn": 156,
         "fn": 0,
         "tpr": 0.0,
         "recall": 0.0,
-        "fpr": 0.235,
+        "fpr": 0.22,
         "precision": 0.0,
         "f1": 0.0,
         "roc_auc": 0.0
@@ -29,18 +29,18 @@
         "defense_recovery_rate": 0.0,
         "defense_failure_rate": 0.0,
         "average_confidence_drop": 0.0,
-        "average_confidence_restored": -0.012765689343214036
+        "average_confidence_restored": -0.03614864006638527
       },
       "decisions": {
-        "trusted_count": 135,
+        "trusted_count": 134,
         "defended_count": 0,
-        "abstain_count": 65,
-        "trusted_rate": 0.675,
+        "abstain_count": 66,
+        "trusted_rate": 0.67,
         "defended_rate": 0.0,
-        "abstain_rate": 0.325,
+        "abstain_rate": 0.33,
         "unsafe_acceptance_rate": 0.0,
         "safe_rejection_rate": 0.0,
-        "clean_rejection_rate": 0.325
+        "clean_rejection_rate": 0.33
       },
       "localization": {
         "samples": 0,
@@ -51,11 +51,11 @@
       },
       "latency": {
         "count": 200,
-        "mean_ms": 592.4275960022351,
-        "median_ms": 579.1054500150494,
-        "p95_ms": 697.5063450168818,
-        "min_ms": 517.1713999588974,
-        "max_ms": 797.3026999970898
+        "mean_ms": 690.5744205000519,
+        "median_ms": 673.9559000016015,
+        "p95_ms": 803.5847600007398,
+        "min_ms": 560.7087000025786,
+        "max_ms": 1130.395000000135
       },
       "patch_localization": {
         "samples": 0,
@@ -69,34 +69,34 @@
         "attack_success_rate": 0.9620253164556962
       },
       "detection": {
-        "tp": 91,
+        "tp": 79,
         "fp": 0,
         "tn": 0,
-        "fn": 109,
-        "tpr": 0.455,
-        "recall": 0.455,
+        "fn": 121,
+        "tpr": 0.395,
+        "recall": 0.395,
         "fpr": 0.0,
         "precision": 1.0,
-        "f1": 0.6254295532646048,
+        "f1": 0.5663082437275986,
         "roc_auc": 0.0
       },
       "defense": {
         "successfully_attacked": 194,
-        "recovered": 2,
-        "defense_recovery_rate": 0.010309278350515464,
-        "defense_failure_rate": 0.67,
+        "recovered": 8,
+        "defense_recovery_rate": 0.041237113402061855,
+        "defense_failure_rate": 0.65,
         "average_confidence_drop": -0.25154964895918963,
-        "average_confidence_restored": -0.0005084764212369919
+        "average_confidence_restored": -0.006201162841171027
       },
       "decisions": {
-        "trusted_count": 66,
+        "trusted_count": 70,
         "defended_count": 0,
-        "abstain_count": 134,
-        "trusted_rate": 0.33,
+        "abstain_count": 130,
+        "trusted_rate": 0.35,
         "defended_rate": 0.0,
-        "abstain_rate": 0.67,
-        "unsafe_acceptance_rate": 0.33,
-        "safe_rejection_rate": 0.67,
+        "abstain_rate": 0.65,
+        "unsafe_acceptance_rate": 0.35,
+        "safe_rejection_rate": 0.65,
         "clean_rejection_rate": 0.0
       },
       "localization": {
@@ -108,11 +108,11 @@
       },
       "latency": {
         "count": 200,
-        "mean_ms": 593.9440499985358,
-        "median_ms": 583.6527500068769,
-        "p95_ms": 704.8091200151248,
-        "min_ms": 543.7085999874398,
-        "max_ms": 748.6898999777623
+        "mean_ms": 712.9236600001241,
+        "median_ms": 698.782300001767,
+        "p95_ms": 839.3714949994319,
+        "min_ms": 587.8279999960796,
+        "max_ms": 1066.9802999982494
       },
       "patch_localization": {
         "samples": 0,
@@ -143,7 +143,7 @@
         "defense_recovery_rate": 0.0,
         "defense_failure_rate": 0.04,
         "average_confidence_drop": 0.21704710176214576,
-        "average_confidence_restored": -0.0017015251517295837
+        "average_confidence_restored": -0.010431176722049714
       },
       "decisions": {
         "trusted_count": 192,
@@ -165,11 +165,11 @@
       },
       "latency": {
         "count": 200,
-        "mean_ms": 611.9612260002759,
-        "median_ms": 598.2289999956265,
-        "p95_ms": 719.5245900336886,
-        "min_ms": 473.392799962312,
-        "max_ms": 849.0836000419222
+        "mean_ms": 673.5841905001507,
+        "median_ms": 652.743399998144,
+        "p95_ms": 792.5253900026291,
+        "min_ms": 606.5329999983078,
+        "max_ms": 1198.9590000011958
       },
       "patch_localization": {
         "samples": 0,
@@ -183,24 +183,24 @@
         "attack_success_rate": 0.9810126582278481
       },
       "detection": {
-        "tp": 123,
+        "tp": 124,
         "fp": 0,
         "tn": 0,
-        "fn": 77,
-        "tpr": 0.615,
-        "recall": 0.615,
+        "fn": 76,
+        "tpr": 0.62,
+        "recall": 0.62,
         "fpr": 0.0,
         "precision": 1.0,
-        "f1": 0.7616099071207431,
+        "f1": 0.7654320987654321,
         "roc_auc": 0.0
       },
       "defense": {
         "successfully_attacked": 197,
-        "recovered": 20,
-        "defense_recovery_rate": 0.10152284263959391,
+        "recovered": 29,
+        "defense_recovery_rate": 0.14720812182741116,
         "defense_failure_rate": 0.625,
         "average_confidence_drop": 0.06864780033007264,
-        "average_confidence_restored": -0.10237517757341266
+        "average_confidence_restored": -0.1527344552613795
       },
       "decisions": {
         "trusted_count": 75,
@@ -222,51 +222,51 @@
       },
       "latency": {
         "count": 200,
-        "mean_ms": 623.45209300227,
-        "median_ms": 613.1587000272702,
-        "p95_ms": 715.2483050391311,
-        "min_ms": 569.8594999848865,
-        "max_ms": 756.3627999625169
+        "mean_ms": 693.2215994999933,
+        "median_ms": 679.4654500008619,
+        "p95_ms": 807.8260649966978,
+        "min_ms": 620.2757000064594,
+        "max_ms": 899.8743000047398
       },
       "patch_localization": {
         "samples": 200,
-        "iou": 0.25423615881790906,
-        "precision": 0.45849752689220913,
-        "recall": 0.401168212890625
+        "iou": 0.044183888330234636,
+        "precision": 0.04948420639613528,
+        "recall": 0.246966552734375
       }
     }
   },
   "combined": {
     "detection": {
-      "tp": 222,
-      "fp": 47,
-      "tn": 153,
-      "fn": 378,
-      "tpr": 0.37,
-      "recall": 0.37,
-      "fpr": 0.235,
-      "precision": 0.8252788104089219,
-      "f1": 0.5109321058688148,
-      "roc_auc": 0.5597583333333334
+      "tp": 211,
+      "fp": 44,
+      "tn": 156,
+      "fn": 389,
+      "tpr": 0.3516666666666667,
+      "recall": 0.3516666666666667,
+      "fpr": 0.22,
+      "precision": 0.8274509803921568,
+      "f1": 0.49356725146198827,
+      "roc_auc": 0.536525
     },
     "defense": {
       "successfully_attacked": 591,
-      "recovered": 22,
-      "defense_recovery_rate": 0.03722504230118443,
-      "defense_failure_rate": 0.445,
+      "recovered": 37,
+      "defense_recovery_rate": 0.06260575296108291,
+      "defense_failure_rate": 0.43833333333333335,
       "average_confidence_drop": 0.011381751044342915,
-      "average_confidence_restored": -0.03486172638212641
+      "average_confidence_restored": -0.05645559827486674
     },
     "decisions": {
-      "trusted_count": 468,
+      "trusted_count": 471,
       "defended_count": 0,
-      "abstain_count": 332,
-      "trusted_rate": 0.585,
+      "abstain_count": 329,
+      "trusted_rate": 0.58875,
       "defended_rate": 0.0,
-      "abstain_rate": 0.415,
-      "unsafe_acceptance_rate": 0.555,
-      "safe_rejection_rate": 0.445,
-      "clean_rejection_rate": 0.325
+      "abstain_rate": 0.41125,
+      "unsafe_acceptance_rate": 0.5616666666666666,
+      "safe_rejection_rate": 0.43833333333333335,
+      "clean_rejection_rate": 0.33
     },
     "localization": {
       "samples": 0,

@@ -27,14 +27,16 @@ class ConfidenceInstabilityDetector(BaseDetector):
         predictions = [model.predict(variant) for variant in variants]
         stability = sum(prediction.class_id == original.class_id for prediction in predictions) / len(predictions)
         confidence_variance = float(np.var([prediction.confidence for prediction in predictions]))
-        score = clip_score(0.55 * (1 - stability) + 0.45 * min(1.0, confidence_variance * 25))
+        confidence_deltas = [abs(float(prediction.confidence) - float(original.confidence)) for prediction in predictions]
+        mean_confidence_delta = float(np.mean(confidence_deltas))
+        score = clip_score(0.45 * (1 - stability) + 0.35 * min(1.0, mean_confidence_delta * 5) + 0.20 * min(1.0, confidence_variance * 25))
         elapsed = (time.perf_counter() - started) * 1000
         return DetectorResult(
             detector_name=self.name,
             score=score,
             detected=score >= threshold,
             confidence=score,
-            evidence={"prediction_stability": stability, "confidence_variance": confidence_variance, "transform_count": len(variants)},
+            evidence={"prediction_stability": stability, "confidence_variance": confidence_variance, "mean_confidence_delta": mean_confidence_delta, "confidence_deltas": confidence_deltas, "transform_count": len(variants)},
             processing_time_ms=elapsed,
             metadata={"transforms": ["gaussian_noise", "brightness", "blur"]},
         )

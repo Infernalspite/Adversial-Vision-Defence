@@ -33,9 +33,12 @@ class SaliencyAnalysisDetector(BaseDetector):
             model.model.train(was_training)
         maximum = float(saliency.max())
         mean = float(saliency.mean())
-        normalized = saliency / (maximum + 1e-8)
+        baseline = float(np.percentile(saliency, 50))
+        scale = float(np.percentile(saliency, 95) - baseline)
+        normalized = np.clip((saliency - baseline) / (scale + 1e-8), 0.0, 1.0)
         high_ratio = float((normalized >= 0.8).mean())
-        score = clip_score(0.5 * min(1.0, maximum * 20) + 0.5 * min(1.0, high_ratio * 10))
+        concentration = float(np.percentile(saliency, 99) / (saliency.mean() + 1e-8))
+        score = clip_score(0.5 * min(1.0, max(0.0, concentration - 1.0) / 8.0) + 0.5 * min(1.0, high_ratio * 20))
         elapsed = (time.perf_counter() - started) * 1000
         return DetectorResult(
             detector_name=self.name,

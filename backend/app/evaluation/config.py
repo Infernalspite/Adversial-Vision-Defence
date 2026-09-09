@@ -15,6 +15,7 @@ class EvaluationConfig:
     max_samples_per_category: int | None = None
     detector_weights: dict[str, float] | None = None
     detection_threshold: float = 0.70
+    logistic_regression: dict[str, object] | None = None
     attack_parameters: dict[str, dict[str, object]] = field(default_factory=lambda: {
         "fgsm": {"epsilon": 0.01},
         "pgd": {"epsilon": 0.03, "step_size": 0.005, "iterations": 10, "random_start": False},

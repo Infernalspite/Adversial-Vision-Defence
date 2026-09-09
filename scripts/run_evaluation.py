@@ -29,7 +29,8 @@ def main() -> None:
         plots_root=args.dataset / "plots",
         max_samples_per_category=args.max_samples,
         detector_weights=calibration.get("selected_weights"),
-        detection_threshold=float(calibration.get("selected_threshold", 0.70)),
+        detection_threshold=float(calibration.get("logistic_regression", {}).get("threshold", calibration.get("selected_threshold", 0.70))),
+        logistic_regression=calibration.get("logistic_regression"),
     )
     summary = EvaluationRunner(config).run()
     metadata = {"timestamp": datetime.now(timezone.utc).isoformat(), "dataset_root": str(config.dataset_root), "seed": config.seed, "attack_parameters": config.attack_parameters, "thresholds": {"attack": config.detection_threshold, "trust": 0.70, "verification": 0.70}, "detector_weights": config.detector_weights, "calibration": str(args.calibration) if args.calibration else None, "git_commit": _git_commit()}

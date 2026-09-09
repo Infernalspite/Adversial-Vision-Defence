@@ -36,6 +36,7 @@ class EvaluationRunner:
         scorer_config = AttackScorerConfig(
             weights=self.config.detector_weights or AttackScorerConfig().weights,
             detection_threshold=self.config.detection_threshold,
+            logistic_regression=self.config.logistic_regression,
         )
         detection_pipeline = DetectionPipeline(UnifiedAttackScorer(scorer_config))
         self.pipeline = ArgusPipeline(defense_pipeline=ArgusDefensePipeline(detection_pipeline=detection_pipeline))

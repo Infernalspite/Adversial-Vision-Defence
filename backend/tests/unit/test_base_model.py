@@ -22,3 +22,14 @@ def test_top_predictions_are_ranked():
     prediction = ResNet18VisionModel().predict(np.zeros((224, 224, 3), dtype=np.uint8))
     confidences = [item.confidence for item in prediction.top_predictions]
     assert confidences == sorted(confidences, reverse=True)
+
+
+def test_human_photos_are_labeled_as_person():
+    image = np.zeros((224, 224, 3), dtype=np.uint8)
+    image[40:180, 70:150] = [180, 140, 120]
+    image[120:200, 40:180] = [90, 70, 55]
+    image[20:40, 70:150] = [200, 170, 150]
+
+    prediction = ResNet18VisionModel().predict(image)
+
+    assert prediction.class_name == "person"

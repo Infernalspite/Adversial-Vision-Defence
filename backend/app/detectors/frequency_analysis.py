@@ -19,23 +19,25 @@ class FrequencyAnalysisDetector(BaseDetector):
         started = time.perf_counter()
         _, threshold = detector_context(context)
         gray = cv2.cvtColor(image, cv2.COLOR_RGB2GRAY).astype(np.float32) / 255
-        spectrum = np.fft.fftshift(np.fft.fft2(gray))
+        window = np.outer(np.hanning(height := gray.shape[0]), np.hanning(width := gray.shape[1]))
+        spectrum = np.fft.fftshift(np.fft.fft2(gray * window))
         power = np.abs(spectrum) ** 2
-        height, width = gray.shape
         y, x = np.ogrid[:height, :width]
         radius = np.sqrt((x - width / 2) ** 2 + (y - height / 2) ** 2)
         cutoff = min(height, width) * 0.18
         low_energy = float(power[radius <= cutoff].mean())
         high_energy = float(power[radius > cutoff].mean())
         ratio = high_energy / (low_energy + 1e-8)
-        score = clip_score(ratio / (ratio + 1.0))
+        total_energy = float(power.sum()) + 1e-8
+        high_energy_fraction = float(power[radius > cutoff].sum() / total_energy)
+        score = clip_score(high_energy_fraction)
         elapsed = (time.perf_counter() - started) * 1000
         return DetectorResult(
             detector_name=self.name,
             score=score,
             detected=score >= threshold,
             confidence=score,
-            evidence={"high_frequency_energy": high_energy, "low_frequency_energy": low_energy, "high_low_ratio": ratio},
+            evidence={"high_frequency_energy": high_energy, "low_frequency_energy": low_energy, "high_low_ratio": ratio, "high_frequency_fraction": high_energy_fraction},
             processing_time_ms=elapsed,
             metadata={"cutoff_fraction": 0.18, "spectrum_mean": float(power.mean())},
         )

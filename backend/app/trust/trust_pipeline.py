@@ -54,6 +54,20 @@ class TrustPipeline:
             raise ValueError("Expected an RGB uint8 image")
         started = time.perf_counter()
         detection_result = detection or self.detection_pipeline.analyze(image, model, detector_names, threshold)
+        if not detection_result.attack_detected and patch_mask is None:
+            height, width = image.shape[:2]
+            trust_map = TrustMap(
+                values=np.ones((height, width), dtype=np.float32),
+                width=width,
+                height=height,
+                resolution=(height, width),
+                normalization={"input_range": "[0, 1]", "policy": "no attack detected"},
+                generation_time_ms=(time.perf_counter() - started) * 1000,
+                contributing_detectors=(),
+                metadata={"available_sources": (), "weights": {}},
+            )
+            localization = AttackLocalizer(localization_threshold, minimum_region_area).locate(trust_map)
+            return TrustPipelineResult(detection_result, trust_map, localization, {"saliency_available": False, "frequency_available": False, "local_anomaly_available": False, "patch_mask_available": False}, [], (time.perf_counter() - started) * 1000)
         maps = self._spatial_maps(image, detection_result, patch_mask)
         fusion = TrustFusion(TrustFusionConfig(trust_weights or self.trust_fusion.config.weights)).fuse(
             maps, image.shape[:2]

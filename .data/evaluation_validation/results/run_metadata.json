@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-09-08T15:59:24.185262+00:00",
-  "dataset_root": "C:\\Users\\itsta\\Downloads\\ARGUS\\data\\evaluation_test",
+  "timestamp": "2026-09-08T15:33:47.411762+00:00",
+  "dataset_root": ".data\\evaluation_validation",
   "seed": 7,
   "attack_parameters": {
     "fgsm": {
@@ -19,16 +19,11 @@
     }
   },
   "thresholds": {
-    "attack": 0.3,
+    "attack": 0.7,
     "trust": 0.7,
     "verification": 0.7
   },
-  "detector_weights": {
-    "feature_squeezing": 0.0,
-    "frequency_analysis": 0.25,
-    "confidence_instability": 0.5,
-    "saliency_analysis": 0.25
-  },
-  "calibration": "C:\\Users\\itsta\\Downloads\\ARGUS\\data\\evaluation_validation\\calibration.json",
+  "detector_weights": null,
+  "calibration": null,
   "git_commit": "e4659f0333138b4bb88b650407ea130b15c4d133"
 }

@@ -1,0 +1,5 @@
+attack_attack_success_rate,category,decision_abstain_count,decision_abstain_rate,decision_clean_rejection_rate,decision_defended_count,decision_defended_rate,decision_safe_rejection_rate,decision_trusted_count,decision_trusted_rate,decision_unsafe_acceptance_rate,defense_average_confidence_drop,defense_average_confidence_restored,defense_defense_failure_rate,defense_defense_recovery_rate,defense_recovered,defense_successfully_attacked,detection_f1,detection_fn,detection_fp,detection_fpr,detection_precision,detection_recall,detection_roc_auc,detection_tn,detection_tp,detection_tpr
+0.0,clean,0,0.0,0.0,0,0.0,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0.0,0,0,0.0,0.0,0.0,0.0,0,0,0.0
+0.0,fgsm,0,0.0,0.0,0,0.0,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0.0,0,0,0.0,0.0,0.0,0.0,0,0,0.0
+0.0,pgd,0,0.0,0.0,0,0.0,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0.0,0,0,0.0,0.0,0.0,0.0,0,0,0.0
+0.0,patch,0,0.0,0.0,0,0.0,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0.0,0,0,0.0,0.0,0.0,0.0,0,0,0.0

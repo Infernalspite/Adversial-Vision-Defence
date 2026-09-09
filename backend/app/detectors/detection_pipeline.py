@@ -11,7 +11,7 @@ from pathlib import Path
 import numpy as np
 
 from app.detectors import get_detector, supported_detectors
-from app.detectors.attack_scorer import AttackScore, AttackScorerConfig, UnifiedAttackScorer
+from app.detectors.attack_scorer import AttackScore, AttackScorerConfig, UnifiedAttackScorer, valid_logistic_payload
 from app.detectors.base_detector import DetectorResult
 
 
@@ -40,9 +40,14 @@ class DetectionPipeline:
             return UnifiedAttackScorer()
         try:
             calibration = json.loads(path.read_text(encoding="utf-8"))
+            logistic_regression = calibration.get("logistic_regression")
+            selected_threshold = float(calibration["selected_threshold"])
+            if valid_logistic_payload(logistic_regression):
+                selected_threshold = float(logistic_regression["threshold"])
             return UnifiedAttackScorer(AttackScorerConfig(
                 weights=calibration["selected_weights"],
-                detection_threshold=float(calibration["selected_threshold"]),
+                detection_threshold=selected_threshold,
+                logistic_regression=logistic_regression if valid_logistic_payload(logistic_regression) else None,
             ))
         except (OSError, KeyError, TypeError, ValueError, json.JSONDecodeError):
             return UnifiedAttackScorer()
@@ -62,7 +67,7 @@ class DetectionPipeline:
             raise ValueError("At least one detector is required")
         config = self.scorer.config
         if threshold is not None:
-            config = AttackScorerConfig(config.weights, threshold)
+            config = AttackScorerConfig(config.weights, threshold, config.logistic_regression)
         context = {"model": model, "detector_threshold": config.detection_threshold}
         started = time.perf_counter()
         results = [get_detector(name).detect(image, context) for name in names]
