@@ -8,7 +8,6 @@ from dataclasses import dataclass
 from pathlib import Path
 from typing import Any
 
-import cv2
 import numpy as np
 import torch
 from torch import nn
@@ -89,65 +88,20 @@ class ResNet18VisionModel(BaseVisionModel):
         self.checkpoint_path = Path(checkpoint_path)
         self._load_checkpoint(self.checkpoint_path)
 
-    def _looks_like_person(self, image: np.ndarray) -> bool:
-        """Heuristic fallback for human photos when the generic ImageNet model mislabels them."""
-        if image.ndim != 3 or image.shape[2] != 3:
-            return False
 
-        rgb = image.astype(np.uint8)
-        if rgb.shape[0] < 24 or rgb.shape[1] < 24:
-            return False
-
-        hsv = cv2.cvtColor(rgb, cv2.COLOR_RGB2HSV)
-        hue = hsv[:, :, 0].astype(np.float32)
-        saturation = hsv[:, :, 1].astype(np.float32)
-        value = hsv[:, :, 2].astype(np.float32)
-
-        skin_mask = ((hue >= 0) & (hue <= 25) & (saturation >= 30) & (value >= 40)) | (
-            (hue >= 170) & (hue <= 180) & (saturation >= 30) & (value >= 40)
-        )
-
-        if skin_mask.mean() < 0.01:
-            return False
-
-        ys, xs = np.where(skin_mask)
-        if ys.size == 0 or xs.size == 0:
-            return False
-
-        x_min, x_max = xs.min(), xs.max()
-        y_min, y_max = ys.min(), ys.max()
-        width = x_max - x_min + 1
-        height = y_max - y_min + 1
-        area_ratio = (width * height) / (image.shape[0] * image.shape[1])
-
-        return area_ratio >= 0.015 and width >= max(20, image.shape[1] * 0.08) and height >= max(20, image.shape[0] * 0.15)
 
     def predict(self, image: np.ndarray) -> ModelPrediction:
-        """Run one clean-image inference and return top-five probabilities."""
+        """Run one clean-image inference and return top-five probabilities.
+
+        The prediction is always the model's own output. There is no
+        post-hoc label override: an earlier skin-tone heuristic forced the
+        label "person" onto any image with skin-colored pixels, which
+        mislabeled wood, sand, fur, and food on nearly every upload. Real
+        person detection belongs in a dedicated detector, not a color mask
+        bolted onto a classifier.
+        """
         input_tensor = self.prepare_tensor(image).unsqueeze(0)
-        prediction = self.predict_tensor(input_tensor)
-        if self._looks_like_person(image):
-            person_name = "person"
-            if person_name in self.class_names:
-                person_id = self.class_names.index(person_name)
-                top_predictions = list(prediction.top_predictions)
-                top_predictions.insert(0, TopPrediction(class_id=person_id, class_name=person_name, confidence=max(prediction.confidence, 0.72)))
-                top_predictions = tuple(top_predictions[:5])
-                return ModelPrediction(
-                    class_id=person_id,
-                    class_name=person_name,
-                    confidence=max(prediction.confidence, 0.72),
-                    top_predictions=top_predictions,
-                    inference_time_ms=prediction.inference_time_ms,
-                )
-            return ModelPrediction(
-                class_id=prediction.class_id,
-                class_name="person",
-                confidence=max(prediction.confidence, 0.72),
-                top_predictions=(TopPrediction(class_id=prediction.class_id, class_name="person", confidence=max(prediction.confidence, 0.72)),) + prediction.top_predictions[:4],
-                inference_time_ms=prediction.inference_time_ms,
-            )
-        return prediction
+        return self.predict_tensor(input_tensor)
 
     def prepare_tensor(self, image: np.ndarray) -> torch.Tensor:
         """Convert an RGB image to a normalized tensor on the model device."""

@@ -12,11 +12,11 @@ from app.pipeline.states import FinalState
 class DecisionPolicyConfig:
     """Configurable MVP thresholds for the final decision policy."""
 
-    attack_threshold: float = 0.70
+    attack_threshold: float = 0.25
     high_trust_threshold: float = 0.70
     verification_threshold: float = 0.70
     minimum_confidence: float = 0.50
-    recovery_threshold: float = 0.70
+    recovery_threshold: float = 0.50
 
     def __post_init__(self) -> None:
         values = (self.attack_threshold, self.high_trust_threshold, self.verification_threshold, self.minimum_confidence, self.recovery_threshold)
@@ -42,6 +42,8 @@ class DecisionContext:
     object_consistency: float
     geometry_consistency: float
     scene_consistency: float
+    defended_stability: float = 0.0
+    """Fraction of benign probes on the *defended* image that kept the same label (0 when no defense ran)."""
 
 
 @dataclass(frozen=True, slots=True)
@@ -92,9 +94,22 @@ class FinalDecisionEngine:
             )
             return DecisionResult(FinalState.TRUSTED, context.original_prediction, original_confidence, decision_score, "The input remained below attack risk thresholds and its interpretation was strongly verified.", reasons, _evidence(context, decision_score, suspicious))
 
+        # A "defended" outcome must mean the defense *recovered* the input:
+        # the defense changed the suspicious pre-defense interpretation, and
+        # the post-defense interpretation is stable under benign probes (a
+        # decision still sitting on an adversarially manufactured boundary
+        # would flip). Requiring merely "defended == original" would certify
+        # the adversarial label itself whenever a defense changes nothing.
+        semantic_recovery = (
+            context.defended_prediction is not None
+            and context.original_prediction is not None
+            and context.defended_prediction != context.original_prediction
+            and context.defended_stability >= 0.5
+        )
         defended = (
             context.attack_detected
             and context.defense_applied
+            and semantic_recovery
             and attack_score >= self.config.attack_threshold
             and verification >= self.config.verification_threshold
             and (defended_confidence or 0.0) >= self.config.recovery_threshold
@@ -117,6 +132,10 @@ class FinalDecisionEngine:
             reasons.append("Adversarial evidence remained high.")
         if not context.defense_applied:
             reasons.append("No defense produced a verified recovery result.")
+        elif context.defended_prediction == context.original_prediction:
+            reasons.append("The applied defense did not change the suspicious interpretation.")
+        elif context.defended_stability < 0.5:
+            reasons.append("The post-defense interpretation remained unstable under benign probes.")
         elif (defended_confidence or 0.0) < self.config.recovery_threshold:
             reasons.append("Defended confidence remained below the recovery threshold.")
         if verification < self.config.verification_threshold or component_floor < self.config.verification_threshold:

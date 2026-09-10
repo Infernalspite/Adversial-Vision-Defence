@@ -54,6 +54,7 @@ class DefenseOrchestrator:
             global_trust_score=float(context.get("global_trust_score", 1.0)),
             suspicious_regions=context.get("suspicious_regions", []),
             suspicious_area_percentage=float(context.get("suspicious_area_percentage", 0.0)),
+            detection_threshold=context.get("defense_threshold"),
         )
         from app.defense import get_defense
 

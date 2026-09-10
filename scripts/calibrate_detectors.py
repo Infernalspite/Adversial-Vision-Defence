@@ -1,122 +1,135 @@
-"""Calibrate detector threshold and interpretable weights on validation results only."""
+"""Collect detector scores on val clean/adversarial images and calibrate fusion.
+
+Phase 1 collects per-image detector scores for the val split (clean images
+plus the attack suite generated against the model being deployed). Phase 2
+runs the constrained grid search from ``app.calibration`` and writes
+``data/models/detector_calibration.json`` in the schema that
+``DetectionPipeline`` consumes.
+
+Calibration never touches the test split.
+"""
 
 from __future__ import annotations
 
 import argparse
 import json
-from itertools import product
+import sys
 from pathlib import Path
+from typing import Any
 
 import numpy as np
 
 ROOT = Path(__file__).resolve().parents[1]
-DETECTORS = ("feature_squeezing", "frequency_analysis", "confidence_instability", "saliency_analysis")
-LOGISTIC_SCHEMA = "argus.logistic_regression"
+sys.path.insert(0, str(ROOT / "backend"))
+
+from app.calibration import calibrate  # noqa: E402
+from app.detectors import get_detector, supported_detectors  # noqa: E402
+from app.detectors.attack_scorer import DETECTOR_FEATURE_ORDER  # noqa: E402
+from app.models.model_registry import get_model  # noqa: E402
+from app.utils.image import decode_image  # noqa: E402
+
+IMAGE_SUFFIXES = {".png", ".jpg", ".jpeg", ".webp"}
 
 
-def records(results_root: Path) -> list[dict]:
-    output = []
-    for path in results_root.glob("*_results.jsonl"):
-        output.extend(json.loads(line) for line in path.read_text(encoding="utf-8").splitlines() if line)
-    return output
+def iter_images(root: Path):
+    for class_dir in sorted(p for p in root.iterdir() if p.is_dir()):
+        for image_path in sorted(p for p in class_dir.iterdir() if p.is_file() and p.suffix.lower() in IMAGE_SUFFIXES):
+            yield class_dir.name, image_path
 
 
-def metrics(rows: list[dict], threshold: float, weights: tuple[float, ...]) -> dict[str, float]:
-    scores = [sum(weight * float(row.get("detector_scores", {}).get(name, 0.0)) for name, weight in zip(DETECTORS, weights)) for row in rows]
-    actual = [bool(row.get("is_adversarial")) for row in rows]
-    predicted = [score >= threshold for score in scores]
-    tp = sum(a and p for a, p in zip(actual, predicted)); fp = sum(not a and p for a, p in zip(actual, predicted))
-    tn = sum(not a and not p for a, p in zip(actual, predicted)); fn = sum(a and not p for a, p in zip(actual, predicted))
-    precision = tp / (tp + fp) if tp + fp else 0.0
-    recall = tp / (tp + fn) if tp + fn else 0.0
-    f1 = 2 * precision * recall / (precision + recall) if precision + recall else 0.0
-    return {"threshold": threshold, "tpr": recall, "fpr": fp / (fp + tn) if fp + tn else 0.0, "precision": precision, "recall": recall, "f1": f1, "tp": tp, "fp": fp, "tn": tn, "fn": fn}
+def collect_scores(
+    model_tag: str,
+    splits_root: Path,
+    attacks_root: Path,
+    output_path: Path,
+    max_per_class: int,
+) -> list[dict[str, Any]]:
+    """Run all four detectors on val clean images plus the attacked set."""
+    model = get_model("resnet18" if model_tag == "baseline" else "robust")
+    names = supported_detectors()
+    rows: list[dict[str, Any]] = []
 
+    def add_row(class_name: str, image_path: Path, is_adversarial: bool, attack_config: str, source_split: str) -> None:
+        image = decode_image(image_path.read_bytes())
+        scores = {name: get_detector(name).detect(image, {"model": model}).score for name in names}
+        rows.append({
+            "sample_id": image_path.stem,
+            "class_name": class_name,
+            "attack_config": attack_config,
+            "source_split": source_split,
+            "is_adversarial": is_adversarial,
+            "detector_scores": scores,
+        })
 
-def auc(rows: list[dict], weights: tuple[float, ...]) -> float:
-    scores = [sum(weight * float(row.get("detector_scores", {}).get(name, 0.0)) for name, weight in zip(DETECTORS, weights)) for row in rows]
-    positives = [score for score, row in zip(scores, rows) if row.get("is_adversarial")]
-    negatives = [score for score, row in zip(scores, rows) if not row.get("is_adversarial")]
-    if not positives or not negatives:
-        return 0.0
-    return sum(1.0 if positive > negative else 0.5 if positive == negative else 0.0 for positive in positives for negative in negatives) / (len(positives) * len(negatives))
+    clean_count: dict[str, int] = {}
+    for class_name, image_path in iter_images(splits_root / "val"):
+        if clean_count.get(class_name, 0) >= max_per_class:
+            continue
+        add_row(class_name, image_path, False, "clean", "val")
+        clean_count[class_name] = clean_count.get(class_name, 0) + 1
+        if sum(clean_count.values()) % 50 == 0:
+            print(f"clean: {sum(clean_count.values())} scored", flush=True)
 
+    attack_root = attacks_root / model_tag / "val"
+    if not attack_root.exists():
+        raise SystemExit(f"Missing attack suite for model tag '{model_tag}' at {attack_root}")
+    attacked_count = 0
+    for config_dir in sorted(p for p in attack_root.iterdir() if p.is_dir()):
+        for class_name, image_path in iter_images(config_dir):
+            sidecar = image_path.with_suffix(".json")
+            source_split = "val"
+            if sidecar.exists():
+                source_split = json.loads(sidecar.read_text(encoding="utf-8")).get("source_split", "val")
+            add_row(class_name, image_path, True, config_dir.name, source_split)
+            attacked_count += 1
+            if attacked_count % 50 == 0:
+                print(f"attacked: {attacked_count} scored", flush=True)
 
-def pr_auc(rows: list[dict], weights: tuple[float, ...]) -> float:
-    scored = sorted(((sum(weight * float(row.get("detector_scores", {}).get(name, 0.0)) for name, weight in zip(DETECTORS, weights)), bool(row.get("is_adversarial"))) for row in rows), reverse=True)
-    positives = sum(actual for _, actual in scored)
-    if not positives:
-        return 0.0
-    precision_recall = [(1.0, 0.0)]
-    true_positive = false_positive = 0
-    for _, actual in scored:
-        true_positive += int(actual); false_positive += int(not actual)
-        precision_recall.append((true_positive / (true_positive + false_positive), true_positive / positives))
-    return sum((recall - previous_recall) * precision for (precision, recall), (_, previous_recall) in zip(precision_recall[1:], precision_recall))
-
-
-def logistic_fit(rows: list[dict], iterations: int = 4000, learning_rate: float = 0.05, l2: float = 0.01) -> tuple[np.ndarray, float, np.ndarray, np.ndarray]:
-    features = np.asarray([[float(row["detector_scores"][name]) for name in DETECTORS] for row in rows], dtype=float)
-    labels = np.asarray([bool(row["is_adversarial"]) for row in rows], dtype=float)
-    mean = features.mean(axis=0)
-    scale = features.std(axis=0)
-    scale[scale < 1e-12] = 1.0
-    standardized = (features - mean) / scale
-    coefficients = np.zeros(len(DETECTORS), dtype=float)
-    intercept = 0.0
-    for _ in range(iterations):
-        logits = np.clip(standardized @ coefficients + intercept, -60.0, 60.0)
-        probabilities = 1.0 / (1.0 + np.exp(-logits))
-        error = probabilities - labels
-        coefficients -= learning_rate * (standardized.T @ error / len(rows) + l2 * coefficients)
-        intercept -= learning_rate * float(error.mean())
-    return coefficients, intercept, mean, scale
-
-
-def logistic_metrics(rows: list[dict], scores: np.ndarray, threshold: float) -> dict[str, float]:
-    actual = np.asarray([bool(row["is_adversarial"]) for row in rows])
-    predicted = scores >= threshold
-    tp = int(np.sum(actual & predicted)); fp = int(np.sum(~actual & predicted))
-    tn = int(np.sum(~actual & ~predicted)); fn = int(np.sum(actual & ~predicted))
-    precision = tp / (tp + fp) if tp + fp else 0.0
-    recall = tp / (tp + fn) if tp + fn else 0.0
-    f1 = 2 * precision * recall / (precision + recall) if precision + recall else 0.0
-    return {"threshold": float(threshold), "tpr": recall, "fpr": fp / (fp + tn) if fp + tn else 0.0, "precision": precision, "recall": recall, "f1": f1, "tp": tp, "fp": fp, "tn": tn, "fn": fn}
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+    output_path.write_text("".join(json.dumps(row) + "\n" for row in rows), encoding="utf-8")
+    print(f"Collected {len(rows)} detector records at {output_path}")
+    return rows
 
 
 def main() -> None:
-    parser = argparse.ArgumentParser(); parser.add_argument("--results", type=Path, default=ROOT / "data" / "evaluation_validation" / "results"); parser.add_argument("--output", type=Path, default=ROOT / "data" / "evaluation_validation" / "calibration.json"); args = parser.parse_args()
-    rows = [row for row in records(args.results) if row.get("source_split", "validation") == "validation"]
-    if not rows or not all(row.get("detector_scores") and "is_adversarial" in row for row in rows):
-        raise SystemExit("Validation results with detector_scores are required")
-    if any(not all(name in row["detector_scores"] for name in DETECTORS) for row in rows):
-        raise SystemExit("Validation results must contain all canonical detector scores")
-    distributions = {}
-    for name in DETECTORS + ("attack_score",):
-        values = np.asarray([float(row.get("detector_scores", {}).get(name, row.get(name, 0.0))) for row in rows], dtype=float)
-        distributions[name] = {"mean": float(values.mean()), "median": float(np.median(values)), "std": float(values.std()), "min": float(values.min()), "max": float(values.max()), "percentiles": {str(p): float(np.percentile(values, p)) for p in (5, 25, 75, 95)}}
-    candidates = []
-    weight_values = (0.0, 0.25, 0.5, 0.75, 1.0)
-    weight_sets = [weights for weights in product(weight_values, repeat=4) if abs(sum(weights) - 1.0) < 1e-9 and sum(weight > 0 for weight in weights) >= 2]
-    for weights in weight_sets:
-        for threshold in np.arange(0.05, 1.0, 0.05):
-            result = metrics(rows, float(round(threshold, 2)), weights)
-            if result["fpr"] <= 0.20:
-                candidates.append((result["f1"] - 0.25 * result["fpr"], result, weights))
-    _, best, best_weights = max(candidates, key=lambda item: item[0])
-    coefficients, intercept, mean, scale = logistic_fit(rows)
-    logistic_features = np.asarray([[float(row["detector_scores"][name]) for name in DETECTORS] for row in rows])
-    logistic_scores = 1.0 / (1.0 + np.exp(-np.clip((logistic_features - mean) / scale @ coefficients + intercept, -60.0, 60.0)))
-    logistic_candidates = [logistic_metrics(rows, logistic_scores, float(threshold)) for threshold in np.unique(np.r_[0.0, logistic_scores, 1.0])]
-    eligible_logistic = [item for item in logistic_candidates if item["fpr"] <= 0.20]
-    if not eligible_logistic:
-        raise SystemExit("Unable to select a logistic threshold under FPR <= 0.20")
-    best_logistic = max(eligible_logistic, key=lambda item: (item["f1"] - 0.25 * item["fpr"], item["threshold"]))
-    by_category = {category: [row for row in rows if row.get("category") == category] for category in ("clean", "fgsm", "pgd", "patch")}
-    category_distributions = {category: {name: {"mean": float(np.mean([float(row.get("detector_scores", {}).get(name, 0.0)) for row in category_rows])) if category_rows else 0.0, "median": float(np.median([float(row.get("detector_scores", {}).get(name, 0.0)) for row in category_rows])) if category_rows else 0.0} for name in DETECTORS} for category, category_rows in by_category.items()}
-    output = {"dataset": "validation", "detectors": DETECTORS, "distributions": distributions, "distributions_by_category": category_distributions, "candidate_thresholds": [metrics(rows, float(round(value, 2)), best_weights) for value in np.arange(0.05, 1.0, 0.05)], "selected_threshold": best["threshold"], "selected_weights": dict(zip(DETECTORS, best_weights)), "selected_metrics": {**best, "roc_auc": auc(rows, best_weights), "pr_auc": pr_auc(rows, best_weights)}, "weight_candidates": len(weight_sets), "logistic_regression": {"schema": LOGISTIC_SCHEMA, "version": 1, "feature_order": list(DETECTORS), "mean": mean.tolist(), "scale": scale.tolist(), "coefficients": coefficients.tolist(), "intercept": float(intercept), "threshold": best_logistic["threshold"], "fit_metadata": {"rows": len(rows), "iterations": 4000, "learning_rate": 0.05, "l2": 0.01, "metrics": best_logistic}}, "criterion": "maximum F1 - 0.25*FPR subject to FPR <= 0.20; validation only"}
-    args.output.write_text(json.dumps(output, indent=2), encoding="utf-8")
-    print(json.dumps(output["selected_metrics"], indent=2))
+    parser = argparse.ArgumentParser(description="Calibrate detector fusion on the val split.")
+    parser.add_argument("--model-tag", choices=["baseline", "robust"], default="baseline")
+    parser.add_argument("--splits-root", type=Path, default=ROOT / "data" / "robust" / "splits")
+    parser.add_argument("--attacks-root", type=Path, default=ROOT / "data" / "robust" / "attacks")
+    parser.add_argument("--scores", type=Path, default=None)
+    parser.add_argument("--output", type=Path, default=ROOT / "data" / "models" / "detector_calibration.json")
+    parser.add_argument("--max-per-class", type=int, default=25, help="Clean val images per class for the FPR side")
+    parser.add_argument("--reuse-scores", action="store_true", help="Skip collection and reuse the saved scores file")
+    args = parser.parse_args()
+
+    scores_path = args.scores or (ROOT / "data" / "robust" / "calibration" / f"detector_scores_{args.model_tag}.jsonl")
+    if args.reuse_scores and scores_path.exists():
+        rows = [json.loads(line) for line in scores_path.read_text(encoding="utf-8").splitlines() if line]
+        print(f"Reused {len(rows)} records from {scores_path}")
+    else:
+        rows = collect_scores(args.model_tag, args.splits_root, args.attacks_root, scores_path, args.max_per_class)
+
+    clean_rows = [row for row in rows if not row["is_adversarial"]]
+    attack_rows = [row for row in rows if row["is_adversarial"]]
+    print(f"clean={len(clean_rows)} attacked={len(attack_rows)}")
+
+    features = np.asarray(
+        [[float(row["detector_scores"][name]) for name in DETECTOR_FEATURE_ORDER] for row in rows], dtype=float
+    )
+    labels = np.asarray([1 if row["is_adversarial"] else 0 for row in rows], dtype=int)
+    result = calibrate(features, labels, use_logistic=True)
+    payload = result.to_calibration_payload()
+    payload["dataset"] = {
+        "model_tag": args.model_tag,
+        "clean": len(clean_rows),
+        "attacked": len(attack_rows),
+        "attack_configs": sorted({row["attack_config"] for row in attack_rows}),
+    }
+    output = args.output
+    output.parent.mkdir(parents=True, exist_ok=True)
+    output.write_text(json.dumps(payload, indent=2), encoding="utf-8")
+    print(f"Wrote {output}")
+    print(json.dumps(payload["selected_metrics"], indent=2))
 
 
 if __name__ == "__main__":

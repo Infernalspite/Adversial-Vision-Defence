@@ -27,6 +27,11 @@ class DetectionResult:
     processing_time_ms: float
 
 
+def _default_calibration_path() -> Path:
+    """Repo-default calibration file written by scripts/calibrate_detectors.py."""
+    return Path(__file__).resolve().parents[3] / "data" / "models" / "detector_calibration.json"
+
+
 class DetectionPipeline:
     """Run configured detectors and fuse their evidence."""
 
@@ -35,7 +40,7 @@ class DetectionPipeline:
 
     @staticmethod
     def _load_calibration(calibration_path: Path | None) -> UnifiedAttackScorer:
-        path = calibration_path or (Path(os.environ["ARGUS_CALIBRATION_PATH"]) if os.environ.get("ARGUS_CALIBRATION_PATH") else None)
+        path = calibration_path or (Path(os.environ["ARGUS_CALIBRATION_PATH"]) if os.environ.get("ARGUS_CALIBRATION_PATH") else _default_calibration_path())
         if path is None or not path.exists():
             return UnifiedAttackScorer()
         try:

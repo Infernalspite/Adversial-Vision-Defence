@@ -1,0 +1,12 @@
+{
+  "clean_root": "data\\robust\\splits\\train",
+  "adversarial_root": null,
+  "output_dir": "data\\models",
+  "epochs": 6,
+  "batch_size": 32,
+  "learning_rate": 0.0003,
+  "attack_mode": "fgsm",
+  "train_epsilon": 0.0313725,
+  "adv_mix": 0.5,
+  "image_size": 224
+}

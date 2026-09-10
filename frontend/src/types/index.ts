@@ -157,8 +157,40 @@ export interface DecisionReasons {
   reasons: string[]
 }
 
+export interface PixelTraceSummary {
+  suspicion_mean: number
+  suspicion_max: number
+  suspicious_pixel_fraction: number
+  num_suspicious_regions: number
+  largest_region_area_fraction: number
+  trust_resolution: Record<string, number>
+}
+
+export interface PersonBox {
+  x1: number
+  y1: number
+  x2: number
+  y2: number
+  confidence: number
+}
+
+export interface PersonDetectionSummary {
+  detector_available: boolean
+  present: boolean
+  count: number
+  max_confidence: number
+  boxes: PersonBox[]
+  inference_time_ms: number
+}
+
 export interface ArgusAnalysisResult {
   request_id: string
+  tier: 'baseline' | 'robust'
+  tier_reason: string
+  matched_defended_class: string | null
+  person_detection: PersonDetectionSummary | null
+  suspicion_heatmap_reference: string
+  pixel_trace: PixelTraceSummary
   attack_score: number
   attack_detected: boolean
   attack_detection_threshold: number

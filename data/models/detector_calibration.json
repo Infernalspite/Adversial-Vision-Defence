@@ -1,0 +1,60 @@
+{
+  "schema": "argus.detector_calibration",
+  "version": 1,
+  "selected_weights": {
+    "feature_squeezing": 0.0,
+    "frequency_analysis": 0.0,
+    "confidence_instability": 1.0,
+    "saliency_analysis": 0.0
+  },
+  "selected_threshold": 0.35,
+  "logistic_regression": null,
+  "selected_metrics": {
+    "threshold": 0.35,
+    "tp": 270,
+    "fp": 48,
+    "tn": 202,
+    "fn": 623,
+    "tpr": 0.3023516237402016,
+    "fpr": 0.192,
+    "precision": 0.8490566037735849,
+    "recall": 0.3023516237402016,
+    "f1": 0.44591246903385634,
+    "objective": 0.39791246903385635
+  },
+  "logistic_metrics": null,
+  "search": {
+    "objective": "max(f1 - 0.25 * fpr)",
+    "fpr_constraint": 0.2,
+    "candidates_evaluated": 684,
+    "constraint_violations": 307,
+    "search_space": {
+      "thresholds": 19,
+      "weight_combinations": 35,
+      "logistic_enabled": true
+    },
+    "feature_order": [
+      "feature_squeezing",
+      "frequency_analysis",
+      "confidence_instability",
+      "saliency_analysis"
+    ]
+  },
+  "dataset": {
+    "model_tag": "baseline",
+    "clean": 250,
+    "attacked": 893,
+    "attack_configs": [
+      "fgsm_e16",
+      "fgsm_e2",
+      "fgsm_e4",
+      "fgsm_e8",
+      "patch_s0.15",
+      "patch_s0.3",
+      "pgd_e16",
+      "pgd_e2",
+      "pgd_e4",
+      "pgd_e8"
+    ]
+  }
+}

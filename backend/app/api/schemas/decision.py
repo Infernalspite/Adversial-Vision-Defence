@@ -36,10 +36,48 @@ class DecisionResponse(BaseModel):
     processing_time_ms: float = Field(ge=0)
 
 
+class PersonBoxResponse(BaseModel):
+    """One detected person instance in image pixel coordinates."""
+
+    x1: int
+    y1: int
+    x2: int
+    y2: int
+    confidence: float = Field(ge=0, le=1)
+
+
+class PersonDetectionResponse(BaseModel):
+    """Person-detector evidence for the analyzed image."""
+
+    detector_available: bool
+    present: bool
+    count: int = Field(ge=0)
+    max_confidence: float = Field(ge=0, le=1)
+    boxes: list[PersonBoxResponse] = Field(default_factory=list)
+    inference_time_ms: float = Field(ge=0)
+
+
+class PixelTraceSummary(BaseModel):
+    """Compact numeric trace of suspicion across the image."""
+
+    suspicion_mean: float = Field(ge=0, le=1)
+    suspicion_max: float = Field(ge=0, le=1)
+    suspicious_pixel_fraction: float = Field(ge=0, le=1)
+    num_suspicious_regions: int = Field(ge=0)
+    largest_region_area_fraction: float = Field(ge=0, le=1)
+    trust_resolution: dict[str, float]
+
+
 class AnalyzeResponse(BaseModel):
     """Complete Phase 3-7 response for the main API."""
 
     request_id: str
+    tier: str
+    tier_reason: str
+    matched_defended_class: str | None = None
+    person_detection: PersonDetectionResponse | None = None
+    suspicion_heatmap_reference: str
+    pixel_trace: PixelTraceSummary
     attack_score: float = Field(ge=0, le=1)
     attack_detected: bool
     attack_detection_threshold: float = Field(ge=0, le=1)

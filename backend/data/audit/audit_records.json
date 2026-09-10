@@ -500,5 +500,2978 @@
     },
     "record_hash": "f50a1fc76345f82b1f712d2b12b9bfc0997110d90d037f3c4413bf0ee10c4cc2",
     "previous_record_hash": "c0a22b32dd1b26e44cbf5d3238566ddc28b289a5c2f39511a97e77baeee75169"
+  },
+  {
+    "request_id": "a5d22b3e-7f2f-49b4-bdc4-62baea102c48",
+    "stage": "decision",
+    "message": "The system abstained because available evidence was insufficient to safely select an interpretation.",
+    "timestamp": "2026-09-09T10:03:26.775943+00:00",
+    "details": {
+      "original_prediction": "380",
+      "defended_prediction": "380",
+      "attack_score": 0.1034917507881545,
+      "trust_map": {
+        "global_trust_score": 1.0
+      },
+      "suspicious_regions": [],
+      "selected_defense": "none",
+      "verification_score": 1.0,
+      "final_state": "ABSTAIN",
+      "final_prediction": null,
+      "decision_reasons": [
+        "No defense produced a verified recovery result."
+      ],
+      "processing_time_ms": 79.70400000340305
+    },
+    "record_hash": "850cff003d0211bbaa301526b630f5796e90345adb32df667154351ab0195570",
+    "previous_record_hash": "f50a1fc76345f82b1f712d2b12b9bfc0997110d90d037f3c4413bf0ee10c4cc2"
+  },
+  {
+    "request_id": "1615525c-9533-4e59-9134-a3173a27b79b",
+    "stage": "decision",
+    "message": "The system abstained because available evidence was insufficient to safely select an interpretation.",
+    "timestamp": "2026-09-09T10:04:00.973855+00:00",
+    "details": {
+      "original_prediction": "420",
+      "defended_prediction": "420",
+      "attack_score": 0.1042709769801928,
+      "trust_map": {
+        "global_trust_score": 1.0
+      },
+      "suspicious_regions": [],
+      "selected_defense": "none",
+      "verification_score": 1.0,
+      "final_state": "ABSTAIN",
+      "final_prediction": null,
+      "decision_reasons": [
+        "No defense produced a verified recovery result."
+      ],
+      "processing_time_ms": 40.96320000826381
+    },
+    "record_hash": "e8c88e52915b2732cce45729b3ed96dd65dec54952cbd0337e082006ac9bb1e7",
+    "previous_record_hash": "850cff003d0211bbaa301526b630f5796e90345adb32df667154351ab0195570"
+  },
+  {
+    "request_id": "c02d2cfc-2bd4-432d-92f7-3bb596372127",
+    "stage": "decision",
+    "message": "The system abstained because available evidence was insufficient to safely select an interpretation.",
+    "timestamp": "2026-09-09T10:06:20.028390+00:00",
+    "details": {
+      "original_prediction": "928",
+      "defended_prediction": "928",
+      "attack_score": 0.10396000853788472,
+      "trust_map": {
+        "global_trust_score": 1.0
+      },
+      "suspicious_regions": [],
+      "selected_defense": "none",
+      "verification_score": 1.0,
+      "final_state": "ABSTAIN",
+      "final_prediction": null,
+      "decision_reasons": [
+        "No defense produced a verified recovery result."
+      ],
+      "processing_time_ms": 12.76030000008177
+    },
+    "record_hash": "53f799c047e1de799d0c20b63ee3491aa89170c15db7e7dbf54216ef5f45585e",
+    "previous_record_hash": "e8c88e52915b2732cce45729b3ed96dd65dec54952cbd0337e082006ac9bb1e7"
+  },
+  {
+    "request_id": "28e6e0ba-f963-42da-9868-d168d6f86089",
+    "stage": "decision",
+    "message": "The system abstained because available evidence was insufficient to safely select an interpretation.",
+    "timestamp": "2026-09-09T11:25:10.672198+00:00",
+    "details": {
+      "original_prediction": "car mirror",
+      "defended_prediction": "car mirror",
+      "attack_score": 0.14181687268344553,
+      "trust_map": {
+        "global_trust_score": 1.0
+      },
+      "suspicious_regions": [],
+      "selected_defense": "none",
+      "verification_score": 1.0,
+      "final_state": "ABSTAIN",
+      "final_prediction": null,
+      "decision_reasons": [
+        "No defense produced a verified recovery result."
+      ],
+      "processing_time_ms": 143.70010000129696
+    },
+    "record_hash": "90f2a8d6400bd998bab87b55f2801215695c75365dbf108cf4f5e7b8b5b1cb3c",
+    "previous_record_hash": "53f799c047e1de799d0c20b63ee3491aa89170c15db7e7dbf54216ef5f45585e"
+  },
+  {
+    "request_id": "7d86de1a-651c-4b8b-8fdf-43e59e2c92db",
+    "stage": "decision",
+    "message": "The system abstained because available evidence was insufficient to safely select an interpretation.",
+    "timestamp": "2026-09-09T11:25:10.762022+00:00",
+    "details": {
+      "original_prediction": "tench",
+      "defended_prediction": "tench",
+      "attack_score": 0.14183324481359472,
+      "trust_map": {
+        "global_trust_score": 1.0
+      },
+      "suspicious_regions": [],
+      "selected_defense": "none",
+      "verification_score": 1.0,
+      "final_state": "ABSTAIN",
+      "final_prediction": null,
+      "decision_reasons": [
+        "No defense produced a verified recovery result."
+      ],
+      "processing_time_ms": 11.90899999346584
+    },
+    "record_hash": "735b355dfb91aca1718a39f95a44a334d9a12642e5a480b4404d09dea5a8cf58",
+    "previous_record_hash": "90f2a8d6400bd998bab87b55f2801215695c75365dbf108cf4f5e7b8b5b1cb3c"
+  },
+  {
+    "request_id": "5a1bc5af-f645-4a27-9d1d-49f9a90bdff1",
+    "stage": "decision",
+    "message": "The system abstained because available evidence was insufficient to safely select an interpretation.",
+    "timestamp": "2026-09-09T11:32:46.153609+00:00",
+    "details": {
+      "original_prediction": "59",
+      "defended_prediction": "59",
+      "attack_score": 1.1081588668782037e-05,
+      "trust_map": {
+        "global_trust_score": 1.0
+      },
+      "suspicious_regions": [],
+      "selected_defense": "none",
+      "verification_score": 1.0,
+      "final_state": "ABSTAIN",
+      "final_prediction": null,
+      "decision_reasons": [
+        "No defense produced a verified recovery result."
+      ],
+      "processing_time_ms": 12.674200013861991
+    },
+    "record_hash": "13def900b306ceefd9e37a4c9727b0f19df93d6dc084e07b9216a700d8328d1f",
+    "previous_record_hash": "735b355dfb91aca1718a39f95a44a334d9a12642e5a480b4404d09dea5a8cf58"
+  },
+  {
+    "request_id": "6d66545a-7637-4e41-9a55-1d7e92b205ee",
+    "stage": "decision",
+    "message": "The system abstained because available evidence was insufficient to safely select an interpretation.",
+    "timestamp": "2026-09-09T11:32:46.518616+00:00",
+    "details": {
+      "original_prediction": "car mirror",
+      "defended_prediction": "car mirror",
+      "attack_score": 0.07500052775612853,
+      "trust_map": {
+        "global_trust_score": 0.7105584144592285
+      },
+      "suspicious_regions": [
+        {
+          "region_id": 1,
+          "x": 6,
+          "y": 26,
+          "width": 8,
+          "height": 6,
+          "area_pixels": 24,
+          "area_percentage": 2.34375,
+          "anomaly_score": 0.9282420501112938,
+          "trust_score": 0.07175794988870621
+        },
+        {
+          "region_id": 2,
+          "x": 20,
+          "y": 0,
+          "width": 10,
+          "height": 4,
+          "area_pixels": 20,
+          "area_percentage": 1.953125,
+          "anomaly_score": 0.904120683670044,
+          "trust_score": 0.09587931632995605
+        },
+        {
+          "region_id": 3,
+          "x": 12,
+          "y": 14,
+          "width": 8,
+          "height": 10,
+          "area_pixels": 24,
+          "area_percentage": 2.34375,
+          "anomaly_score": 0.898151271045208,
+          "trust_score": 0.10184872895479202
+        },
+        {
+          "region_id": 4,
+          "x": 0,
+          "y": 4,
+          "width": 4,
+          "height": 8,
+          "area_pixels": 16,
+          "area_percentage": 1.5625,
+          "anomaly_score": 0.8657595664262772,
+          "trust_score": 0.13424043357372284
+        },
+        {
+          "region_id": 5,
+          "x": 20,
+          "y": 18,
+          "width": 10,
+          "height": 10,
+          "area_pixels": 28,
+          "area_percentage": 2.734375,
+          "anomaly_score": 0.8537076264619827,
+          "trust_score": 0.14629237353801727
+        }
+      ],
+      "selected_defense": "none",
+      "verification_score": 1.0,
+      "final_state": "ABSTAIN",
+      "final_prediction": null,
+      "decision_reasons": [
+        "Adversarial evidence remained high.",
+        "No defense produced a verified recovery result."
+      ],
+      "processing_time_ms": 13.778299995465204
+    },
+    "record_hash": "9b931b335427f58ab0c37e6d06636f3b117c805b19674423e401c126a9ec6c97",
+    "previous_record_hash": "13def900b306ceefd9e37a4c9727b0f19df93d6dc084e07b9216a700d8328d1f"
+  },
+  {
+    "request_id": "66de890c-4512-4659-8129-03edaf33da22",
+    "stage": "decision",
+    "message": "The system abstained because available evidence was insufficient to safely select an interpretation.",
+    "timestamp": "2026-09-09T11:32:46.568757+00:00",
+    "details": {
+      "original_prediction": "tench",
+      "defended_prediction": "tench",
+      "attack_score": 0.07500101728264545,
+      "trust_map": {
+        "global_trust_score": 0.7204078435897827
+      },
+      "suspicious_regions": [
+        {
+          "region_id": 1,
+          "x": 6,
+          "y": 20,
+          "width": 10,
+          "height": 10,
+          "area_pixels": 36,
+          "area_percentage": 3.515625,
+          "anomaly_score": 0.9401069693267345,
+          "trust_score": 0.05989303067326546
+        },
+        {
+          "region_id": 2,
+          "x": 24,
+          "y": 4,
+          "width": 4,
+          "height": 6,
+          "area_pixels": 16,
+          "area_percentage": 1.5625,
+          "anomaly_score": 0.9325439035892487,
+          "trust_score": 0.06745609641075134
+        },
+        {
+          "region_id": 3,
+          "x": 0,
+          "y": 2,
+          "width": 6,
+          "height": 6,
+          "area_pixels": 16,
+          "area_percentage": 1.5625,
+          "anomaly_score": 0.8413546681404114,
+          "trust_score": 0.15864533185958862
+        },
+        {
+          "region_id": 4,
+          "x": 12,
+          "y": 6,
+          "width": 6,
+          "height": 10,
+          "area_pixels": 32,
+          "area_percentage": 3.125,
+          "anomaly_score": 0.832482323050499,
+          "trust_score": 0.16751767694950104
+        }
+      ],
+      "selected_defense": "none",
+      "verification_score": 1.0,
+      "final_state": "ABSTAIN",
+      "final_prediction": null,
+      "decision_reasons": [
+        "Adversarial evidence remained high.",
+        "No defense produced a verified recovery result."
+      ],
+      "processing_time_ms": 8.389900001930073
+    },
+    "record_hash": "fb77a44bceae6187f29fbfc81d3ca83e73b0eccfd7df1280233bbfd37771cc1a",
+    "previous_record_hash": "9b931b335427f58ab0c37e6d06636f3b117c805b19674423e401c126a9ec6c97"
+  },
+  {
+    "request_id": "868f881f-97e2-4bb3-855e-6e1993a6c883",
+    "stage": "decision",
+    "message": "The input remained below attack risk thresholds and its interpretation was strongly verified.",
+    "timestamp": "2026-09-09T12:00:07.641497+00:00",
+    "details": {
+      "original_prediction": "person",
+      "defended_prediction": "person",
+      "attack_score": 0.39528612256165385,
+      "trust_map": {
+        "global_trust_score": 1.0
+      },
+      "suspicious_regions": [],
+      "selected_defense": "transform",
+      "verification_score": 0.9494815323063321,
+      "final_state": "TRUSTED",
+      "final_prediction": "person",
+      "decision_reasons": [
+        "Attack evidence remained below the detection threshold.",
+        "Global trust exceeded the configured high-trust threshold.",
+        "Object, geometry, and scene verification were strong.",
+        "Original prediction confidence was sufficient."
+      ],
+      "processing_time_ms": 3202.4464999849442
+    },
+    "record_hash": "f9fb63f4539c7955192e6b9094db62e2770b5d180a1d5c694628c194cf466c1b",
+    "previous_record_hash": "fb77a44bceae6187f29fbfc81d3ca83e73b0eccfd7df1280233bbfd37771cc1a"
+  },
+  {
+    "request_id": "aac814b7-6be1-4238-9675-9a32e8aff0f6",
+    "stage": "decision",
+    "message": "The input remained below attack risk thresholds and its interpretation was strongly verified.",
+    "timestamp": "2026-09-09T12:01:49.482778+00:00",
+    "details": {
+      "original_prediction": "person",
+      "defended_prediction": "person",
+      "attack_score": 0.39528612256165385,
+      "trust_map": {
+        "global_trust_score": 1.0
+      },
+      "suspicious_regions": [],
+      "selected_defense": "transform",
+      "verification_score": 0.9494815323063321,
+      "final_state": "TRUSTED",
+      "final_prediction": "person",
+      "decision_reasons": [
+        "Attack evidence remained below the detection threshold.",
+        "Global trust exceeded the configured high-trust threshold.",
+        "Object, geometry, and scene verification were strong.",
+        "Original prediction confidence was sufficient."
+      ],
+      "processing_time_ms": 2906.3727000029758
+    },
+    "record_hash": "99f67f2e87ace34e42121722e52aecb0ed761ba0ba96d57699a7fb135b6d5f75",
+    "previous_record_hash": "f9fb63f4539c7955192e6b9094db62e2770b5d180a1d5c694628c194cf466c1b"
+  },
+  {
+    "request_id": "716844d9-8d3f-4e9c-b0aa-5e5e30deaaaa",
+    "stage": "decision",
+    "message": "The input remained below attack risk thresholds and its interpretation was strongly verified.",
+    "timestamp": "2026-09-09T12:03:02.529582+00:00",
+    "details": {
+      "original_prediction": "person",
+      "defended_prediction": "person",
+      "attack_score": 0.1627150508605191,
+      "trust_map": {
+        "global_trust_score": 1.0
+      },
+      "suspicious_regions": [],
+      "selected_defense": "none",
+      "verification_score": 1.0,
+      "final_state": "TRUSTED",
+      "final_prediction": "person",
+      "decision_reasons": [
+        "Attack evidence remained below the detection threshold.",
+        "Global trust exceeded the configured high-trust threshold.",
+        "Object, geometry, and scene verification were strong.",
+        "Original prediction confidence was sufficient."
+      ],
+      "processing_time_ms": 1892.7307999983896
+    },
+    "record_hash": "5fe5289b1bdaf4458d657131ee2ac1c73f6e9ce1cc80bbc21176e8d2ea185f76",
+    "previous_record_hash": "99f67f2e87ace34e42121722e52aecb0ed761ba0ba96d57699a7fb135b6d5f75"
+  },
+  {
+    "request_id": "a12bab48-bfa9-44ad-8d84-1f2f12fca073",
+    "stage": "decision",
+    "message": "The input remained below attack risk thresholds and its interpretation was strongly verified.",
+    "timestamp": "2026-09-09T12:03:46.843023+00:00",
+    "details": {
+      "original_prediction": "person",
+      "defended_prediction": "person",
+      "attack_score": 0.23802982433226738,
+      "trust_map": {
+        "global_trust_score": 1.0
+      },
+      "suspicious_regions": [],
+      "selected_defense": "none",
+      "verification_score": 1.0,
+      "final_state": "TRUSTED",
+      "final_prediction": "person",
+      "decision_reasons": [
+        "Attack evidence remained below the detection threshold.",
+        "Global trust exceeded the configured high-trust threshold.",
+        "Object, geometry, and scene verification were strong.",
+        "Original prediction confidence was sufficient."
+      ],
+      "processing_time_ms": 2420.913700014353
+    },
+    "record_hash": "f1dee92737f726f9af5a1e4bddd420a1b14e56715ae074b13f8c042002f289be",
+    "previous_record_hash": "5fe5289b1bdaf4458d657131ee2ac1c73f6e9ce1cc80bbc21176e8d2ea185f76"
+  },
+  {
+    "request_id": "9f374213-f5a0-4320-9a02-5a017f6bdaa8",
+    "stage": "decision",
+    "message": "The input remained below attack risk thresholds and its interpretation was strongly verified.",
+    "timestamp": "2026-09-09T12:07:09.563871+00:00",
+    "details": {
+      "original_prediction": "person",
+      "defended_prediction": "person",
+      "attack_score": 0.1627150508605191,
+      "trust_map": {
+        "global_trust_score": 1.0
+      },
+      "suspicious_regions": [],
+      "selected_defense": "none",
+      "verification_score": 1.0,
+      "final_state": "TRUSTED",
+      "final_prediction": "person",
+      "decision_reasons": [
+        "Attack evidence remained below the detection threshold.",
+        "Global trust exceeded the configured high-trust threshold.",
+        "Object, geometry, and scene verification were strong.",
+        "Original prediction confidence was sufficient."
+      ],
+      "processing_time_ms": 2074.666700005764
+    },
+    "record_hash": "3a88bd441d496dee33f2d9fb84a62193308950f0f6834d51c7377d7133eccb69",
+    "previous_record_hash": "f1dee92737f726f9af5a1e4bddd420a1b14e56715ae074b13f8c042002f289be"
+  },
+  {
+    "request_id": "62d6fad4-c528-4bf0-ab15-ca25ce601673",
+    "stage": "decision",
+    "message": "The system abstained because available evidence was insufficient to safely select an interpretation.",
+    "timestamp": "2026-09-09T12:10:25.525688+00:00",
+    "details": {
+      "original_prediction": "car mirror",
+      "defended_prediction": "car mirror",
+      "attack_score": 0.07500065671619882,
+      "trust_map": {
+        "global_trust_score": 0.7046312093734741
+      },
+      "suspicious_regions": [
+        {
+          "region_id": 1,
+          "x": 4,
+          "y": 2,
+          "width": 6,
+          "height": 8,
+          "area_pixels": 20,
+          "area_percentage": 1.953125,
+          "anomaly_score": 0.9945807931944728,
+          "trust_score": 0.00541920680552721
+        },
+        {
+          "region_id": 2,
+          "x": 8,
+          "y": 16,
+          "width": 6,
+          "height": 6,
+          "area_pixels": 16,
+          "area_percentage": 1.5625,
+          "anomaly_score": 0.9756204932928085,
+          "trust_score": 0.024379506707191467
+        },
+        {
+          "region_id": 3,
+          "x": 18,
+          "y": 4,
+          "width": 8,
+          "height": 8,
+          "area_pixels": 32,
+          "area_percentage": 3.125,
+          "anomaly_score": 0.9283325970172882,
+          "trust_score": 0.07166740298271179
+        },
+        {
+          "region_id": 4,
+          "x": 0,
+          "y": 26,
+          "width": 8,
+          "height": 4,
+          "area_pixels": 20,
+          "area_percentage": 1.953125,
+          "anomaly_score": 0.9121818989515305,
+          "trust_score": 0.08781810104846954
+        },
+        {
+          "region_id": 5,
+          "x": 10,
+          "y": 0,
+          "width": 8,
+          "height": 8,
+          "area_pixels": 24,
+          "area_percentage": 2.34375,
+          "anomaly_score": 0.8944246172904968,
+          "trust_score": 0.10557538270950317
+        }
+      ],
+      "selected_defense": "none",
+      "verification_score": 1.0,
+      "final_state": "ABSTAIN",
+      "final_prediction": null,
+      "decision_reasons": [
+        "Adversarial evidence remained high.",
+        "No defense produced a verified recovery result."
+      ],
+      "processing_time_ms": 69.84090000332799
+    },
+    "record_hash": "e476e916cb970dace08cda479b518f7a26187dbf7e726ba62f14420cee1ae5f7",
+    "previous_record_hash": "3a88bd441d496dee33f2d9fb84a62193308950f0f6834d51c7377d7133eccb69"
+  },
+  {
+    "request_id": "45bc5b39-e069-4c8a-a149-90588490d74d",
+    "stage": "decision",
+    "message": "The system abstained because available evidence was insufficient to safely select an interpretation.",
+    "timestamp": "2026-09-09T12:10:25.610280+00:00",
+    "details": {
+      "original_prediction": "tench",
+      "defended_prediction": "tench",
+      "attack_score": 0.07500043482216305,
+      "trust_map": {
+        "global_trust_score": 0.7173117399215698
+      },
+      "suspicious_regions": [
+        {
+          "region_id": 1,
+          "x": 26,
+          "y": 12,
+          "width": 6,
+          "height": 6,
+          "area_pixels": 16,
+          "area_percentage": 1.5625,
+          "anomaly_score": 0.9720335453748703,
+          "trust_score": 0.0279664546251297
+        },
+        {
+          "region_id": 2,
+          "x": 2,
+          "y": 4,
+          "width": 6,
+          "height": 6,
+          "area_pixels": 16,
+          "area_percentage": 1.5625,
+          "anomaly_score": 0.9630821198225021,
+          "trust_score": 0.036917880177497864
+        },
+        {
+          "region_id": 3,
+          "x": 12,
+          "y": 0,
+          "width": 6,
+          "height": 10,
+          "area_pixels": 24,
+          "area_percentage": 2.34375,
+          "anomaly_score": 0.916769452393055,
+          "trust_score": 0.08323054760694504
+        },
+        {
+          "region_id": 4,
+          "x": 0,
+          "y": 18,
+          "width": 14,
+          "height": 6,
+          "area_pixels": 28,
+          "area_percentage": 2.734375,
+          "anomaly_score": 0.8800556287169456,
+          "trust_score": 0.11994437128305435
+        },
+        {
+          "region_id": 5,
+          "x": 10,
+          "y": 10,
+          "width": 4,
+          "height": 8,
+          "area_pixels": 20,
+          "area_percentage": 1.953125,
+          "anomaly_score": 0.8705641627311707,
+          "trust_score": 0.12943583726882935
+        }
+      ],
+      "selected_defense": "none",
+      "verification_score": 1.0,
+      "final_state": "ABSTAIN",
+      "final_prediction": null,
+      "decision_reasons": [
+        "Adversarial evidence remained high.",
+        "No defense produced a verified recovery result."
+      ],
+      "processing_time_ms": 16.557700000703335
+    },
+    "record_hash": "edccaf260ec756c1ecbb1cf7691bb52519c5bd3ecbae9a14ed88ab957a5abc46",
+    "previous_record_hash": "e476e916cb970dace08cda479b518f7a26187dbf7e726ba62f14420cee1ae5f7"
+  },
+  {
+    "request_id": "af94402a-da33-4d7a-b0f9-da1db5291736",
+    "stage": "decision",
+    "message": "The system abstained because available evidence was insufficient to safely select an interpretation.",
+    "timestamp": "2026-09-09T12:10:25.665318+00:00",
+    "details": {
+      "original_prediction": "429",
+      "defended_prediction": "429",
+      "attack_score": 2.0680296160460727e-05,
+      "trust_map": {
+        "global_trust_score": 1.0
+      },
+      "suspicious_regions": [],
+      "selected_defense": "none",
+      "verification_score": 1.0,
+      "final_state": "ABSTAIN",
+      "final_prediction": null,
+      "decision_reasons": [
+        "No defense produced a verified recovery result."
+      ],
+      "processing_time_ms": 12.318900000536814
+    },
+    "record_hash": "d30b9d0346074c4fc3883c369b34e4f508cd255b8baf7c111e0bc2efc765c2bf",
+    "previous_record_hash": "edccaf260ec756c1ecbb1cf7691bb52519c5bd3ecbae9a14ed88ab957a5abc46"
+  },
+  {
+    "request_id": "f57d131d-0edf-49b9-b6da-0ff52f174cfd",
+    "stage": "decision",
+    "message": "The system abstained because available evidence was insufficient to safely select an interpretation.",
+    "timestamp": "2026-09-09T12:11:04.698581+00:00",
+    "details": {
+      "original_prediction": "636",
+      "defended_prediction": "636",
+      "attack_score": 1.4582641514141213e-05,
+      "trust_map": {
+        "global_trust_score": 1.0
+      },
+      "suspicious_regions": [],
+      "selected_defense": "none",
+      "verification_score": 1.0,
+      "final_state": "ABSTAIN",
+      "final_prediction": null,
+      "decision_reasons": [
+        "No defense produced a verified recovery result."
+      ],
+      "processing_time_ms": 22.7487999945879
+    },
+    "record_hash": "1b01f7134d3b4f29e908c8a20b0b370e28c21987d61cfd7ef29b45136e1442e2",
+    "previous_record_hash": "d30b9d0346074c4fc3883c369b34e4f508cd255b8baf7c111e0bc2efc765c2bf"
+  },
+  {
+    "request_id": "759f7663-bbab-445d-8378-ec9993e80398",
+    "stage": "decision",
+    "message": "The system abstained because available evidence was insufficient to safely select an interpretation.",
+    "timestamp": "2026-09-09T12:11:05.185785+00:00",
+    "details": {
+      "original_prediction": "car mirror",
+      "defended_prediction": "car mirror",
+      "attack_score": 0.07500058558100944,
+      "trust_map": {
+        "global_trust_score": 0.7012106776237488
+      },
+      "suspicious_regions": [
+        {
+          "region_id": 1,
+          "x": 6,
+          "y": 16,
+          "width": 6,
+          "height": 8,
+          "area_pixels": 16,
+          "area_percentage": 1.5625,
+          "anomaly_score": 0.8896190077066422,
+          "trust_score": 0.11038099229335785
+        },
+        {
+          "region_id": 2,
+          "x": 12,
+          "y": 2,
+          "width": 6,
+          "height": 14,
+          "area_pixels": 40,
+          "area_percentage": 3.90625,
+          "anomaly_score": 0.8852514997124672,
+          "trust_score": 0.1147485002875328
+        },
+        {
+          "region_id": 3,
+          "x": 0,
+          "y": 10,
+          "width": 4,
+          "height": 10,
+          "area_pixels": 20,
+          "area_percentage": 1.953125,
+          "anomaly_score": 0.879001572728157,
+          "trust_score": 0.12099842727184296
+        },
+        {
+          "region_id": 4,
+          "x": 20,
+          "y": 10,
+          "width": 12,
+          "height": 6,
+          "area_pixels": 32,
+          "area_percentage": 3.125,
+          "anomaly_score": 0.8758502453565598,
+          "trust_score": 0.12414975464344025
+        }
+      ],
+      "selected_defense": "none",
+      "verification_score": 1.0,
+      "final_state": "ABSTAIN",
+      "final_prediction": null,
+      "decision_reasons": [
+        "Adversarial evidence remained high.",
+        "No defense produced a verified recovery result."
+      ],
+      "processing_time_ms": 18.838700008927844
+    },
+    "record_hash": "6d1c051e8f416dd1f3113b89d382697d9845b7c884ac08612c07268227d1105d",
+    "previous_record_hash": "1b01f7134d3b4f29e908c8a20b0b370e28c21987d61cfd7ef29b45136e1442e2"
+  },
+  {
+    "request_id": "5e214871-8989-48f5-8954-7f47c246d0d9",
+    "stage": "decision",
+    "message": "The system abstained because available evidence was insufficient to safely select an interpretation.",
+    "timestamp": "2026-09-09T12:11:05.249124+00:00",
+    "details": {
+      "original_prediction": "tench",
+      "defended_prediction": "tench",
+      "attack_score": 0.0750007584786825,
+      "trust_map": {
+        "global_trust_score": 0.7033449411392212
+      },
+      "suspicious_regions": [
+        {
+          "region_id": 1,
+          "x": 4,
+          "y": 20,
+          "width": 4,
+          "height": 8,
+          "area_pixels": 16,
+          "area_percentage": 1.5625,
+          "anomaly_score": 0.9329752177000046,
+          "trust_score": 0.06702478229999542
+        },
+        {
+          "region_id": 2,
+          "x": 16,
+          "y": 0,
+          "width": 8,
+          "height": 10,
+          "area_pixels": 36,
+          "area_percentage": 3.515625,
+          "anomaly_score": 0.9295781627297401,
+          "trust_score": 0.07042183727025986
+        },
+        {
+          "region_id": 3,
+          "x": 26,
+          "y": 0,
+          "width": 6,
+          "height": 8,
+          "area_pixels": 16,
+          "area_percentage": 1.5625,
+          "anomaly_score": 0.912417009472847,
+          "trust_score": 0.08758299052715302
+        },
+        {
+          "region_id": 4,
+          "x": 26,
+          "y": 26,
+          "width": 4,
+          "height": 6,
+          "area_pixels": 16,
+          "area_percentage": 1.5625,
+          "anomaly_score": 0.862119659781456,
+          "trust_score": 0.137880340218544
+        },
+        {
+          "region_id": 5,
+          "x": 22,
+          "y": 10,
+          "width": 4,
+          "height": 8,
+          "area_pixels": 16,
+          "area_percentage": 1.5625,
+          "anomaly_score": 0.857039138674736,
+          "trust_score": 0.14296086132526398
+        },
+        {
+          "region_id": 6,
+          "x": 22,
+          "y": 22,
+          "width": 6,
+          "height": 4,
+          "area_pixels": 16,
+          "area_percentage": 1.5625,
+          "anomaly_score": 0.7371068894863129,
+          "trust_score": 0.26289311051368713
+        }
+      ],
+      "selected_defense": "none",
+      "verification_score": 1.0,
+      "final_state": "ABSTAIN",
+      "final_prediction": null,
+      "decision_reasons": [
+        "Adversarial evidence remained high.",
+        "No defense produced a verified recovery result."
+      ],
+      "processing_time_ms": 12.610199992195703
+    },
+    "record_hash": "26b5ca84363bab1d665622f7af565ebcfa24d8065a11c165f07a4b833c365c1b",
+    "previous_record_hash": "6d1c051e8f416dd1f3113b89d382697d9845b7c884ac08612c07268227d1105d"
+  },
+  {
+    "request_id": "7147b505-46d7-4229-a9ff-fdc337d25932",
+    "stage": "decision",
+    "message": "The input remained below attack risk thresholds and its interpretation was strongly verified.",
+    "timestamp": "2026-09-09T12:18:13.224896+00:00",
+    "details": {
+      "original_prediction": "person",
+      "defended_prediction": "person",
+      "attack_score": 0.1627150508605191,
+      "trust_map": {
+        "global_trust_score": 1.0
+      },
+      "suspicious_regions": [],
+      "selected_defense": "none",
+      "verification_score": 1.0,
+      "final_state": "TRUSTED",
+      "final_prediction": "person",
+      "decision_reasons": [
+        "Attack evidence remained below the detection threshold.",
+        "Global trust exceeded the configured high-trust threshold.",
+        "Object, geometry, and scene verification were strong.",
+        "Original prediction confidence was sufficient."
+      ],
+      "processing_time_ms": 1346.1777000047732
+    },
+    "record_hash": "c2ddccf55c2e51b483340c7445447dcde0091c342b1013bbd6474df75e5de4d0",
+    "previous_record_hash": "26b5ca84363bab1d665622f7af565ebcfa24d8065a11c165f07a4b833c365c1b"
+  },
+  {
+    "request_id": "9b44006b-1c2f-4593-bd30-c2be1bbcd859",
+    "stage": "decision",
+    "message": "The input remained below attack risk thresholds and its interpretation was strongly verified.",
+    "timestamp": "2026-09-09T12:18:29.103632+00:00",
+    "details": {
+      "original_prediction": "person",
+      "defended_prediction": "person",
+      "attack_score": 0.1627150508605191,
+      "trust_map": {
+        "global_trust_score": 1.0
+      },
+      "suspicious_regions": [],
+      "selected_defense": "none",
+      "verification_score": 1.0,
+      "final_state": "TRUSTED",
+      "final_prediction": "person",
+      "decision_reasons": [
+        "Attack evidence remained below the detection threshold.",
+        "Global trust exceeded the configured high-trust threshold.",
+        "Object, geometry, and scene verification were strong.",
+        "Original prediction confidence was sufficient."
+      ],
+      "processing_time_ms": 1065.129100010381
+    },
+    "record_hash": "6d843db00b89823ed2714839af667ad5bd8c264bd502a81e6850425c189e7593",
+    "previous_record_hash": "c2ddccf55c2e51b483340c7445447dcde0091c342b1013bbd6474df75e5de4d0"
+  },
+  {
+    "request_id": "695dcc6c-5133-4dd3-b3a6-16a66e2d163a",
+    "stage": "decision",
+    "message": "The system abstained because available evidence was insufficient to safely select an interpretation.",
+    "timestamp": "2026-09-09T12:43:51.350195+00:00",
+    "details": {
+      "original_prediction": "263",
+      "defended_prediction": "263",
+      "attack_score": 1.6094386623810687e-05,
+      "trust_map": {
+        "global_trust_score": 1.0
+      },
+      "suspicious_regions": [],
+      "selected_defense": "none",
+      "verification_score": 1.0,
+      "final_state": "ABSTAIN",
+      "final_prediction": null,
+      "decision_reasons": [
+        "No defense produced a verified recovery result."
+      ],
+      "processing_time_ms": 16.11589999811258
+    },
+    "record_hash": "8e72669926e8e7a98d41bccdde0f0f9ce9ed7f84c4c51a15c2305477efd37f2d",
+    "previous_record_hash": "6d843db00b89823ed2714839af667ad5bd8c264bd502a81e6850425c189e7593"
+  },
+  {
+    "request_id": "6c8b7979-1dce-42fd-9ec9-724be67ebc37",
+    "stage": "decision",
+    "message": "The system abstained because available evidence was insufficient to safely select an interpretation.",
+    "timestamp": "2026-09-09T12:43:52.566491+00:00",
+    "details": {
+      "original_prediction": "car mirror",
+      "defended_prediction": "car mirror",
+      "attack_score": 0.07500051902977038,
+      "trust_map": {
+        "global_trust_score": 0.6780463457107544
+      },
+      "suspicious_regions": [
+        {
+          "region_id": 1,
+          "x": 24,
+          "y": 0,
+          "width": 8,
+          "height": 10,
+          "area_pixels": 32,
+          "area_percentage": 3.125,
+          "anomaly_score": 0.9191284403204918,
+          "trust_score": 0.08087155967950821
+        },
+        {
+          "region_id": 2,
+          "x": 4,
+          "y": 0,
+          "width": 8,
+          "height": 4,
+          "area_pixels": 16,
+          "area_percentage": 1.5625,
+          "anomaly_score": 0.9150406718254089,
+          "trust_score": 0.08495932817459106
+        },
+        {
+          "region_id": 3,
+          "x": 2,
+          "y": 4,
+          "width": 10,
+          "height": 14,
+          "area_pixels": 48,
+          "area_percentage": 4.6875,
+          "anomaly_score": 0.8880551680922508,
+          "trust_score": 0.11194483190774918
+        },
+        {
+          "region_id": 4,
+          "x": 16,
+          "y": 10,
+          "width": 6,
+          "height": 6,
+          "area_pixels": 16,
+          "area_percentage": 1.5625,
+          "anomaly_score": 0.8577499687671661,
+          "trust_score": 0.14225003123283386
+        },
+        {
+          "region_id": 5,
+          "x": 26,
+          "y": 18,
+          "width": 6,
+          "height": 8,
+          "area_pixels": 24,
+          "area_percentage": 2.34375,
+          "anomaly_score": 0.8559110015630722,
+          "trust_score": 0.1440889984369278
+        },
+        {
+          "region_id": 6,
+          "x": 14,
+          "y": 18,
+          "width": 8,
+          "height": 6,
+          "area_pixels": 20,
+          "area_percentage": 1.953125,
+          "anomaly_score": 0.7960337698459625,
+          "trust_score": 0.20396623015403748
+        }
+      ],
+      "selected_defense": "none",
+      "verification_score": 1.0,
+      "final_state": "ABSTAIN",
+      "final_prediction": null,
+      "decision_reasons": [
+        "Adversarial evidence remained high.",
+        "No defense produced a verified recovery result."
+      ],
+      "processing_time_ms": 10.52529999287799
+    },
+    "record_hash": "9900fe065d7cf8485dff5e2f6894f4632cfc0c26b1e8667ea753cf63e0a65503",
+    "previous_record_hash": "8e72669926e8e7a98d41bccdde0f0f9ce9ed7f84c4c51a15c2305477efd37f2d"
+  },
+  {
+    "request_id": "320ada65-7e53-4b1f-8e38-2163ba741741",
+    "stage": "decision",
+    "message": "The system abstained because available evidence was insufficient to safely select an interpretation.",
+    "timestamp": "2026-09-09T12:43:53.450636+00:00",
+    "details": {
+      "original_prediction": "tench",
+      "defended_prediction": "tench",
+      "attack_score": 0.07500042096866233,
+      "trust_map": {
+        "global_trust_score": 0.7022963166236877
+      },
+      "suspicious_regions": [
+        {
+          "region_id": 1,
+          "x": 22,
+          "y": 22,
+          "width": 6,
+          "height": 4,
+          "area_pixels": 16,
+          "area_percentage": 1.5625,
+          "anomaly_score": 0.9549793154001236,
+          "trust_score": 0.045020684599876404
+        },
+        {
+          "region_id": 2,
+          "x": 12,
+          "y": 22,
+          "width": 20,
+          "height": 10,
+          "area_pixels": 48,
+          "area_percentage": 4.6875,
+          "anomaly_score": 0.9125113263726234,
+          "trust_score": 0.08748867362737656
+        },
+        {
+          "region_id": 3,
+          "x": 0,
+          "y": 16,
+          "width": 8,
+          "height": 6,
+          "area_pixels": 16,
+          "area_percentage": 1.5625,
+          "anomaly_score": 0.9047118723392487,
+          "trust_score": 0.09528812766075134
+        },
+        {
+          "region_id": 4,
+          "x": 16,
+          "y": 2,
+          "width": 12,
+          "height": 14,
+          "area_pixels": 48,
+          "area_percentage": 4.6875,
+          "anomaly_score": 0.9023347571492195,
+          "trust_score": 0.09766524285078049
+        },
+        {
+          "region_id": 5,
+          "x": 8,
+          "y": 2,
+          "width": 6,
+          "height": 10,
+          "area_pixels": 28,
+          "area_percentage": 2.734375,
+          "anomaly_score": 0.8564937263727188,
+          "trust_score": 0.1435062736272812
+        }
+      ],
+      "selected_defense": "none",
+      "verification_score": 1.0,
+      "final_state": "ABSTAIN",
+      "final_prediction": null,
+      "decision_reasons": [
+        "Adversarial evidence remained high.",
+        "No defense produced a verified recovery result."
+      ],
+      "processing_time_ms": 11.374599998816848
+    },
+    "record_hash": "e53dd9051e43aa8dfd3a4e9b71a1e5cb66cee347c29d2194800386255f475b28",
+    "previous_record_hash": "9900fe065d7cf8485dff5e2f6894f4632cfc0c26b1e8667ea753cf63e0a65503"
+  },
+  {
+    "request_id": "e36de087-d963-4109-aa18-f602171b81fd",
+    "stage": "decision",
+    "message": "The system abstained because available evidence was insufficient to safely select an interpretation.",
+    "timestamp": "2026-09-09T12:44:45.521876+00:00",
+    "details": {
+      "original_prediction": "105",
+      "defended_prediction": "105",
+      "attack_score": 1.923685429492405e-05,
+      "trust_map": {
+        "global_trust_score": 1.0
+      },
+      "suspicious_regions": [],
+      "selected_defense": "none",
+      "verification_score": 1.0,
+      "final_state": "ABSTAIN",
+      "final_prediction": null,
+      "decision_reasons": [
+        "No defense produced a verified recovery result."
+      ],
+      "processing_time_ms": 8.538200010661967
+    },
+    "record_hash": "8e74244cb2914a01497912c499d3bedfb6c50c6a3d4ec860ead75ddb2eacc832",
+    "previous_record_hash": "e53dd9051e43aa8dfd3a4e9b71a1e5cb66cee347c29d2194800386255f475b28"
+  },
+  {
+    "request_id": "e3f3844b-9501-4f28-8704-30ad578789cf",
+    "stage": "decision",
+    "message": "The system abstained because available evidence was insufficient to safely select an interpretation.",
+    "timestamp": "2026-09-09T12:44:46.650014+00:00",
+    "details": {
+      "original_prediction": "car mirror",
+      "defended_prediction": "car mirror",
+      "attack_score": 0.07500069610373068,
+      "trust_map": {
+        "global_trust_score": 0.6900160312652588
+      },
+      "suspicious_regions": [
+        {
+          "region_id": 1,
+          "x": 0,
+          "y": 18,
+          "width": 6,
+          "height": 8,
+          "area_pixels": 20,
+          "area_percentage": 1.953125,
+          "anomaly_score": 0.949158750474453,
+          "trust_score": 0.05084124952554703
+        },
+        {
+          "region_id": 2,
+          "x": 20,
+          "y": 6,
+          "width": 12,
+          "height": 8,
+          "area_pixels": 40,
+          "area_percentage": 3.90625,
+          "anomaly_score": 0.9194833785295486,
+          "trust_score": 0.08051662147045135
+        },
+        {
+          "region_id": 3,
+          "x": 8,
+          "y": 8,
+          "width": 6,
+          "height": 6,
+          "area_pixels": 24,
+          "area_percentage": 2.34375,
+          "anomaly_score": 0.8930482640862465,
+          "trust_score": 0.10695173591375351
+        },
+        {
+          "region_id": 4,
+          "x": 24,
+          "y": 18,
+          "width": 8,
+          "height": 10,
+          "area_pixels": 32,
+          "area_percentage": 3.125,
+          "anomaly_score": 0.8883030787110329,
+          "trust_score": 0.11169692128896713
+        },
+        {
+          "region_id": 5,
+          "x": 0,
+          "y": 4,
+          "width": 8,
+          "height": 4,
+          "area_pixels": 20,
+          "area_percentage": 1.953125,
+          "anomaly_score": 0.8736936897039413,
+          "trust_score": 0.12630631029605865
+        },
+        {
+          "region_id": 6,
+          "x": 2,
+          "y": 26,
+          "width": 8,
+          "height": 6,
+          "area_pixels": 24,
+          "area_percentage": 2.34375,
+          "anomaly_score": 0.8568225502967834,
+          "trust_score": 0.14317744970321655
+        },
+        {
+          "region_id": 7,
+          "x": 26,
+          "y": 0,
+          "width": 6,
+          "height": 6,
+          "area_pixels": 16,
+          "area_percentage": 1.5625,
+          "anomaly_score": 0.8479575216770172,
+          "trust_score": 0.1520424783229828
+        }
+      ],
+      "selected_defense": "none",
+      "verification_score": 1.0,
+      "final_state": "ABSTAIN",
+      "final_prediction": null,
+      "decision_reasons": [
+        "Adversarial evidence remained high.",
+        "No defense produced a verified recovery result."
+      ],
+      "processing_time_ms": 9.232199998223223
+    },
+    "record_hash": "cc6b7c76bc7384f6048eceac94778ef1b23fb26c79367393c46be1b664243e70",
+    "previous_record_hash": "8e74244cb2914a01497912c499d3bedfb6c50c6a3d4ec860ead75ddb2eacc832"
+  },
+  {
+    "request_id": "ccc04492-2de8-4aff-9c32-ce7617f87f5b",
+    "stage": "decision",
+    "message": "The system abstained because available evidence was insufficient to safely select an interpretation.",
+    "timestamp": "2026-09-09T12:44:47.545211+00:00",
+    "details": {
+      "original_prediction": "tench",
+      "defended_prediction": "tench",
+      "attack_score": 0.07500054741590405,
+      "trust_map": {
+        "global_trust_score": 0.7194035053253174
+      },
+      "suspicious_regions": [
+        {
+          "region_id": 1,
+          "x": 24,
+          "y": 2,
+          "width": 8,
+          "height": 12,
+          "area_pixels": 24,
+          "area_percentage": 2.34375,
+          "anomaly_score": 0.9235723242163658,
+          "trust_score": 0.07642767578363419
+        },
+        {
+          "region_id": 2,
+          "x": 6,
+          "y": 10,
+          "width": 4,
+          "height": 8,
+          "area_pixels": 20,
+          "area_percentage": 1.953125,
+          "anomaly_score": 0.9112790673971176,
+          "trust_score": 0.08872093260288239
+        },
+        {
+          "region_id": 3,
+          "x": 0,
+          "y": 0,
+          "width": 6,
+          "height": 10,
+          "area_pixels": 28,
+          "area_percentage": 2.734375,
+          "anomaly_score": 0.8800700977444649,
+          "trust_score": 0.11992990225553513
+        },
+        {
+          "region_id": 4,
+          "x": 12,
+          "y": 16,
+          "width": 6,
+          "height": 14,
+          "area_pixels": 32,
+          "area_percentage": 3.125,
+          "anomaly_score": 0.864628478884697,
+          "trust_score": 0.13537152111530304
+        },
+        {
+          "region_id": 5,
+          "x": 0,
+          "y": 20,
+          "width": 8,
+          "height": 6,
+          "area_pixels": 20,
+          "area_percentage": 1.953125,
+          "anomaly_score": 0.8293967992067337,
+          "trust_score": 0.1706032007932663
+        }
+      ],
+      "selected_defense": "none",
+      "verification_score": 1.0,
+      "final_state": "ABSTAIN",
+      "final_prediction": null,
+      "decision_reasons": [
+        "Adversarial evidence remained high.",
+        "No defense produced a verified recovery result."
+      ],
+      "processing_time_ms": 10.114599994267337
+    },
+    "record_hash": "d5ca65d85124fc9402d01a3f04578f7357b73c926d8e167bbaf897d44bfe4d8b",
+    "previous_record_hash": "cc6b7c76bc7384f6048eceac94778ef1b23fb26c79367393c46be1b664243e70"
+  },
+  {
+    "request_id": "d0d16c44-3677-47f3-aaf0-6061c9cb845f",
+    "stage": "decision",
+    "message": "The system abstained because available evidence was insufficient to safely select an interpretation.",
+    "timestamp": "2026-09-09T12:45:18.431940+00:00",
+    "details": {
+      "original_prediction": "car mirror",
+      "defended_prediction": "car mirror",
+      "attack_score": 0.07500021425299834,
+      "trust_map": {
+        "global_trust_score": 0.7310336828231812
+      },
+      "suspicious_regions": [
+        {
+          "region_id": 1,
+          "x": 2,
+          "y": 28,
+          "width": 8,
+          "height": 4,
+          "area_pixels": 24,
+          "area_percentage": 2.34375,
+          "anomaly_score": 0.8985775038599968,
+          "trust_score": 0.1014224961400032
+        },
+        {
+          "region_id": 2,
+          "x": 18,
+          "y": 4,
+          "width": 14,
+          "height": 8,
+          "area_pixels": 36,
+          "area_percentage": 3.515625,
+          "anomaly_score": 0.8931072801351547,
+          "trust_score": 0.10689271986484528
+        },
+        {
+          "region_id": 3,
+          "x": 8,
+          "y": 20,
+          "width": 4,
+          "height": 8,
+          "area_pixels": 16,
+          "area_percentage": 1.5625,
+          "anomaly_score": 0.7999967187643051,
+          "trust_score": 0.20000328123569489
+        }
+      ],
+      "selected_defense": "none",
+      "verification_score": 1.0,
+      "final_state": "ABSTAIN",
+      "final_prediction": null,
+      "decision_reasons": [
+        "Adversarial evidence remained high.",
+        "No defense produced a verified recovery result."
+      ],
+      "processing_time_ms": 35.056400010944344
+    },
+    "record_hash": "2ea5e62ae6368c1e6a758318a90f7be6118a85f26ca0d20af3e42c87c8f41697",
+    "previous_record_hash": "d5ca65d85124fc9402d01a3f04578f7357b73c926d8e167bbaf897d44bfe4d8b"
+  },
+  {
+    "request_id": "2928e30a-daee-4ce4-b111-a4c0caac5229",
+    "stage": "decision",
+    "message": "The system abstained because available evidence was insufficient to safely select an interpretation.",
+    "timestamp": "2026-09-09T12:45:46.871790+00:00",
+    "details": {
+      "original_prediction": "374",
+      "defended_prediction": "374",
+      "attack_score": 1.5228405023642694e-05,
+      "trust_map": {
+        "global_trust_score": 1.0
+      },
+      "suspicious_regions": [],
+      "selected_defense": "none",
+      "verification_score": 1.0,
+      "final_state": "ABSTAIN",
+      "final_prediction": null,
+      "decision_reasons": [
+        "No defense produced a verified recovery result."
+      ],
+      "processing_time_ms": 10.549400016316213
+    },
+    "record_hash": "e94a7a29f8d27bf4e87c95eae6c702c2f0e2368c0e3451b9bc8af0129029389b",
+    "previous_record_hash": "2ea5e62ae6368c1e6a758318a90f7be6118a85f26ca0d20af3e42c87c8f41697"
+  },
+  {
+    "request_id": "ea76df85-a00f-4685-9691-5e7d27811870",
+    "stage": "decision",
+    "message": "The system abstained because available evidence was insufficient to safely select an interpretation.",
+    "timestamp": "2026-09-09T12:45:47.204651+00:00",
+    "details": {
+      "original_prediction": "car mirror",
+      "defended_prediction": "car mirror",
+      "attack_score": 0.07500030776392438,
+      "trust_map": {
+        "global_trust_score": 0.7004884481430054
+      },
+      "suspicious_regions": [
+        {
+          "region_id": 1,
+          "x": 22,
+          "y": 0,
+          "width": 10,
+          "height": 10,
+          "area_pixels": 36,
+          "area_percentage": 3.515625,
+          "anomaly_score": 0.9134289473295212,
+          "trust_score": 0.08657105267047882
+        },
+        {
+          "region_id": 2,
+          "x": 16,
+          "y": 12,
+          "width": 10,
+          "height": 18,
+          "area_pixels": 44,
+          "area_percentage": 4.296875,
+          "anomaly_score": 0.9038093835115433,
+          "trust_score": 0.09619061648845673
+        },
+        {
+          "region_id": 3,
+          "x": 12,
+          "y": 0,
+          "width": 6,
+          "height": 8,
+          "area_pixels": 24,
+          "area_percentage": 2.34375,
+          "anomaly_score": 0.8947232067584991,
+          "trust_score": 0.10527679324150085
+        }
+      ],
+      "selected_defense": "none",
+      "verification_score": 1.0,
+      "final_state": "ABSTAIN",
+      "final_prediction": null,
+      "decision_reasons": [
+        "Adversarial evidence remained high.",
+        "No defense produced a verified recovery result."
+      ],
+      "processing_time_ms": 17.757100009475835
+    },
+    "record_hash": "f278fbbd9253a7bc89c268bf1f984510b33904fb2f58735d119ba59fe54b4bc5",
+    "previous_record_hash": "e94a7a29f8d27bf4e87c95eae6c702c2f0e2368c0e3451b9bc8af0129029389b"
+  },
+  {
+    "request_id": "20564e79-d4b4-49ee-a9d6-deaf63507e38",
+    "stage": "decision",
+    "message": "The system abstained because available evidence was insufficient to safely select an interpretation.",
+    "timestamp": "2026-09-09T12:45:47.249151+00:00",
+    "details": {
+      "original_prediction": "tench",
+      "defended_prediction": "tench",
+      "attack_score": 0.07500032287372527,
+      "trust_map": {
+        "global_trust_score": 0.6938519477844238
+      },
+      "suspicious_regions": [
+        {
+          "region_id": 1,
+          "x": 0,
+          "y": 16,
+          "width": 8,
+          "height": 12,
+          "area_pixels": 32,
+          "area_percentage": 3.125,
+          "anomaly_score": 0.9283506125211716,
+          "trust_score": 0.07164938747882843
+        },
+        {
+          "region_id": 2,
+          "x": 20,
+          "y": 24,
+          "width": 8,
+          "height": 8,
+          "area_pixels": 20,
+          "area_percentage": 1.953125,
+          "anomaly_score": 0.8939739912748337,
+          "trust_score": 0.10602600872516632
+        },
+        {
+          "region_id": 3,
+          "x": 4,
+          "y": 6,
+          "width": 8,
+          "height": 8,
+          "area_pixels": 28,
+          "area_percentage": 2.734375,
+          "anomaly_score": 0.8529619872570038,
+          "trust_score": 0.14703801274299622
+        },
+        {
+          "region_id": 4,
+          "x": 10,
+          "y": 0,
+          "width": 14,
+          "height": 6,
+          "area_pixels": 36,
+          "area_percentage": 3.515625,
+          "anomaly_score": 0.8430634588003159,
+          "trust_score": 0.15693654119968414
+        },
+        {
+          "region_id": 5,
+          "x": 14,
+          "y": 18,
+          "width": 6,
+          "height": 10,
+          "area_pixels": 20,
+          "area_percentage": 1.953125,
+          "anomaly_score": 0.8377704322338104,
+          "trust_score": 0.16222956776618958
+        }
+      ],
+      "selected_defense": "none",
+      "verification_score": 1.0,
+      "final_state": "ABSTAIN",
+      "final_prediction": null,
+      "decision_reasons": [
+        "Adversarial evidence remained high.",
+        "No defense produced a verified recovery result."
+      ],
+      "processing_time_ms": 9.659999996074475
+    },
+    "record_hash": "0c8f88593cfd0de21a0ee575f274efbc48dda3d715c2dbf7381dddf3e00efee8",
+    "previous_record_hash": "f278fbbd9253a7bc89c268bf1f984510b33904fb2f58735d119ba59fe54b4bc5"
+  },
+  {
+    "request_id": "6082ea04-b40f-4201-8c76-d340c1594346",
+    "stage": "decision",
+    "message": "The system abstained because available evidence was insufficient to safely select an interpretation.",
+    "timestamp": "2026-09-09T13:24:02.850926+00:00",
+    "details": {
+      "original_prediction": "780",
+      "defended_prediction": "780",
+      "attack_score": 1.6988803344380968e-05,
+      "trust_map": {
+        "global_trust_score": 1.0
+      },
+      "suspicious_regions": [],
+      "selected_defense": "none",
+      "verification_score": 1.0,
+      "final_state": "ABSTAIN",
+      "final_prediction": null,
+      "decision_reasons": [
+        "No defense produced a verified recovery result."
+      ],
+      "processing_time_ms": 13.149799997336231
+    },
+    "record_hash": "3d9587e72b0b8692c519fbbaf883229f728ff456a5d514d21b19e55d4d9be777",
+    "previous_record_hash": "0c8f88593cfd0de21a0ee575f274efbc48dda3d715c2dbf7381dddf3e00efee8"
+  },
+  {
+    "request_id": "f4de502a-be0c-4ae6-ad16-54f6ca4a8545",
+    "stage": "decision",
+    "message": "The system abstained because available evidence was insufficient to safely select an interpretation.",
+    "timestamp": "2026-09-09T13:24:05.099163+00:00",
+    "details": {
+      "original_prediction": "car mirror",
+      "defended_prediction": "car mirror",
+      "attack_score": 0.07500026844450147,
+      "trust_map": {
+        "global_trust_score": 0.7056773900985718
+      },
+      "suspicious_regions": [
+        {
+          "region_id": 1,
+          "x": 4,
+          "y": 26,
+          "width": 8,
+          "height": 6,
+          "area_pixels": 24,
+          "area_percentage": 2.34375,
+          "anomaly_score": 0.9281892850995064,
+          "trust_score": 0.07181071490049362
+        },
+        {
+          "region_id": 2,
+          "x": 4,
+          "y": 8,
+          "width": 10,
+          "height": 6,
+          "area_pixels": 24,
+          "area_percentage": 2.34375,
+          "anomaly_score": 0.8896680399775505,
+          "trust_score": 0.1103319600224495
+        },
+        {
+          "region_id": 3,
+          "x": 4,
+          "y": 12,
+          "width": 6,
+          "height": 8,
+          "area_pixels": 20,
+          "area_percentage": 1.953125,
+          "anomaly_score": 0.8523769080638885,
+          "trust_score": 0.14762309193611145
+        },
+        {
+          "region_id": 4,
+          "x": 18,
+          "y": 8,
+          "width": 8,
+          "height": 8,
+          "area_pixels": 36,
+          "area_percentage": 3.515625,
+          "anomaly_score": 0.8186149299144745,
+          "trust_score": 0.1813850700855255
+        },
+        {
+          "region_id": 5,
+          "x": 18,
+          "y": 20,
+          "width": 4,
+          "height": 8,
+          "area_pixels": 20,
+          "area_percentage": 1.953125,
+          "anomaly_score": 0.8000576496124268,
+          "trust_score": 0.19994235038757324
+        }
+      ],
+      "selected_defense": "none",
+      "verification_score": 1.0,
+      "final_state": "ABSTAIN",
+      "final_prediction": null,
+      "decision_reasons": [
+        "Adversarial evidence remained high.",
+        "No defense produced a verified recovery result."
+      ],
+      "processing_time_ms": 12.166999993496574
+    },
+    "record_hash": "dc0b7a226c706fd190c8b4cb84bc9becff29b16e00ad9ec2558c6096677cbecc",
+    "previous_record_hash": "3d9587e72b0b8692c519fbbaf883229f728ff456a5d514d21b19e55d4d9be777"
+  },
+  {
+    "request_id": "7d9fdf31-5657-4a58-af11-09eecee114e7",
+    "stage": "decision",
+    "message": "The system abstained because available evidence was insufficient to safely select an interpretation.",
+    "timestamp": "2026-09-09T13:24:05.160832+00:00",
+    "details": {
+      "original_prediction": "tench",
+      "defended_prediction": "tench",
+      "attack_score": 0.075000244404657,
+      "trust_map": {
+        "global_trust_score": 0.7345050573348999
+      },
+      "suspicious_regions": [
+        {
+          "region_id": 1,
+          "x": 16,
+          "y": 26,
+          "width": 14,
+          "height": 4,
+          "area_pixels": 28,
+          "area_percentage": 2.734375,
+          "anomaly_score": 0.9481958150863647,
+          "trust_score": 0.051804184913635254
+        },
+        {
+          "region_id": 2,
+          "x": 8,
+          "y": 28,
+          "width": 6,
+          "height": 4,
+          "area_pixels": 16,
+          "area_percentage": 1.5625,
+          "anomaly_score": 0.9244457334280014,
+          "trust_score": 0.0755542665719986
+        },
+        {
+          "region_id": 3,
+          "x": 18,
+          "y": 4,
+          "width": 8,
+          "height": 8,
+          "area_pixels": 28,
+          "area_percentage": 2.734375,
+          "anomaly_score": 0.9139458686113358,
+          "trust_score": 0.08605413138866425
+        },
+        {
+          "region_id": 4,
+          "x": 10,
+          "y": 12,
+          "width": 8,
+          "height": 10,
+          "area_pixels": 44,
+          "area_percentage": 4.296875,
+          "anomaly_score": 0.8936665505170822,
+          "trust_score": 0.10633344948291779
+        },
+        {
+          "region_id": 5,
+          "x": 2,
+          "y": 20,
+          "width": 8,
+          "height": 4,
+          "area_pixels": 20,
+          "area_percentage": 1.953125,
+          "anomaly_score": 0.8138190060853958,
+          "trust_score": 0.1861809939146042
+        }
+      ],
+      "selected_defense": "none",
+      "verification_score": 1.0,
+      "final_state": "ABSTAIN",
+      "final_prediction": null,
+      "decision_reasons": [
+        "Adversarial evidence remained high.",
+        "No defense produced a verified recovery result."
+      ],
+      "processing_time_ms": 9.402299983776174
+    },
+    "record_hash": "a0513d12c2bf657599e9731bef26b5ba28af1e476aa18a88a59d8f7ffe97b80b",
+    "previous_record_hash": "dc0b7a226c706fd190c8b4cb84bc9becff29b16e00ad9ec2558c6096677cbecc"
+  },
+  {
+    "request_id": "3df034dc-1bcc-4a6a-8197-ae95c541d222",
+    "stage": "decision",
+    "message": "The system abstained because available evidence was insufficient to safely select an interpretation.",
+    "timestamp": "2026-09-09T13:29:40.575741+00:00",
+    "details": {
+      "original_prediction": "932",
+      "defended_prediction": "932",
+      "attack_score": 1.3117701532060187e-05,
+      "trust_map": {
+        "global_trust_score": 1.0
+      },
+      "suspicious_regions": [],
+      "selected_defense": "none",
+      "verification_score": 1.0,
+      "final_state": "ABSTAIN",
+      "final_prediction": null,
+      "decision_reasons": [
+        "No defense produced a verified recovery result."
+      ],
+      "processing_time_ms": 776.3637000025483
+    },
+    "record_hash": "a2e88f62b8051987f36348130832c1bcce2ab3536d56c99bc476ff808bf8020f",
+    "previous_record_hash": "a0513d12c2bf657599e9731bef26b5ba28af1e476aa18a88a59d8f7ffe97b80b"
+  },
+  {
+    "request_id": "d640212e-0f72-49e8-a1b1-befa958f620f",
+    "stage": "decision",
+    "message": "The system abstained because available evidence was insufficient to safely select an interpretation.",
+    "timestamp": "2026-09-09T13:29:41.509222+00:00",
+    "details": {
+      "original_prediction": "car mirror",
+      "defended_prediction": "car mirror",
+      "attack_score": 0.07500028216215622,
+      "trust_map": {
+        "global_trust_score": 0.6929402351379395
+      },
+      "suspicious_regions": [
+        {
+          "region_id": 1,
+          "x": 20,
+          "y": 18,
+          "width": 12,
+          "height": 6,
+          "area_pixels": 24,
+          "area_percentage": 2.34375,
+          "anomaly_score": 0.9393140487372875,
+          "trust_score": 0.06068595126271248
+        },
+        {
+          "region_id": 2,
+          "x": 12,
+          "y": 24,
+          "width": 16,
+          "height": 8,
+          "area_pixels": 44,
+          "area_percentage": 4.296875,
+          "anomaly_score": 0.9106350690126419,
+          "trust_score": 0.0893649309873581
+        },
+        {
+          "region_id": 3,
+          "x": 6,
+          "y": 2,
+          "width": 12,
+          "height": 18,
+          "area_pixels": 52,
+          "area_percentage": 5.078125,
+          "anomaly_score": 0.8897554501891136,
+          "trust_score": 0.11024454981088638
+        },
+        {
+          "region_id": 4,
+          "x": 20,
+          "y": 8,
+          "width": 6,
+          "height": 8,
+          "area_pixels": 16,
+          "area_percentage": 1.5625,
+          "anomaly_score": 0.8590330630540848,
+          "trust_score": 0.14096693694591522
+        }
+      ],
+      "selected_defense": "none",
+      "verification_score": 1.0,
+      "final_state": "ABSTAIN",
+      "final_prediction": null,
+      "decision_reasons": [
+        "Adversarial evidence remained high.",
+        "No defense produced a verified recovery result."
+      ],
+      "processing_time_ms": 246.8454999907408
+    },
+    "record_hash": "59cfe0f29d3a598a2d4188b1d4a6cfe87d8806968a69ccf6013089ff371bb000",
+    "previous_record_hash": "a2e88f62b8051987f36348130832c1bcce2ab3536d56c99bc476ff808bf8020f"
+  },
+  {
+    "request_id": "b0bf27aa-e4a6-43c2-a317-3053f48d41a7",
+    "stage": "decision",
+    "message": "The system abstained because available evidence was insufficient to safely select an interpretation.",
+    "timestamp": "2026-09-09T13:29:41.683369+00:00",
+    "details": {
+      "original_prediction": "tench",
+      "defended_prediction": "tench",
+      "attack_score": 0.07500046178216918,
+      "trust_map": {
+        "global_trust_score": 0.7008136510848999
+      },
+      "suspicious_regions": [
+        {
+          "region_id": 1,
+          "x": 4,
+          "y": 14,
+          "width": 6,
+          "height": 8,
+          "area_pixels": 16,
+          "area_percentage": 1.5625,
+          "anomaly_score": 0.935230553150177,
+          "trust_score": 0.064769446849823
+        },
+        {
+          "region_id": 2,
+          "x": 6,
+          "y": 24,
+          "width": 6,
+          "height": 8,
+          "area_pixels": 24,
+          "area_percentage": 2.34375,
+          "anomaly_score": 0.911412887275219,
+          "trust_score": 0.08858711272478104
+        },
+        {
+          "region_id": 3,
+          "x": 10,
+          "y": 2,
+          "width": 8,
+          "height": 8,
+          "area_pixels": 24,
+          "area_percentage": 2.34375,
+          "anomaly_score": 0.8798444643616676,
+          "trust_score": 0.12015553563833237
+        },
+        {
+          "region_id": 4,
+          "x": 6,
+          "y": 6,
+          "width": 4,
+          "height": 8,
+          "area_pixels": 16,
+          "area_percentage": 1.5625,
+          "anomaly_score": 0.8718024641275406,
+          "trust_score": 0.1281975358724594
+        },
+        {
+          "region_id": 5,
+          "x": 18,
+          "y": 24,
+          "width": 4,
+          "height": 8,
+          "area_pixels": 24,
+          "area_percentage": 2.34375,
+          "anomaly_score": 0.871629536151886,
+          "trust_score": 0.128370463848114
+        }
+      ],
+      "selected_defense": "none",
+      "verification_score": 1.0,
+      "final_state": "ABSTAIN",
+      "final_prediction": null,
+      "decision_reasons": [
+        "Adversarial evidence remained high.",
+        "No defense produced a verified recovery result."
+      ],
+      "processing_time_ms": 10.962600004859269
+    },
+    "record_hash": "4df97895d9d955aea67c29bc0a5d74e15de2c1474f9d9c204bac70e4e07c0d7c",
+    "previous_record_hash": "59cfe0f29d3a598a2d4188b1d4a6cfe87d8806968a69ccf6013089ff371bb000"
+  },
+  {
+    "request_id": "5a18cebf-6bd6-4ce7-8922-fe6c44d5065a",
+    "stage": "decision",
+    "message": "The system abstained because available evidence was insufficient to safely select an interpretation.",
+    "timestamp": "2026-09-09T13:43:22.645624+00:00",
+    "details": {
+      "original_prediction": "294",
+      "defended_prediction": "294",
+      "attack_score": 2.051868118545205e-05,
+      "trust_map": {
+        "global_trust_score": 1.0
+      },
+      "suspicious_regions": [],
+      "selected_defense": "none",
+      "verification_score": 1.0,
+      "final_state": "ABSTAIN",
+      "final_prediction": null,
+      "decision_reasons": [
+        "No defense produced a verified recovery result."
+      ],
+      "processing_time_ms": 481.59639998630155
+    },
+    "record_hash": "b769b3c9a1fbba4f9ee5c5007463e97a3ec7a34f491b1c3a79e870767776b495",
+    "previous_record_hash": "4df97895d9d955aea67c29bc0a5d74e15de2c1474f9d9c204bac70e4e07c0d7c"
+  },
+  {
+    "request_id": "cfb2048c-c931-49a9-b5fc-f3fc9b739f65",
+    "stage": "decision",
+    "message": "The system abstained because available evidence was insufficient to safely select an interpretation.",
+    "timestamp": "2026-09-09T13:43:23.300234+00:00",
+    "details": {
+      "original_prediction": "car mirror",
+      "defended_prediction": "car mirror",
+      "attack_score": 6.169212303072645e-07,
+      "trust_map": {
+        "global_trust_score": 1.0
+      },
+      "suspicious_regions": [],
+      "selected_defense": "none",
+      "verification_score": 1.0,
+      "final_state": "ABSTAIN",
+      "final_prediction": null,
+      "decision_reasons": [
+        "No defense produced a verified recovery result."
+      ],
+      "processing_time_ms": 176.2620999943465
+    },
+    "record_hash": "0251e26c7ca894af11fd9a47d85bd1030e0f304a21562dcebdc48989b3453c1a",
+    "previous_record_hash": "b769b3c9a1fbba4f9ee5c5007463e97a3ec7a34f491b1c3a79e870767776b495"
+  },
+  {
+    "request_id": "b30b4eaa-b631-4129-ae1e-f193e60f48f5",
+    "stage": "decision",
+    "message": "The system abstained because available evidence was insufficient to safely select an interpretation.",
+    "timestamp": "2026-09-09T13:43:23.455826+00:00",
+    "details": {
+      "original_prediction": "tench",
+      "defended_prediction": "tench",
+      "attack_score": 0.07500075066907769,
+      "trust_map": {
+        "global_trust_score": 0.7075406312942505
+      },
+      "suspicious_regions": [
+        {
+          "region_id": 1,
+          "x": 22,
+          "y": 18,
+          "width": 6,
+          "height": 4,
+          "area_pixels": 16,
+          "area_percentage": 1.5625,
+          "anomaly_score": 0.94557785987854,
+          "trust_score": 0.05442214012145996
+        },
+        {
+          "region_id": 2,
+          "x": 22,
+          "y": 2,
+          "width": 6,
+          "height": 12,
+          "area_pixels": 28,
+          "area_percentage": 2.734375,
+          "anomaly_score": 0.8661365658044815,
+          "trust_score": 0.1338634341955185
+        }
+      ],
+      "selected_defense": "mask",
+      "verification_score": 1.0,
+      "final_state": "ABSTAIN",
+      "final_prediction": null,
+      "decision_reasons": [
+        "Adversarial evidence remained high.",
+        "Defended confidence remained below the recovery threshold."
+      ],
+      "processing_time_ms": 15.799100016010925
+    },
+    "record_hash": "0415895c0e298b27d8b5fe8ab14aad06015e0e798e7a5edc2d0347a48abb1f40",
+    "previous_record_hash": "0251e26c7ca894af11fd9a47d85bd1030e0f304a21562dcebdc48989b3453c1a"
+  },
+  {
+    "request_id": "f6bc6ee5-3d9b-4c12-95ba-b43fa92a22eb",
+    "stage": "decision",
+    "message": "The system abstained because available evidence was insufficient to safely select an interpretation.",
+    "timestamp": "2026-09-09T13:53:40.574652+00:00",
+    "details": {
+      "original_prediction": "697",
+      "defended_prediction": "697",
+      "attack_score": 5.002057173861715e-05,
+      "trust_map": {
+        "global_trust_score": 1.0
+      },
+      "suspicious_regions": [],
+      "selected_defense": "none",
+      "verification_score": 1.0,
+      "final_state": "ABSTAIN",
+      "final_prediction": null,
+      "decision_reasons": [
+        "No defense produced a verified recovery result."
+      ],
+      "processing_time_ms": 770.8142999908887
+    },
+    "record_hash": "a3c0ee4834adbb624399e0916e636d9671362a66275e5aa147295668dc7b7239",
+    "previous_record_hash": "0415895c0e298b27d8b5fe8ab14aad06015e0e798e7a5edc2d0347a48abb1f40"
+  },
+  {
+    "request_id": "0ac112d9-864d-4b2c-addc-cd0f33665887",
+    "stage": "decision",
+    "message": "The system abstained because available evidence was insufficient to safely select an interpretation.",
+    "timestamp": "2026-09-09T13:53:41.482754+00:00",
+    "details": {
+      "original_prediction": "car mirror",
+      "defended_prediction": "car mirror",
+      "attack_score": 0.08000305864959957,
+      "trust_map": {
+        "global_trust_score": 0.701269805431366
+      },
+      "suspicious_regions": [
+        {
+          "region_id": 1,
+          "x": 0,
+          "y": 6,
+          "width": 8,
+          "height": 6,
+          "area_pixels": 24,
+          "area_percentage": 2.34375,
+          "anomaly_score": 0.9588011801242828,
+          "trust_score": 0.04119881987571716
+        },
+        {
+          "region_id": 2,
+          "x": 12,
+          "y": 10,
+          "width": 6,
+          "height": 8,
+          "area_pixels": 20,
+          "area_percentage": 1.953125,
+          "anomaly_score": 0.9081462621688843,
+          "trust_score": 0.09185373783111572
+        },
+        {
+          "region_id": 3,
+          "x": 2,
+          "y": 24,
+          "width": 6,
+          "height": 8,
+          "area_pixels": 20,
+          "area_percentage": 1.953125,
+          "anomaly_score": 0.8539263904094696,
+          "trust_score": 0.1460736095905304
+        },
+        {
+          "region_id": 4,
+          "x": 20,
+          "y": 12,
+          "width": 6,
+          "height": 6,
+          "area_pixels": 16,
+          "area_percentage": 1.5625,
+          "anomaly_score": 0.8393250852823257,
+          "trust_score": 0.16067491471767426
+        },
+        {
+          "region_id": 5,
+          "x": 24,
+          "y": 22,
+          "width": 8,
+          "height": 6,
+          "area_pixels": 16,
+          "area_percentage": 1.5625,
+          "anomaly_score": 0.8375043720006943,
+          "trust_score": 0.16249562799930573
+        },
+        {
+          "region_id": 6,
+          "x": 18,
+          "y": 0,
+          "width": 12,
+          "height": 10,
+          "area_pixels": 36,
+          "area_percentage": 3.515625,
+          "anomaly_score": 0.8359726071357727,
+          "trust_score": 0.1640273928642273
+        }
+      ],
+      "selected_defense": "mask",
+      "verification_score": 1.0,
+      "final_state": "ABSTAIN",
+      "final_prediction": null,
+      "decision_reasons": [
+        "Adversarial evidence remained high.",
+        "Defended confidence remained below the recovery threshold."
+      ],
+      "processing_time_ms": 333.70109999668784
+    },
+    "record_hash": "b2e39a9b62e1d84131693d692b6cbd9fb0fafe6f006a2c88a814bfe8d18bd9bc",
+    "previous_record_hash": "a3c0ee4834adbb624399e0916e636d9671362a66275e5aa147295668dc7b7239"
+  },
+  {
+    "request_id": "63297206-c514-473f-871a-8a48f919d8e8",
+    "stage": "decision",
+    "message": "The system abstained because available evidence was insufficient to safely select an interpretation.",
+    "timestamp": "2026-09-09T13:53:41.659417+00:00",
+    "details": {
+      "original_prediction": "tench",
+      "defended_prediction": "tench",
+      "attack_score": 0.08000272190198304,
+      "trust_map": {
+        "global_trust_score": 0.7123215198516846
+      },
+      "suspicious_regions": [
+        {
+          "region_id": 1,
+          "x": 26,
+          "y": 2,
+          "width": 6,
+          "height": 10,
+          "area_pixels": 24,
+          "area_percentage": 2.34375,
+          "anomaly_score": 0.9511784501373768,
+          "trust_score": 0.048821549862623215
+        },
+        {
+          "region_id": 2,
+          "x": 10,
+          "y": 2,
+          "width": 8,
+          "height": 8,
+          "area_pixels": 28,
+          "area_percentage": 2.734375,
+          "anomaly_score": 0.9012101367115974,
+          "trust_score": 0.09878986328840256
+        },
+        {
+          "region_id": 3,
+          "x": 10,
+          "y": 18,
+          "width": 8,
+          "height": 8,
+          "area_pixels": 24,
+          "area_percentage": 2.34375,
+          "anomaly_score": 0.8945381566882133,
+          "trust_score": 0.10546184331178665
+        },
+        {
+          "region_id": 4,
+          "x": 18,
+          "y": 6,
+          "width": 6,
+          "height": 8,
+          "area_pixels": 24,
+          "area_percentage": 2.34375,
+          "anomaly_score": 0.8457302898168564,
+          "trust_score": 0.15426971018314362
+        }
+      ],
+      "selected_defense": "mask",
+      "verification_score": 1.0,
+      "final_state": "ABSTAIN",
+      "final_prediction": null,
+      "decision_reasons": [
+        "Adversarial evidence remained high.",
+        "Defended confidence remained below the recovery threshold."
+      ],
+      "processing_time_ms": 19.027100002858788
+    },
+    "record_hash": "27a8197e6e916bf1b99e93136b06677c50cbfbc193d0ea5d5ae03a2c88df65c7",
+    "previous_record_hash": "b2e39a9b62e1d84131693d692b6cbd9fb0fafe6f006a2c88a814bfe8d18bd9bc"
+  },
+  {
+    "request_id": "e8d60b8a-d54f-4155-8b45-4aff5f760445",
+    "stage": "decision",
+    "message": "The system abstained because available evidence was insufficient to safely select an interpretation.",
+    "timestamp": "2026-09-09T13:54:27.296155+00:00",
+    "details": {
+      "original_prediction": "470",
+      "defended_prediction": "470",
+      "attack_score": 3.885277075334045e-05,
+      "trust_map": {
+        "global_trust_score": 1.0
+      },
+      "suspicious_regions": [],
+      "selected_defense": "none",
+      "verification_score": 1.0,
+      "final_state": "ABSTAIN",
+      "final_prediction": null,
+      "decision_reasons": [
+        "No defense produced a verified recovery result."
+      ],
+      "processing_time_ms": 824.2836999997962
+    },
+    "record_hash": "b050e471928c834204deeab17adec1e9653509ed4db328137855a4b41821107f",
+    "previous_record_hash": "27a8197e6e916bf1b99e93136b06677c50cbfbc193d0ea5d5ae03a2c88df65c7"
+  },
+  {
+    "request_id": "4d7edc95-3cbc-44cf-b6e4-189b8852b350",
+    "stage": "decision",
+    "message": "The system abstained because available evidence was insufficient to safely select an interpretation.",
+    "timestamp": "2026-09-09T13:54:28.274736+00:00",
+    "details": {
+      "original_prediction": "car mirror",
+      "defended_prediction": "car mirror",
+      "attack_score": 0.08000367005355659,
+      "trust_map": {
+        "global_trust_score": 0.7227543592453003
+      },
+      "suspicious_regions": [
+        {
+          "region_id": 1,
+          "x": 26,
+          "y": 0,
+          "width": 6,
+          "height": 14,
+          "area_pixels": 36,
+          "area_percentage": 3.515625,
+          "anomaly_score": 0.9119396433234215,
+          "trust_score": 0.08806035667657852
+        },
+        {
+          "region_id": 2,
+          "x": 16,
+          "y": 4,
+          "width": 4,
+          "height": 6,
+          "area_pixels": 20,
+          "area_percentage": 1.953125,
+          "anomaly_score": 0.8555686771869659,
+          "trust_score": 0.14443132281303406
+        }
+      ],
+      "selected_defense": "mask",
+      "verification_score": 1.0,
+      "final_state": "ABSTAIN",
+      "final_prediction": null,
+      "decision_reasons": [
+        "Adversarial evidence remained high.",
+        "Defended confidence remained below the recovery threshold."
+      ],
+      "processing_time_ms": 368.6378999991575
+    },
+    "record_hash": "657e3ff82999599b4e3e32ca0cc8a5097308b98ac50da3db2cace2cf39ddb391",
+    "previous_record_hash": "b050e471928c834204deeab17adec1e9653509ed4db328137855a4b41821107f"
+  },
+  {
+    "request_id": "7b94a2c1-d202-4299-b8c6-5fb4d6d66226",
+    "stage": "decision",
+    "message": "The system abstained because available evidence was insufficient to safely select an interpretation.",
+    "timestamp": "2026-09-09T13:54:28.463802+00:00",
+    "details": {
+      "original_prediction": "tench",
+      "defended_prediction": "tench",
+      "attack_score": 0.08000345181440936,
+      "trust_map": {
+        "global_trust_score": 0.6979089975357056
+      },
+      "suspicious_regions": [
+        {
+          "region_id": 1,
+          "x": 16,
+          "y": 16,
+          "width": 8,
+          "height": 12,
+          "area_pixels": 32,
+          "area_percentage": 3.125,
+          "anomaly_score": 0.9443439990282059,
+          "trust_score": 0.05565600097179413
+        },
+        {
+          "region_id": 2,
+          "x": 0,
+          "y": 24,
+          "width": 6,
+          "height": 8,
+          "area_pixels": 28,
+          "area_percentage": 2.734375,
+          "anomaly_score": 0.9216355234384537,
+          "trust_score": 0.07836447656154633
+        },
+        {
+          "region_id": 3,
+          "x": 8,
+          "y": 12,
+          "width": 8,
+          "height": 10,
+          "area_pixels": 36,
+          "area_percentage": 3.515625,
+          "anomaly_score": 0.9109284728765488,
+          "trust_score": 0.08907152712345123
+        },
+        {
+          "region_id": 4,
+          "x": 28,
+          "y": 4,
+          "width": 4,
+          "height": 12,
+          "area_pixels": 24,
+          "area_percentage": 2.34375,
+          "anomaly_score": 0.8780088424682617,
+          "trust_score": 0.12199115753173828
+        }
+      ],
+      "selected_defense": "mask",
+      "verification_score": 1.0,
+      "final_state": "ABSTAIN",
+      "final_prediction": null,
+      "decision_reasons": [
+        "Adversarial evidence remained high.",
+        "Defended confidence remained below the recovery threshold."
+      ],
+      "processing_time_ms": 15.586400011670776
+    },
+    "record_hash": "09962f7451d9ddc8a9c1251721af7cd66c67056e9d2421836bd86c8abeab601e",
+    "previous_record_hash": "657e3ff82999599b4e3e32ca0cc8a5097308b98ac50da3db2cace2cf39ddb391"
+  },
+  {
+    "request_id": "947779b8-21a2-48c0-90ba-a5b682c6ff8a",
+    "stage": "decision",
+    "message": "The system abstained because available evidence was insufficient to safely select an interpretation.",
+    "timestamp": "2026-09-09T13:55:55.633180+00:00",
+    "details": {
+      "original_prediction": "827",
+      "defended_prediction": "827",
+      "attack_score": 4.3218028672175133e-05,
+      "trust_map": {
+        "global_trust_score": 1.0
+      },
+      "suspicious_regions": [],
+      "selected_defense": "none",
+      "verification_score": 1.0,
+      "final_state": "ABSTAIN",
+      "final_prediction": null,
+      "decision_reasons": [
+        "No defense produced a verified recovery result."
+      ],
+      "processing_time_ms": 927.1538000029977
+    },
+    "record_hash": "4b7748c1104a87df6d67f6ea074246f517fb81f0953f687191ebacde90fad80d",
+    "previous_record_hash": "09962f7451d9ddc8a9c1251721af7cd66c67056e9d2421836bd86c8abeab601e"
+  },
+  {
+    "request_id": "bf172dab-d56f-4765-98f5-cfe1ccb5a876",
+    "stage": "decision",
+    "message": "The system abstained because available evidence was insufficient to safely select an interpretation.",
+    "timestamp": "2026-09-09T13:55:56.594522+00:00",
+    "details": {
+      "original_prediction": "car mirror",
+      "defended_prediction": "car mirror",
+      "attack_score": 0.08000276566017421,
+      "trust_map": {
+        "global_trust_score": 0.7009756565093994
+      },
+      "suspicious_regions": [
+        {
+          "region_id": 1,
+          "x": 6,
+          "y": 2,
+          "width": 10,
+          "height": 4,
+          "area_pixels": 24,
+          "area_percentage": 2.34375,
+          "anomaly_score": 0.9334236606955528,
+          "trust_score": 0.06657633930444717
+        },
+        {
+          "region_id": 2,
+          "x": 22,
+          "y": 18,
+          "width": 10,
+          "height": 10,
+          "area_pixels": 32,
+          "area_percentage": 3.125,
+          "anomaly_score": 0.901736743748188,
+          "trust_score": 0.09826325625181198
+        },
+        {
+          "region_id": 3,
+          "x": 22,
+          "y": 0,
+          "width": 10,
+          "height": 12,
+          "area_pixels": 36,
+          "area_percentage": 3.515625,
+          "anomaly_score": 0.8897218257188797,
+          "trust_score": 0.1102781742811203
+        },
+        {
+          "region_id": 4,
+          "x": 12,
+          "y": 16,
+          "width": 6,
+          "height": 4,
+          "area_pixels": 20,
+          "area_percentage": 1.953125,
+          "anomaly_score": 0.8778761029243469,
+          "trust_score": 0.12212389707565308
+        },
+        {
+          "region_id": 5,
+          "x": 4,
+          "y": 18,
+          "width": 8,
+          "height": 4,
+          "area_pixels": 16,
+          "area_percentage": 1.5625,
+          "anomaly_score": 0.8623869717121124,
+          "trust_score": 0.13761302828788757
+        }
+      ],
+      "selected_defense": "mask",
+      "verification_score": 1.0,
+      "final_state": "ABSTAIN",
+      "final_prediction": null,
+      "decision_reasons": [
+        "Adversarial evidence remained high.",
+        "Defended confidence remained below the recovery threshold."
+      ],
+      "processing_time_ms": 323.9153000031365
+    },
+    "record_hash": "e34d063b2c90fa23556ce5c60f275ddba12692bd33cade9fb2dcf69ba7892ee8",
+    "previous_record_hash": "4b7748c1104a87df6d67f6ea074246f517fb81f0953f687191ebacde90fad80d"
+  },
+  {
+    "request_id": "c52a6222-7dbb-4457-9f47-48238e984735",
+    "stage": "decision",
+    "message": "The system abstained because available evidence was insufficient to safely select an interpretation.",
+    "timestamp": "2026-09-09T13:55:56.786624+00:00",
+    "details": {
+      "original_prediction": "tench",
+      "defended_prediction": "tench",
+      "attack_score": 0.08000366142252462,
+      "trust_map": {
+        "global_trust_score": 0.7105416059494019
+      },
+      "suspicious_regions": [
+        {
+          "region_id": 1,
+          "x": 16,
+          "y": 22,
+          "width": 10,
+          "height": 6,
+          "area_pixels": 24,
+          "area_percentage": 2.34375,
+          "anomaly_score": 0.9168516024947166,
+          "trust_score": 0.08314839750528336
+        },
+        {
+          "region_id": 2,
+          "x": 4,
+          "y": 28,
+          "width": 8,
+          "height": 4,
+          "area_pixels": 16,
+          "area_percentage": 1.5625,
+          "anomaly_score": 0.9038037061691284,
+          "trust_score": 0.09619629383087158
+        },
+        {
+          "region_id": 3,
+          "x": 20,
+          "y": 12,
+          "width": 8,
+          "height": 10,
+          "area_pixels": 28,
+          "area_percentage": 2.734375,
+          "anomaly_score": 0.9016835018992424,
+          "trust_score": 0.0983164981007576
+        },
+        {
+          "region_id": 4,
+          "x": 4,
+          "y": 6,
+          "width": 6,
+          "height": 6,
+          "area_pixels": 20,
+          "area_percentage": 1.953125,
+          "anomaly_score": 0.8733117580413818,
+          "trust_score": 0.12668824195861816
+        },
+        {
+          "region_id": 5,
+          "x": 14,
+          "y": 0,
+          "width": 12,
+          "height": 6,
+          "area_pixels": 28,
+          "area_percentage": 2.734375,
+          "anomaly_score": 0.8441323190927505,
+          "trust_score": 0.15586768090724945
+        }
+      ],
+      "selected_defense": "mask",
+      "verification_score": 1.0,
+      "final_state": "ABSTAIN",
+      "final_prediction": null,
+      "decision_reasons": [
+        "Adversarial evidence remained high.",
+        "Defended confidence remained below the recovery threshold."
+      ],
+      "processing_time_ms": 16.62009999563452
+    },
+    "record_hash": "d27ab73484c1210e5b2716ba2e1522982cd68fdf6254c638f5c816b200c9ffa5",
+    "previous_record_hash": "e34d063b2c90fa23556ce5c60f275ddba12692bd33cade9fb2dcf69ba7892ee8"
+  },
+  {
+    "request_id": "3cbd08b3-3d95-48f2-bbd3-e61cc4f30023",
+    "stage": "decision",
+    "message": "The system abstained because available evidence was insufficient to safely select an interpretation.",
+    "timestamp": "2026-09-09T14:01:00.906207+00:00",
+    "details": {
+      "original_prediction": "441",
+      "defended_prediction": "441",
+      "attack_score": 9.871899610026331e-05,
+      "trust_map": {
+        "global_trust_score": 1.0
+      },
+      "suspicious_regions": [],
+      "selected_defense": "none",
+      "verification_score": 1.0,
+      "final_state": "ABSTAIN",
+      "final_prediction": null,
+      "decision_reasons": [
+        "No defense produced a verified recovery result."
+      ],
+      "processing_time_ms": 615.0964000116801
+    },
+    "record_hash": "a8639b478f184771540d6a54dc0c6b5c8fd4270a91122ed650024d327c778106",
+    "previous_record_hash": "d27ab73484c1210e5b2716ba2e1522982cd68fdf6254c638f5c816b200c9ffa5"
+  },
+  {
+    "request_id": "2d68eb1f-8a8c-438e-afe8-3e70c623d163",
+    "stage": "decision",
+    "message": "The system abstained because available evidence was insufficient to safely select an interpretation.",
+    "timestamp": "2026-09-09T14:01:01.729872+00:00",
+    "details": {
+      "original_prediction": "car mirror",
+      "defended_prediction": "car mirror",
+      "attack_score": 0.040003202925436195,
+      "trust_map": {
+        "global_trust_score": 1.0
+      },
+      "suspicious_regions": [],
+      "selected_defense": "none",
+      "verification_score": 1.0,
+      "final_state": "ABSTAIN",
+      "final_prediction": null,
+      "decision_reasons": [
+        "No defense produced a verified recovery result."
+      ],
+      "processing_time_ms": 277.59660000447184
+    },
+    "record_hash": "991052281c6a03fa7fbc4f07a5a8adfcaa7a2ba3a7d210a82961920cfc427271",
+    "previous_record_hash": "a8639b478f184771540d6a54dc0c6b5c8fd4270a91122ed650024d327c778106"
+  },
+  {
+    "request_id": "445651fa-8876-400c-ac39-3bb90a82fb36",
+    "stage": "decision",
+    "message": "The system abstained because available evidence was insufficient to safely select an interpretation.",
+    "timestamp": "2026-09-09T14:01:01.883224+00:00",
+    "details": {
+      "original_prediction": "tench",
+      "defended_prediction": "tench",
+      "attack_score": 0.08000403709709646,
+      "trust_map": {
+        "global_trust_score": 0.7003588676452637
+      },
+      "suspicious_regions": [
+        {
+          "region_id": 1,
+          "x": 16,
+          "y": 6,
+          "width": 6,
+          "height": 6,
+          "area_pixels": 16,
+          "area_percentage": 1.5625,
+          "anomaly_score": 0.9347144365310669,
+          "trust_score": 0.0652855634689331
+        },
+        {
+          "region_id": 2,
+          "x": 18,
+          "y": 22,
+          "width": 14,
+          "height": 8,
+          "area_pixels": 28,
+          "area_percentage": 2.734375,
+          "anomaly_score": 0.9147090166807175,
+          "trust_score": 0.08529098331928253
+        },
+        {
+          "region_id": 3,
+          "x": 24,
+          "y": 4,
+          "width": 8,
+          "height": 8,
+          "area_pixels": 24,
+          "area_percentage": 2.34375,
+          "anomaly_score": 0.8682179152965546,
+          "trust_score": 0.13178208470344543
+        },
+        {
+          "region_id": 4,
+          "x": 10,
+          "y": 28,
+          "width": 10,
+          "height": 4,
+          "area_pixels": 24,
+          "area_percentage": 2.34375,
+          "anomaly_score": 0.8652182817459106,
+          "trust_score": 0.13478171825408936
+        },
+        {
+          "region_id": 5,
+          "x": 0,
+          "y": 22,
+          "width": 6,
+          "height": 6,
+          "area_pixels": 16,
+          "area_percentage": 1.5625,
+          "anomaly_score": 0.8648961335420609,
+          "trust_score": 0.13510386645793915
+        }
+      ],
+      "selected_defense": "mask",
+      "verification_score": 1.0,
+      "final_state": "ABSTAIN",
+      "final_prediction": null,
+      "decision_reasons": [
+        "Adversarial evidence remained high.",
+        "The applied defense did not change the suspicious interpretation."
+      ],
+      "processing_time_ms": 19.79740001843311
+    },
+    "record_hash": "7ed390759e800fcf8e682a0dee6dfd4f654d96e9ca0e6bedafacd1cb8a46f70d",
+    "previous_record_hash": "991052281c6a03fa7fbc4f07a5a8adfcaa7a2ba3a7d210a82961920cfc427271"
+  },
+  {
+    "request_id": "d5e9ee99-8d8c-4c1d-a2c2-95b091a126ec",
+    "stage": "decision",
+    "message": "The system abstained because available evidence was insufficient to safely select an interpretation.",
+    "timestamp": "2026-09-09T14:04:05.629526+00:00",
+    "details": {
+      "original_prediction": "411",
+      "defended_prediction": "411",
+      "attack_score": 4.6796314358846866e-05,
+      "trust_map": {
+        "global_trust_score": 1.0
+      },
+      "suspicious_regions": [],
+      "selected_defense": "none",
+      "verification_score": 1.0,
+      "final_state": "ABSTAIN",
+      "final_prediction": null,
+      "decision_reasons": [
+        "No defense produced a verified recovery result."
+      ],
+      "processing_time_ms": 620.4376999958185
+    },
+    "record_hash": "bcd20c0ca1edc1cac6de09593e9b5e72b72335b328ddbb6286f4cefe4e83921b",
+    "previous_record_hash": "7ed390759e800fcf8e682a0dee6dfd4f654d96e9ca0e6bedafacd1cb8a46f70d"
+  },
+  {
+    "request_id": "4722dc75-6e35-4d57-8616-c0e92e207299",
+    "stage": "decision",
+    "message": "The system abstained because available evidence was insufficient to safely select an interpretation.",
+    "timestamp": "2026-09-09T14:04:06.452479+00:00",
+    "details": {
+      "original_prediction": "car mirror",
+      "defended_prediction": "car mirror",
+      "attack_score": 0.08000260146567599,
+      "trust_map": {
+        "global_trust_score": 0.7205369472503662
+      },
+      "suspicious_regions": [
+        {
+          "region_id": 1,
+          "x": 6,
+          "y": 10,
+          "width": 6,
+          "height": 6,
+          "area_pixels": 20,
+          "area_percentage": 1.953125,
+          "anomaly_score": 0.9235365018248558,
+          "trust_score": 0.0764634981751442
+        },
+        {
+          "region_id": 2,
+          "x": 24,
+          "y": 4,
+          "width": 8,
+          "height": 6,
+          "area_pixels": 16,
+          "area_percentage": 1.5625,
+          "anomaly_score": 0.9211071729660034,
+          "trust_score": 0.07889282703399658
+        },
+        {
+          "region_id": 3,
+          "x": 18,
+          "y": 12,
+          "width": 8,
+          "height": 10,
+          "area_pixels": 36,
+          "area_percentage": 3.515625,
+          "anomaly_score": 0.8756123632192612,
+          "trust_score": 0.12438763678073883
+        },
+        {
+          "region_id": 4,
+          "x": 22,
+          "y": 28,
+          "width": 10,
+          "height": 4,
+          "area_pixels": 20,
+          "area_percentage": 1.953125,
+          "anomaly_score": 0.7578025311231613,
+          "trust_score": 0.24219746887683868
+        }
+      ],
+      "selected_defense": "mask",
+      "verification_score": 1.0,
+      "final_state": "ABSTAIN",
+      "final_prediction": null,
+      "decision_reasons": [
+        "Adversarial evidence remained high.",
+        "The applied defense did not change the suspicious interpretation."
+      ],
+      "processing_time_ms": 290.9761999908369
+    },
+    "record_hash": "d062ac41f0119a14f577ab9c35924bd1f0f6a15cb29ad18bf2409a208e70e5db",
+    "previous_record_hash": "bcd20c0ca1edc1cac6de09593e9b5e72b72335b328ddbb6286f4cefe4e83921b"
+  },
+  {
+    "request_id": "0e24509f-c848-4d32-8a3e-8211c7391998",
+    "stage": "decision",
+    "message": "The system abstained because available evidence was insufficient to safely select an interpretation.",
+    "timestamp": "2026-09-09T14:04:06.647003+00:00",
+    "details": {
+      "original_prediction": "tench",
+      "defended_prediction": "tench",
+      "attack_score": 0.080003798766993,
+      "trust_map": {
+        "global_trust_score": 0.7249958515167236
+      },
+      "suspicious_regions": [
+        {
+          "region_id": 1,
+          "x": 12,
+          "y": 0,
+          "width": 6,
+          "height": 8,
+          "area_pixels": 20,
+          "area_percentage": 1.953125,
+          "anomaly_score": 0.9568837769329548,
+          "trust_score": 0.04311622306704521
+        },
+        {
+          "region_id": 2,
+          "x": 8,
+          "y": 12,
+          "width": 8,
+          "height": 10,
+          "area_pixels": 32,
+          "area_percentage": 3.125,
+          "anomaly_score": 0.8737456798553467,
+          "trust_score": 0.12625432014465332
+        },
+        {
+          "region_id": 3,
+          "x": 0,
+          "y": 8,
+          "width": 6,
+          "height": 8,
+          "area_pixels": 28,
+          "area_percentage": 2.734375,
+          "anomaly_score": 0.8231046348810196,
+          "trust_score": 0.1768953651189804
+        }
+      ],
+      "selected_defense": "mask",
+      "verification_score": 1.0,
+      "final_state": "ABSTAIN",
+      "final_prediction": null,
+      "decision_reasons": [
+        "Adversarial evidence remained high.",
+        "The applied defense did not change the suspicious interpretation."
+      ],
+      "processing_time_ms": 16.175700002349913
+    },
+    "record_hash": "6cb5620fcabda5205fd9dfb058884f49b74ab8c298f7471736dd1ae93690d52f",
+    "previous_record_hash": "d062ac41f0119a14f577ab9c35924bd1f0f6a15cb29ad18bf2409a208e70e5db"
+  },
+  {
+    "request_id": "2d5ad345-dda0-4573-ad69-24698d89b53c",
+    "stage": "decision",
+    "message": "The input remained below attack risk thresholds and its interpretation was strongly verified.",
+    "timestamp": "2026-09-10T06:45:59.410450+00:00",
+    "details": {
+      "original_prediction": "person",
+      "defended_prediction": "person",
+      "attack_score": 0.052850322723388674,
+      "trust_map": {
+        "global_trust_score": 1.0
+      },
+      "suspicious_regions": [],
+      "selected_defense": "none",
+      "verification_score": 1.0,
+      "final_state": "TRUSTED",
+      "final_prediction": "person",
+      "decision_reasons": [
+        "Attack evidence remained below the detection threshold.",
+        "Global trust exceeded the configured high-trust threshold.",
+        "Object, geometry, and scene verification were strong.",
+        "Original prediction confidence was sufficient."
+      ],
+      "processing_time_ms": 1353.4724999997252
+    },
+    "record_hash": "e38bb67fd5d8d1c7745b2c55020fb644fa33d0d7e7b4f878eaef7492cb645046",
+    "previous_record_hash": "6cb5620fcabda5205fd9dfb058884f49b74ab8c298f7471736dd1ae93690d52f"
+  },
+  {
+    "request_id": "f09b5325-46ac-41ac-b5f7-29da3345c4c5",
+    "stage": "decision",
+    "message": "The system abstained because available evidence was insufficient to safely select an interpretation.",
+    "timestamp": "2026-09-10T06:46:12.870342+00:00",
+    "details": {
+      "original_prediction": "bathtub",
+      "defended_prediction": "bathtub",
+      "attack_score": 0.17844815015792848,
+      "trust_map": {
+        "global_trust_score": 1.0
+      },
+      "suspicious_regions": [],
+      "selected_defense": "none",
+      "verification_score": 1.0,
+      "final_state": "ABSTAIN",
+      "final_prediction": null,
+      "decision_reasons": [
+        "No defense produced a verified recovery result."
+      ],
+      "processing_time_ms": 1099.578199999769
+    },
+    "record_hash": "3ce9bea9244085069420c6a1fc57b1d9de17b9c36eb0d40846d87c2045cda059",
+    "previous_record_hash": "e38bb67fd5d8d1c7745b2c55020fb644fa33d0d7e7b4f878eaef7492cb645046"
+  },
+  {
+    "request_id": "98e57de6-37fb-4437-9436-820631fd9fab",
+    "stage": "decision",
+    "message": "The input remained below attack risk thresholds and its interpretation was strongly verified.",
+    "timestamp": "2026-09-10T06:46:28.385888+00:00",
+    "details": {
+      "original_prediction": "chain saw",
+      "defended_prediction": "chain saw",
+      "attack_score": 0.022605255162343383,
+      "trust_map": {
+        "global_trust_score": 1.0
+      },
+      "suspicious_regions": [],
+      "selected_defense": "none",
+      "verification_score": 1.0,
+      "final_state": "TRUSTED",
+      "final_prediction": "chain saw",
+      "decision_reasons": [
+        "Attack evidence remained below the detection threshold.",
+        "Global trust exceeded the configured high-trust threshold.",
+        "Object, geometry, and scene verification were strong.",
+        "Original prediction confidence was sufficient."
+      ],
+      "processing_time_ms": 592.9619999999431
+    },
+    "record_hash": "803e18af7307d92bc47374c30350283c8477eed37144c13f31dc1212d8fde446",
+    "previous_record_hash": "3ce9bea9244085069420c6a1fc57b1d9de17b9c36eb0d40846d87c2045cda059"
+  },
+  {
+    "request_id": "4d436fc6-7f22-46dd-90e2-585423a0f421",
+    "stage": "decision",
+    "message": "The system abstained because available evidence was insufficient to safely select an interpretation.",
+    "timestamp": "2026-09-10T06:46:59.535613+00:00",
+    "details": {
+      "original_prediction": "bathtub",
+      "defended_prediction": "bathtub",
+      "attack_score": 0.17844815015792848,
+      "trust_map": {
+        "global_trust_score": 1.0
+      },
+      "suspicious_regions": [],
+      "selected_defense": "none",
+      "verification_score": 1.0,
+      "final_state": "ABSTAIN",
+      "final_prediction": null,
+      "decision_reasons": [
+        "No defense produced a verified recovery result."
+      ],
+      "processing_time_ms": 1265.4564999998001
+    },
+    "record_hash": "e6aa0b0348c81f9794fa91d9274c070349f65773a6939de8da32dc19a267c42f",
+    "previous_record_hash": "803e18af7307d92bc47374c30350283c8477eed37144c13f31dc1212d8fde446"
+  },
+  {
+    "request_id": "767f76eb-1213-4b7e-96b5-6183dda2f7f8",
+    "stage": "decision",
+    "message": "The system abstained because available evidence was insufficient to safely select an interpretation.",
+    "timestamp": "2026-09-10T06:59:12.803380+00:00",
+    "details": {
+      "original_prediction": "602",
+      "defended_prediction": "602",
+      "attack_score": 9.778503328561782e-05,
+      "trust_map": {
+        "global_trust_score": 1.0
+      },
+      "suspicious_regions": [],
+      "selected_defense": "none",
+      "verification_score": 1.0,
+      "final_state": "ABSTAIN",
+      "final_prediction": null,
+      "decision_reasons": [
+        "No defense produced a verified recovery result."
+      ],
+      "processing_time_ms": 457.50279999992927
+    },
+    "record_hash": "082670159f76092aa20d32af296551be98b08cdff2e476bb7a59153feb4729e5",
+    "previous_record_hash": "e6aa0b0348c81f9794fa91d9274c070349f65773a6939de8da32dc19a267c42f"
+  },
+  {
+    "request_id": "dbd5b329-e345-4471-ad13-89398c38191a",
+    "stage": "decision",
+    "message": "The system abstained because available evidence was insufficient to safely select an interpretation.",
+    "timestamp": "2026-09-10T06:59:13.442014+00:00",
+    "details": {
+      "original_prediction": "car mirror",
+      "defended_prediction": "car mirror",
+      "attack_score": 0.16000580513384194,
+      "trust_map": {
+        "global_trust_score": 1.0
+      },
+      "suspicious_regions": [],
+      "selected_defense": "none",
+      "verification_score": 1.0,
+      "final_state": "ABSTAIN",
+      "final_prediction": null,
+      "decision_reasons": [
+        "No defense produced a verified recovery result."
+      ],
+      "processing_time_ms": 192.90490000003047
+    },
+    "record_hash": "04bd48fbc6e31b25ddcd316b3f0f7cddf2cc24ea72fc9cf557bd92737886dc1e",
+    "previous_record_hash": "082670159f76092aa20d32af296551be98b08cdff2e476bb7a59153feb4729e5"
+  },
+  {
+    "request_id": "13ad4b83-047f-49f9-bd76-d186371c7cae",
+    "stage": "decision",
+    "message": "The system abstained because available evidence was insufficient to safely select an interpretation.",
+    "timestamp": "2026-09-10T06:59:13.560254+00:00",
+    "details": {
+      "original_prediction": "tench",
+      "defended_prediction": "tench",
+      "attack_score": 0.16000930797308688,
+      "trust_map": {
+        "global_trust_score": 1.0
+      },
+      "suspicious_regions": [],
+      "selected_defense": "none",
+      "verification_score": 1.0,
+      "final_state": "ABSTAIN",
+      "final_prediction": null,
+      "decision_reasons": [
+        "No defense produced a verified recovery result."
+      ],
+      "processing_time_ms": 8.715299999948911
+    },
+    "record_hash": "a28d3f9016ad8f3f0d659f1fbe1f52dcfbc072a48c3382b97bd4e6b73e25b15f",
+    "previous_record_hash": "04bd48fbc6e31b25ddcd316b3f0f7cddf2cc24ea72fc9cf557bd92737886dc1e"
   }
 ]

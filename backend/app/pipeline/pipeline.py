@@ -56,6 +56,7 @@ class ArgusPipeline:
             original_confidence=defense_result.original_prediction.confidence,
             defended_prediction=defense_result.defended_prediction.class_name,
             defended_confidence=defense_result.defended_prediction.confidence,
+            defended_stability=defense_result.defended_stability,
             verification_score=verification.verification_score,
             object_consistency=verification.object_consistency["object_consistency_score"],
             geometry_consistency=verification.geometry_consistency["structural_similarity"],

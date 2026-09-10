@@ -24,7 +24,13 @@ def test_top_predictions_are_ranked():
     assert confidences == sorted(confidences, reverse=True)
 
 
-def test_human_photos_are_labeled_as_person():
+def test_predictions_are_the_models_own_labels():
+    """No label override: skin-tone pixels must not force "person".
+
+    This pins the removal of the old skin-mask heuristic, which rewrote the
+    top-1 label of nearly every natural photo (wood, sand, fur, food all
+    match skin-tone ranges) to "person" with a fabricated 0.72 confidence.
+    """
     image = np.zeros((224, 224, 3), dtype=np.uint8)
     image[40:180, 70:150] = [180, 140, 120]
     image[120:200, 40:180] = [90, 70, 55]
@@ -32,4 +38,7 @@ def test_human_photos_are_labeled_as_person():
 
     prediction = ResNet18VisionModel().predict(image)
 
-    assert prediction.class_name == "person"
+    assert prediction.class_name != "person"
+    assert prediction.class_name in ResNet18VisionModel().class_names
+    names = [item.class_name for item in prediction.top_predictions]
+    assert all(name != "person" for name in names)

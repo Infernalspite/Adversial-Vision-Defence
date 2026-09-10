@@ -27,3 +27,8 @@ data/learning/*
 !data/learning/.gitkeep
 data/experiments/*
 !data/experiments/.gitkeep
+
+# Reproducible robustness runs and local workspace metadata.
+data/robust/*
+!.gitkeep
+.freebuff/

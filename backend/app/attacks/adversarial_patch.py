@@ -1,5 +1,6 @@
 """Localized adversarial patch attack."""
 
+import random
 from typing import Any
 
 import numpy as np
@@ -31,7 +32,8 @@ class AdversarialPatchAttack(BaseAttack):
         original, started = self._start(image)
         height, width = original.shape[:2]
         side = max(1, min(height, width, round(min(height, width) * patch_size)))
-        top, left = self._location(location, height, width, side)
+        location_seed = kwargs.get("location_seed")
+        top, left = self._location(location, height, width, side, location_seed=location_seed)
         mask = np.zeros((height, width), dtype=np.uint8)
         mask[top : top + side, left : left + side] = 1
         clean = torch.from_numpy(original).permute(2, 0, 1).float().div(255).to(model.device)
@@ -62,7 +64,7 @@ class AdversarialPatchAttack(BaseAttack):
             original,
             adversarial,
             "adversarial_patch",
-            {"patch_size": patch_size, "location": location, "iterations": iterations, "learning_rate": learning_rate},
+            {"patch_size": patch_size, "location": location, "iterations": iterations, "learning_rate": learning_rate, **({"location_seed": location_seed} if location_seed is not None else {})},
             model,
             started,
             patch_mask=mask,
@@ -70,7 +72,12 @@ class AdversarialPatchAttack(BaseAttack):
         )
 
     @staticmethod
-    def _location(location: str, height: int, width: int, side: int) -> tuple[int, int]:
+    def _location(location: str, height: int, width: int, side: int, location_seed: int | None = None) -> tuple[int, int]:
+        if location == "random":
+            if location_seed is None:
+                raise ValueError("location='random' requires a location_seed")
+            rng = random.Random(int(location_seed))
+            return rng.randint(0, max(0, height - side)), rng.randint(0, max(0, width - side))
         positions = {
             "center": ((height - side) // 2, (width - side) // 2),
             "top_left": (0, 0),

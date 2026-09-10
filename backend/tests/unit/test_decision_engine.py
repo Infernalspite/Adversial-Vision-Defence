@@ -45,12 +45,47 @@ def test_defended_requires_attack_defense_and_verification():
         defense_applied=True,
         defense_method="purification",
         original_confidence=0.2,
+        defended_prediction="cat",
         defended_confidence=0.88,
+        defended_stability=1.0,
         verification_score=0.86,
         global_trust_score=0.55,
     ))
     assert result.final_state is FinalState.DEFENDED
-    assert result.final_prediction == "dog"
+    assert result.final_prediction == "cat"
+
+
+def test_unchanged_label_after_defense_cannot_be_defended():
+    """A defense that changes nothing must not certify the suspicious label."""
+    result = FinalDecisionEngine().decide(context(
+        attack_score=0.9,
+        attack_detected=True,
+        defense_applied=True,
+        defense_method="purification",
+        original_prediction="gar",
+        defended_prediction="gar",
+        defended_confidence=0.99,
+        defended_stability=1.0,
+        verification_score=0.95,
+    ))
+    assert result.final_state is FinalState.ABSTAIN
+    assert any("did not change" in reason for reason in result.decision_reasons)
+
+
+def test_unstable_recovery_cannot_be_defended():
+    """A changed label that still flips under benign probes is not a recovery."""
+    result = FinalDecisionEngine().decide(context(
+        attack_score=0.9,
+        attack_detected=True,
+        defense_applied=True,
+        defense_method="purification",
+        original_prediction="gar",
+        defended_prediction="cat",
+        defended_stability=0.0,
+        verification_score=0.95,
+    ))
+    assert result.final_state is FinalState.ABSTAIN
+    assert any("unstable" in reason for reason in result.decision_reasons)
 
 
 def test_attack_detection_alone_cannot_produce_defended():

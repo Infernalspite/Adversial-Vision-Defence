@@ -173865,5 +173865,3579 @@
     },
     "record_hash": "4702abf07ef2916ed035ce5625b82e7edb5735ada2aac01b582bc3be7e6e8047",
     "previous_record_hash": "b54d9f602b22f9fb84d46daf3fb3efb79610fabbfcc03efc74fc204459563377"
+  },
+  {
+    "request_id": "2a19ac8c-1790-4ea5-9ca5-c31dcc39bbb3",
+    "stage": "decision",
+    "message": "The input remained below attack risk thresholds and its interpretation was strongly verified.",
+    "timestamp": "2026-09-09T12:41:51.444254+00:00",
+    "details": {
+      "original_prediction": "tench",
+      "defended_prediction": "tench",
+      "attack_score": 0.008715208626306998,
+      "trust_map": {
+        "global_trust_score": 1.0
+      },
+      "suspicious_regions": [],
+      "selected_defense": "none",
+      "verification_score": 1.0,
+      "final_state": "TRUSTED",
+      "final_prediction": "tench",
+      "decision_reasons": [
+        "Attack evidence remained below the detection threshold.",
+        "Global trust exceeded the configured high-trust threshold.",
+        "Object, geometry, and scene verification were strong.",
+        "Original prediction confidence was sufficient."
+      ],
+      "processing_time_ms": 616.4838999975473
+    },
+    "record_hash": "d8ac8c9568c21878ed330166513a57fe70dc323d40edd78fd6453bba9fda3017",
+    "previous_record_hash": "4702abf07ef2916ed035ce5625b82e7edb5735ada2aac01b582bc3be7e6e8047"
+  },
+  {
+    "request_id": "3d5cd85a-ac96-49b4-81a4-ebdb52edc618",
+    "stage": "decision",
+    "message": "The system abstained because available evidence was insufficient to safely select an interpretation.",
+    "timestamp": "2026-09-09T12:41:52.682039+00:00",
+    "details": {
+      "original_prediction": "cassette player",
+      "defended_prediction": "cassette player",
+      "attack_score": 0.02407976814179244,
+      "trust_map": {
+        "global_trust_score": 1.0
+      },
+      "suspicious_regions": [],
+      "selected_defense": "none",
+      "verification_score": 1.0,
+      "final_state": "ABSTAIN",
+      "final_prediction": null,
+      "decision_reasons": [
+        "No defense produced a verified recovery result."
+      ],
+      "processing_time_ms": 456.9938000058755
+    },
+    "record_hash": "ed03904e47713af2fd23c4fd0b3974526c76c47451284d683d8182bb2643e1f1",
+    "previous_record_hash": "d8ac8c9568c21878ed330166513a57fe70dc323d40edd78fd6453bba9fda3017"
+  },
+  {
+    "request_id": "clean-ILSVRC2012_val_00012468",
+    "stage": "decision",
+    "message": "The system abstained because available evidence was insufficient to safely select an interpretation.",
+    "timestamp": "2026-09-09T12:55:31.086839+00:00",
+    "details": {
+      "original_prediction": "cassette player",
+      "defended_prediction": "cassette player",
+      "attack_score": 0.02407976814179244,
+      "trust_map": {
+        "global_trust_score": 1.0
+      },
+      "suspicious_regions": [],
+      "selected_defense": "none",
+      "verification_score": 1.0,
+      "final_state": "ABSTAIN",
+      "final_prediction": null,
+      "decision_reasons": [
+        "No defense produced a verified recovery result."
+      ],
+      "processing_time_ms": 599.9357999971835
+    },
+    "record_hash": "86b84ccd834da6084392cf6ff47222a5ea9fda4225f3dd9330a068e2c35092d9",
+    "previous_record_hash": "ed03904e47713af2fd23c4fd0b3974526c76c47451284d683d8182bb2643e1f1"
+  },
+  {
+    "request_id": "clean-ILSVRC2012_val_00024269",
+    "stage": "decision",
+    "message": "The system abstained because available evidence was insufficient to safely select an interpretation.",
+    "timestamp": "2026-09-09T12:55:31.997562+00:00",
+    "details": {
+      "original_prediction": "chain saw",
+      "defended_prediction": "chain saw",
+      "attack_score": 0.11879987981070103,
+      "trust_map": {
+        "global_trust_score": 0.8401463031768799
+      },
+      "suspicious_regions": [],
+      "selected_defense": "none",
+      "verification_score": 1.0,
+      "final_state": "ABSTAIN",
+      "final_prediction": null,
+      "decision_reasons": [
+        "Adversarial evidence remained high.",
+        "No defense produced a verified recovery result."
+      ],
+      "processing_time_ms": 493.5508999915328
+    },
+    "record_hash": "55a86d4d58e6d48c34ccb7dee654481707bb92c3507d9a0b61537aba10e09e3b",
+    "previous_record_hash": "86b84ccd834da6084392cf6ff47222a5ea9fda4225f3dd9330a068e2c35092d9"
+  },
+  {
+    "request_id": "clean-ILSVRC2012_val_00004939",
+    "stage": "decision",
+    "message": "The system abstained because available evidence was insufficient to safely select an interpretation.",
+    "timestamp": "2026-09-09T12:55:32.911370+00:00",
+    "details": {
+      "original_prediction": "church",
+      "defended_prediction": "church",
+      "attack_score": 0.08041689298086822,
+      "trust_map": {
+        "global_trust_score": 0.8464581966400146
+      },
+      "suspicious_regions": [],
+      "selected_defense": "none",
+      "verification_score": 1.0,
+      "final_state": "ABSTAIN",
+      "final_prediction": null,
+      "decision_reasons": [
+        "Adversarial evidence remained high.",
+        "No defense produced a verified recovery result."
+      ],
+      "processing_time_ms": 439.93009999394417
+    },
+    "record_hash": "1203cd38ed48a1ce68dc7a846ab4f3c0448a499a7de55cd001c1bb8f4a648790",
+    "previous_record_hash": "55a86d4d58e6d48c34ccb7dee654481707bb92c3507d9a0b61537aba10e09e3b"
+  },
+  {
+    "request_id": "clean-ILSVRC2012_val_00008334",
+    "stage": "decision",
+    "message": "The input remained below attack risk thresholds and its interpretation was strongly verified.",
+    "timestamp": "2026-09-09T12:55:33.839280+00:00",
+    "details": {
+      "original_prediction": "English springer",
+      "defended_prediction": "English springer",
+      "attack_score": 0.013807756027040598,
+      "trust_map": {
+        "global_trust_score": 1.0
+      },
+      "suspicious_regions": [],
+      "selected_defense": "none",
+      "verification_score": 1.0,
+      "final_state": "TRUSTED",
+      "final_prediction": "English springer",
+      "decision_reasons": [
+        "Attack evidence remained below the detection threshold.",
+        "Global trust exceeded the configured high-trust threshold.",
+        "Object, geometry, and scene verification were strong.",
+        "Original prediction confidence was sufficient."
+      ],
+      "processing_time_ms": 477.3350000032224
+    },
+    "record_hash": "a22219a115796d9c7aa4f8b8083ffde85544b77b6da195d64c1bb600913dfa07",
+    "previous_record_hash": "1203cd38ed48a1ce68dc7a846ab4f3c0448a499a7de55cd001c1bb8f4a648790"
+  },
+  {
+    "request_id": "clean-ILSVRC2012_val_00019593",
+    "stage": "decision",
+    "message": "The input remained below attack risk thresholds and its interpretation was strongly verified.",
+    "timestamp": "2026-09-09T12:55:34.751372+00:00",
+    "details": {
+      "original_prediction": "French horn",
+      "defended_prediction": "French horn",
+      "attack_score": 0.024179621290022633,
+      "trust_map": {
+        "global_trust_score": 1.0
+      },
+      "suspicious_regions": [],
+      "selected_defense": "none",
+      "verification_score": 1.0,
+      "final_state": "TRUSTED",
+      "final_prediction": "French horn",
+      "decision_reasons": [
+        "Attack evidence remained below the detection threshold.",
+        "Global trust exceeded the configured high-trust threshold.",
+        "Object, geometry, and scene verification were strong.",
+        "Original prediction confidence was sufficient."
+      ],
+      "processing_time_ms": 493.5857000091346
+    },
+    "record_hash": "d3da49e45017529a615c1104867d260e2c2d13527a19fff23890ded47a90c191",
+    "previous_record_hash": "a22219a115796d9c7aa4f8b8083ffde85544b77b6da195d64c1bb600913dfa07"
+  },
+  {
+    "request_id": "clean-ILSVRC2012_val_00009345",
+    "stage": "decision",
+    "message": "The system abstained because available evidence was insufficient to safely select an interpretation.",
+    "timestamp": "2026-09-09T12:55:35.761772+00:00",
+    "details": {
+      "original_prediction": "garbage truck",
+      "defended_prediction": "garbage truck",
+      "attack_score": 0.12195430420158425,
+      "trust_map": {
+        "global_trust_score": 0.8415908217430115
+      },
+      "suspicious_regions": [],
+      "selected_defense": "none",
+      "verification_score": 1.0,
+      "final_state": "ABSTAIN",
+      "final_prediction": null,
+      "decision_reasons": [
+        "Adversarial evidence remained high.",
+        "No defense produced a verified recovery result."
+      ],
+      "processing_time_ms": 535.3219999960857
+    },
+    "record_hash": "87c6dd540a60660b64eb3b18c0fa89d6e2cdcc190f43682070f9a656fe663263",
+    "previous_record_hash": "d3da49e45017529a615c1104867d260e2c2d13527a19fff23890ded47a90c191"
+  },
+  {
+    "request_id": "clean-ILSVRC2012_val_00022538",
+    "stage": "decision",
+    "message": "The input remained below attack risk thresholds and its interpretation was strongly verified.",
+    "timestamp": "2026-09-09T12:55:36.637977+00:00",
+    "details": {
+      "original_prediction": "gas pump",
+      "defended_prediction": "gas pump",
+      "attack_score": 0.008071895161582026,
+      "trust_map": {
+        "global_trust_score": 1.0
+      },
+      "suspicious_regions": [],
+      "selected_defense": "none",
+      "verification_score": 1.0,
+      "final_state": "TRUSTED",
+      "final_prediction": "gas pump",
+      "decision_reasons": [
+        "Attack evidence remained below the detection threshold.",
+        "Global trust exceeded the configured high-trust threshold.",
+        "Object, geometry, and scene verification were strong.",
+        "Original prediction confidence was sufficient."
+      ],
+      "processing_time_ms": 468.78570000990294
+    },
+    "record_hash": "ba363ad05eea311bae23ee7aa2bf1c09acf7db39d55dbd41decf9f590c7ea3fb",
+    "previous_record_hash": "87c6dd540a60660b64eb3b18c0fa89d6e2cdcc190f43682070f9a656fe663263"
+  },
+  {
+    "request_id": "clean-ILSVRC2012_val_00017247",
+    "stage": "decision",
+    "message": "The system abstained because available evidence was insufficient to safely select an interpretation.",
+    "timestamp": "2026-09-09T12:55:37.578676+00:00",
+    "details": {
+      "original_prediction": "carton",
+      "defended_prediction": "carton",
+      "attack_score": 0.18303483793876707,
+      "trust_map": {
+        "global_trust_score": 0.878311038017273
+      },
+      "suspicious_regions": [],
+      "selected_defense": "none",
+      "verification_score": 1.0,
+      "final_state": "ABSTAIN",
+      "final_prediction": null,
+      "decision_reasons": [
+        "Adversarial evidence remained high.",
+        "No defense produced a verified recovery result."
+      ],
+      "processing_time_ms": 554.4988000037847
+    },
+    "record_hash": "6133496fe39deff1b326a9f32e01b35606b2018e1f12d421482fcb26bf4e2cf6",
+    "previous_record_hash": "ba363ad05eea311bae23ee7aa2bf1c09acf7db39d55dbd41decf9f590c7ea3fb"
+  },
+  {
+    "request_id": "clean-ILSVRC2012_val_00011324",
+    "stage": "decision",
+    "message": "The input remained below attack risk thresholds and its interpretation was strongly verified.",
+    "timestamp": "2026-09-09T12:55:38.458549+00:00",
+    "details": {
+      "original_prediction": "parachute",
+      "defended_prediction": "parachute",
+      "attack_score": 0.0029027155801703993,
+      "trust_map": {
+        "global_trust_score": 1.0
+      },
+      "suspicious_regions": [],
+      "selected_defense": "none",
+      "verification_score": 1.0,
+      "final_state": "TRUSTED",
+      "final_prediction": "parachute",
+      "decision_reasons": [
+        "Attack evidence remained below the detection threshold.",
+        "Global trust exceeded the configured high-trust threshold.",
+        "Object, geometry, and scene verification were strong.",
+        "Original prediction confidence was sufficient."
+      ],
+      "processing_time_ms": 483.5566999972798
+    },
+    "record_hash": "b0f28661a4f1099484712cc24fb8d01fda2a3711eafc2deb5c804ab91c87096f",
+    "previous_record_hash": "6133496fe39deff1b326a9f32e01b35606b2018e1f12d421482fcb26bf4e2cf6"
+  },
+  {
+    "request_id": "clean-ILSVRC2012_val_00031333",
+    "stage": "decision",
+    "message": "The input remained below attack risk thresholds and its interpretation was strongly verified.",
+    "timestamp": "2026-09-09T12:55:39.563895+00:00",
+    "details": {
+      "original_prediction": "tench",
+      "defended_prediction": "tench",
+      "attack_score": 0.008715208626306998,
+      "trust_map": {
+        "global_trust_score": 1.0
+      },
+      "suspicious_regions": [],
+      "selected_defense": "none",
+      "verification_score": 1.0,
+      "final_state": "TRUSTED",
+      "final_prediction": "tench",
+      "decision_reasons": [
+        "Attack evidence remained below the detection threshold.",
+        "Global trust exceeded the configured high-trust threshold.",
+        "Object, geometry, and scene verification were strong.",
+        "Original prediction confidence was sufficient."
+      ],
+      "processing_time_ms": 488.9614999992773
+    },
+    "record_hash": "31e6311f13305f01588a0e4876e8093b1db18cb5ff7034d0f5276c72f9377bb6",
+    "previous_record_hash": "b0f28661a4f1099484712cc24fb8d01fda2a3711eafc2deb5c804ab91c87096f"
+  },
+  {
+    "request_id": "fgsm_e16-ILSVRC2012_val_00012468",
+    "stage": "decision",
+    "message": "The system abstained because available evidence was insufficient to safely select an interpretation.",
+    "timestamp": "2026-09-09T12:55:40.510768+00:00",
+    "details": {
+      "original_prediction": "buckle",
+      "defended_prediction": "buckle",
+      "attack_score": 0.0676276143567134,
+      "trust_map": {
+        "global_trust_score": 0.8817587494850159
+      },
+      "suspicious_regions": [],
+      "selected_defense": "none",
+      "verification_score": 1.0,
+      "final_state": "ABSTAIN",
+      "final_prediction": null,
+      "decision_reasons": [
+        "Adversarial evidence remained high.",
+        "No defense produced a verified recovery result."
+      ],
+      "processing_time_ms": 565.9646000131033
+    },
+    "record_hash": "963ca8bd83bd8086ac5ee2eebc1c9937daf96a6d0b07640d99b8e30f9849d4b5",
+    "previous_record_hash": "31e6311f13305f01588a0e4876e8093b1db18cb5ff7034d0f5276c72f9377bb6"
+  },
+  {
+    "request_id": "fgsm_e16-ILSVRC2012_val_00024269",
+    "stage": "decision",
+    "message": "The system abstained because available evidence was insufficient to safely select an interpretation.",
+    "timestamp": "2026-09-09T12:55:41.640156+00:00",
+    "details": {
+      "original_prediction": "screw",
+      "defended_prediction": "screw",
+      "attack_score": 0.1686008141959519,
+      "trust_map": {
+        "global_trust_score": 0.8494365811347961
+      },
+      "suspicious_regions": [],
+      "selected_defense": "none",
+      "verification_score": 1.0,
+      "final_state": "ABSTAIN",
+      "final_prediction": null,
+      "decision_reasons": [
+        "Adversarial evidence remained high.",
+        "No defense produced a verified recovery result."
+      ],
+      "processing_time_ms": 709.895799998776
+    },
+    "record_hash": "09f83a1cc41ad3bae167cdb24c042f461debff96d5636fe8e55bc7ac5eb328e5",
+    "previous_record_hash": "963ca8bd83bd8086ac5ee2eebc1c9937daf96a6d0b07640d99b8e30f9849d4b5"
+  },
+  {
+    "request_id": "fgsm_e16-ILSVRC2012_val_00004939",
+    "stage": "decision",
+    "message": "The input remained below attack risk thresholds and its interpretation was strongly verified.",
+    "timestamp": "2026-09-09T12:55:42.733455+00:00",
+    "details": {
+      "original_prediction": "monastery",
+      "defended_prediction": "monastery",
+      "attack_score": 0.04885785870026198,
+      "trust_map": {
+        "global_trust_score": 1.0
+      },
+      "suspicious_regions": [],
+      "selected_defense": "none",
+      "verification_score": 1.0,
+      "final_state": "TRUSTED",
+      "final_prediction": "monastery",
+      "decision_reasons": [
+        "Attack evidence remained below the detection threshold.",
+        "Global trust exceeded the configured high-trust threshold.",
+        "Object, geometry, and scene verification were strong.",
+        "Original prediction confidence was sufficient."
+      ],
+      "processing_time_ms": 610.8845999842742
+    },
+    "record_hash": "46a4c593c421cafae9cb36594610fd354f3014acc88d47b9a5fec291fcd34fe1",
+    "previous_record_hash": "09f83a1cc41ad3bae167cdb24c042f461debff96d5636fe8e55bc7ac5eb328e5"
+  },
+  {
+    "request_id": "fgsm_e16-ILSVRC2012_val_00008334",
+    "stage": "decision",
+    "message": "The input remained below attack risk thresholds and its interpretation was strongly verified.",
+    "timestamp": "2026-09-09T12:55:43.699243+00:00",
+    "details": {
+      "original_prediction": "Blenheim spaniel",
+      "defended_prediction": "Blenheim spaniel",
+      "attack_score": 0.028771127791423767,
+      "trust_map": {
+        "global_trust_score": 1.0
+      },
+      "suspicious_regions": [],
+      "selected_defense": "none",
+      "verification_score": 1.0,
+      "final_state": "TRUSTED",
+      "final_prediction": "Blenheim spaniel",
+      "decision_reasons": [
+        "Attack evidence remained below the detection threshold.",
+        "Global trust exceeded the configured high-trust threshold.",
+        "Object, geometry, and scene verification were strong.",
+        "Original prediction confidence was sufficient."
+      ],
+      "processing_time_ms": 579.9044000013964
+    },
+    "record_hash": "9c9a94e79f0730470e46817bd330512302dd221213ea35787820dfcfb161c5c6",
+    "previous_record_hash": "46a4c593c421cafae9cb36594610fd354f3014acc88d47b9a5fec291fcd34fe1"
+  },
+  {
+    "request_id": "fgsm_e16-ILSVRC2012_val_00019593",
+    "stage": "decision",
+    "message": "The input remained below attack risk thresholds and its interpretation was strongly verified.",
+    "timestamp": "2026-09-09T12:55:44.675305+00:00",
+    "details": {
+      "original_prediction": "sax",
+      "defended_prediction": "sax",
+      "attack_score": 0.033258644707618176,
+      "trust_map": {
+        "global_trust_score": 1.0
+      },
+      "suspicious_regions": [],
+      "selected_defense": "none",
+      "verification_score": 1.0,
+      "final_state": "TRUSTED",
+      "final_prediction": "sax",
+      "decision_reasons": [
+        "Attack evidence remained below the detection threshold.",
+        "Global trust exceeded the configured high-trust threshold.",
+        "Object, geometry, and scene verification were strong.",
+        "Original prediction confidence was sufficient."
+      ],
+      "processing_time_ms": 501.4492999907816
+    },
+    "record_hash": "5403fa0b23a222fbec48af71781c3d50659cbe582bdd89cd3939868d104aab85",
+    "previous_record_hash": "9c9a94e79f0730470e46817bd330512302dd221213ea35787820dfcfb161c5c6"
+  },
+  {
+    "request_id": "fgsm_e16-ILSVRC2012_val_00009345",
+    "stage": "decision",
+    "message": "The system abstained because available evidence was insufficient to safely select an interpretation.",
+    "timestamp": "2026-09-09T12:55:45.737425+00:00",
+    "details": {
+      "original_prediction": "amphibian",
+      "defended_prediction": "amphibian",
+      "attack_score": 0.08586456246408361,
+      "trust_map": {
+        "global_trust_score": 0.841762125492096
+      },
+      "suspicious_regions": [
+        {
+          "region_id": 1,
+          "x": 151,
+          "y": 208,
+          "width": 13,
+          "height": 3,
+          "area_pixels": 18,
+          "area_percentage": 0.013204225352112674,
+          "anomaly_score": 0.8062806576490402,
+          "trust_score": 0.19371934235095978
+        }
+      ],
+      "selected_defense": "none",
+      "verification_score": 1.0,
+      "final_state": "ABSTAIN",
+      "final_prediction": null,
+      "decision_reasons": [
+        "Adversarial evidence remained high.",
+        "No defense produced a verified recovery result."
+      ],
+      "processing_time_ms": 615.3180999972392
+    },
+    "record_hash": "fc89580383f1aa04482c4e6a0de15fe329d72a5c8eda3f936bc1cda6c593dfe7",
+    "previous_record_hash": "5403fa0b23a222fbec48af71781c3d50659cbe582bdd89cd3939868d104aab85"
+  },
+  {
+    "request_id": "fgsm_e16-ILSVRC2012_val_00022538",
+    "stage": "decision",
+    "message": "The system abstained because available evidence was insufficient to safely select an interpretation.",
+    "timestamp": "2026-09-09T12:55:46.712811+00:00",
+    "details": {
+      "original_prediction": "book jacket",
+      "defended_prediction": "book jacket",
+      "attack_score": 0.016404801672839194,
+      "trust_map": {
+        "global_trust_score": 1.0
+      },
+      "suspicious_regions": [],
+      "selected_defense": "none",
+      "verification_score": 1.0,
+      "final_state": "ABSTAIN",
+      "final_prediction": null,
+      "decision_reasons": [
+        "No defense produced a verified recovery result."
+      ],
+      "processing_time_ms": 523.8436999934493
+    },
+    "record_hash": "2138c829a2032e9476ebf211ec918a2baa92555c711c6a75a15298d2ba131b2f",
+    "previous_record_hash": "fc89580383f1aa04482c4e6a0de15fe329d72a5c8eda3f936bc1cda6c593dfe7"
+  },
+  {
+    "request_id": "fgsm_e16-ILSVRC2012_val_00017247",
+    "stage": "decision",
+    "message": "The system abstained because available evidence was insufficient to safely select an interpretation.",
+    "timestamp": "2026-09-09T12:55:47.902409+00:00",
+    "details": {
+      "original_prediction": "purse",
+      "defended_prediction": "purse",
+      "attack_score": 0.16210889062957912,
+      "trust_map": {
+        "global_trust_score": 0.876707911491394
+      },
+      "suspicious_regions": [],
+      "selected_defense": "none",
+      "verification_score": 1.0,
+      "final_state": "ABSTAIN",
+      "final_prediction": null,
+      "decision_reasons": [
+        "Adversarial evidence remained high.",
+        "No defense produced a verified recovery result."
+      ],
+      "processing_time_ms": 549.7612000181107
+    },
+    "record_hash": "ca53d8c27a47018ae3373d2f10408dbe2d4247dffc767c81c8c83c7abd4a560c",
+    "previous_record_hash": "2138c829a2032e9476ebf211ec918a2baa92555c711c6a75a15298d2ba131b2f"
+  },
+  {
+    "request_id": "fgsm_e16-ILSVRC2012_val_00011324",
+    "stage": "decision",
+    "message": "The system abstained because available evidence was insufficient to safely select an interpretation.",
+    "timestamp": "2026-09-09T12:55:48.900382+00:00",
+    "details": {
+      "original_prediction": "jigsaw puzzle",
+      "defended_prediction": "jigsaw puzzle",
+      "attack_score": 0.11046115103810479,
+      "trust_map": {
+        "global_trust_score": 0.8749571442604065
+      },
+      "suspicious_regions": [],
+      "selected_defense": "none",
+      "verification_score": 1.0,
+      "final_state": "ABSTAIN",
+      "final_prediction": null,
+      "decision_reasons": [
+        "Adversarial evidence remained high.",
+        "No defense produced a verified recovery result."
+      ],
+      "processing_time_ms": 532.9595999937737
+    },
+    "record_hash": "08d729864509293c3cee50e6a4601dc97d4776bb8529d361cb428b3b37ca541f",
+    "previous_record_hash": "ca53d8c27a47018ae3373d2f10408dbe2d4247dffc767c81c8c83c7abd4a560c"
+  },
+  {
+    "request_id": "fgsm_e16-ILSVRC2012_val_00031333",
+    "stage": "decision",
+    "message": "The system abstained because available evidence was insufficient to safely select an interpretation.",
+    "timestamp": "2026-09-09T12:55:49.966311+00:00",
+    "details": {
+      "original_prediction": "sock",
+      "defended_prediction": "sock",
+      "attack_score": 0.1492799134003244,
+      "trust_map": {
+        "global_trust_score": 0.8021532297134399
+      },
+      "suspicious_regions": [],
+      "selected_defense": "none",
+      "verification_score": 1.0,
+      "final_state": "ABSTAIN",
+      "final_prediction": null,
+      "decision_reasons": [
+        "Adversarial evidence remained high.",
+        "No defense produced a verified recovery result."
+      ],
+      "processing_time_ms": 665.9322000050452
+    },
+    "record_hash": "97901da6441c39e9b0aa3a02d9146e8d899e4ee8efc1e016f26c8819826f7f5b",
+    "previous_record_hash": "08d729864509293c3cee50e6a4601dc97d4776bb8529d361cb428b3b37ca541f"
+  },
+  {
+    "request_id": "fgsm_e2-ILSVRC2012_val_00012468",
+    "stage": "decision",
+    "message": "The system abstained because available evidence was insufficient to safely select an interpretation.",
+    "timestamp": "2026-09-09T12:55:50.930929+00:00",
+    "details": {
+      "original_prediction": "radio",
+      "defended_prediction": "radio",
+      "attack_score": 0.10286534436820831,
+      "trust_map": {
+        "global_trust_score": 0.8803748488426208
+      },
+      "suspicious_regions": [],
+      "selected_defense": "none",
+      "verification_score": 1.0,
+      "final_state": "ABSTAIN",
+      "final_prediction": null,
+      "decision_reasons": [
+        "Adversarial evidence remained high.",
+        "No defense produced a verified recovery result."
+      ],
+      "processing_time_ms": 470.08549999736715
+    },
+    "record_hash": "3da834bd99ff9a025f5d0db7dd5e1a10ad96dab2f8636a7c83e3dc920c81ccc9",
+    "previous_record_hash": "97901da6441c39e9b0aa3a02d9146e8d899e4ee8efc1e016f26c8819826f7f5b"
+  },
+  {
+    "request_id": "fgsm_e2-ILSVRC2012_val_00024269",
+    "stage": "decision",
+    "message": "The system abstained because available evidence was insufficient to safely select an interpretation.",
+    "timestamp": "2026-09-09T12:55:51.955013+00:00",
+    "details": {
+      "original_prediction": "barbell",
+      "defended_prediction": "barbell",
+      "attack_score": 0.06601869826488876,
+      "trust_map": {
+        "global_trust_score": 0.8424862623214722
+      },
+      "suspicious_regions": [
+        {
+          "region_id": 1,
+          "x": 127,
+          "y": 141,
+          "width": 10,
+          "height": 8,
+          "area_pixels": 26,
+          "area_percentage": 0.025390625,
+          "anomaly_score": 0.7843895256519318,
+          "trust_score": 0.21561047434806824
+        }
+      ],
+      "selected_defense": "none",
+      "verification_score": 1.0,
+      "final_state": "ABSTAIN",
+      "final_prediction": null,
+      "decision_reasons": [
+        "Adversarial evidence remained high.",
+        "No defense produced a verified recovery result."
+      ],
+      "processing_time_ms": 566.1026000016136
+    },
+    "record_hash": "c253b9d41d3816dd1ce17d6de04f1725a9a33f34993fc18c01c6c550d855507c",
+    "previous_record_hash": "3da834bd99ff9a025f5d0db7dd5e1a10ad96dab2f8636a7c83e3dc920c81ccc9"
+  },
+  {
+    "request_id": "fgsm_e2-ILSVRC2012_val_00004939",
+    "stage": "decision",
+    "message": "The input remained below attack risk thresholds and its interpretation was strongly verified.",
+    "timestamp": "2026-09-09T12:55:52.886001+00:00",
+    "details": {
+      "original_prediction": "monastery",
+      "defended_prediction": "monastery",
+      "attack_score": 0.022615951406843377,
+      "trust_map": {
+        "global_trust_score": 1.0
+      },
+      "suspicious_regions": [],
+      "selected_defense": "none",
+      "verification_score": 1.0,
+      "final_state": "TRUSTED",
+      "final_prediction": "monastery",
+      "decision_reasons": [
+        "Attack evidence remained below the detection threshold.",
+        "Global trust exceeded the configured high-trust threshold.",
+        "Object, geometry, and scene verification were strong.",
+        "Original prediction confidence was sufficient."
+      ],
+      "processing_time_ms": 493.8721000071382
+    },
+    "record_hash": "bde3dc656294a0a6c0fc155bef2952df20354e440bab3d789447132bf6958141",
+    "previous_record_hash": "c253b9d41d3816dd1ce17d6de04f1725a9a33f34993fc18c01c6c550d855507c"
+  },
+  {
+    "request_id": "fgsm_e2-ILSVRC2012_val_00008334",
+    "stage": "decision",
+    "message": "The system abstained because available evidence was insufficient to safely select an interpretation.",
+    "timestamp": "2026-09-09T12:55:53.871473+00:00",
+    "details": {
+      "original_prediction": "Blenheim spaniel",
+      "defended_prediction": "Blenheim spaniel",
+      "attack_score": 0.038210106295722274,
+      "trust_map": {
+        "global_trust_score": 1.0
+      },
+      "suspicious_regions": [],
+      "selected_defense": "none",
+      "verification_score": 1.0,
+      "final_state": "ABSTAIN",
+      "final_prediction": null,
+      "decision_reasons": [
+        "No defense produced a verified recovery result."
+      ],
+      "processing_time_ms": 514.9721000052523
+    },
+    "record_hash": "fd03812afff81fb2d8ec8bf4964adf4c8d0f5b10c85e99aa88ff01009aa499af",
+    "previous_record_hash": "bde3dc656294a0a6c0fc155bef2952df20354e440bab3d789447132bf6958141"
+  },
+  {
+    "request_id": "fgsm_e2-ILSVRC2012_val_00019593",
+    "stage": "decision",
+    "message": "The system abstained because available evidence was insufficient to safely select an interpretation.",
+    "timestamp": "2026-09-09T12:55:55.024799+00:00",
+    "details": {
+      "original_prediction": "sax",
+      "defended_prediction": "French horn",
+      "attack_score": 0.356799072671139,
+      "trust_map": {
+        "global_trust_score": 0.86734938621521
+      },
+      "suspicious_regions": [],
+      "selected_defense": "transform",
+      "verification_score": 0.5724055071653228,
+      "final_state": "ABSTAIN",
+      "final_prediction": null,
+      "decision_reasons": [
+        "Adversarial evidence remained high.",
+        "Semantic verification remained inconclusive or contradictory."
+      ],
+      "processing_time_ms": 724.3170000001555
+    },
+    "record_hash": "c194e5ddc4a55fd6f04dc32a5dff3bd731e895df5658e4b7d0820c1f54d998fb",
+    "previous_record_hash": "fd03812afff81fb2d8ec8bf4964adf4c8d0f5b10c85e99aa88ff01009aa499af"
+  },
+  {
+    "request_id": "fgsm_e2-ILSVRC2012_val_00009345",
+    "stage": "decision",
+    "message": "The input remained below attack risk thresholds and its interpretation was strongly verified.",
+    "timestamp": "2026-09-09T12:55:55.947755+00:00",
+    "details": {
+      "original_prediction": "amphibian",
+      "defended_prediction": "amphibian",
+      "attack_score": 0.034498125899936324,
+      "trust_map": {
+        "global_trust_score": 1.0
+      },
+      "suspicious_regions": [],
+      "selected_defense": "none",
+      "verification_score": 1.0,
+      "final_state": "TRUSTED",
+      "final_prediction": "amphibian",
+      "decision_reasons": [
+        "Attack evidence remained below the detection threshold.",
+        "Global trust exceeded the configured high-trust threshold.",
+        "Object, geometry, and scene verification were strong.",
+        "Original prediction confidence was sufficient."
+      ],
+      "processing_time_ms": 506.81050001003314
+    },
+    "record_hash": "d5bb83c0ea94cbba975b5432d2ccd83a9fbded04f4eb5d8abb54af2bba554967",
+    "previous_record_hash": "c194e5ddc4a55fd6f04dc32a5dff3bd731e895df5658e4b7d0820c1f54d998fb"
+  },
+  {
+    "request_id": "fgsm_e2-ILSVRC2012_val_00022538",
+    "stage": "decision",
+    "message": "The system abstained because available evidence was insufficient to safely select an interpretation.",
+    "timestamp": "2026-09-09T12:55:57.148922+00:00",
+    "details": {
+      "original_prediction": "pay-phone",
+      "defended_prediction": "pay-phone",
+      "attack_score": 0.09535291614431633,
+      "trust_map": {
+        "global_trust_score": 0.8568709492683411
+      },
+      "suspicious_regions": [],
+      "selected_defense": "none",
+      "verification_score": 1.0,
+      "final_state": "ABSTAIN",
+      "final_prediction": null,
+      "decision_reasons": [
+        "Adversarial evidence remained high.",
+        "No defense produced a verified recovery result."
+      ],
+      "processing_time_ms": 581.7502999998396
+    },
+    "record_hash": "5f742041ecbf481b016b4b821328741b3906036643e2275fd97f1b1a075cf857",
+    "previous_record_hash": "d5bb83c0ea94cbba975b5432d2ccd83a9fbded04f4eb5d8abb54af2bba554967"
+  },
+  {
+    "request_id": "fgsm_e2-ILSVRC2012_val_00017247",
+    "stage": "decision",
+    "message": "The system abstained because available evidence was insufficient to safely select an interpretation.",
+    "timestamp": "2026-09-09T12:55:58.116148+00:00",
+    "details": {
+      "original_prediction": "joystick",
+      "defended_prediction": "joystick",
+      "attack_score": 0.013809874244589997,
+      "trust_map": {
+        "global_trust_score": 1.0
+      },
+      "suspicious_regions": [],
+      "selected_defense": "none",
+      "verification_score": 1.0,
+      "final_state": "ABSTAIN",
+      "final_prediction": null,
+      "decision_reasons": [
+        "No defense produced a verified recovery result."
+      ],
+      "processing_time_ms": 559.4360999966739
+    },
+    "record_hash": "de780cd08e7752eb1927e76d1d2cb686eebe76c1adaf9e0cf6cc4a69ad9c31aa",
+    "previous_record_hash": "5f742041ecbf481b016b4b821328741b3906036643e2275fd97f1b1a075cf857"
+  },
+  {
+    "request_id": "fgsm_e2-ILSVRC2012_val_00019289",
+    "stage": "decision",
+    "message": "The system abstained because available evidence was insufficient to safely select an interpretation.",
+    "timestamp": "2026-09-09T12:55:59.107242+00:00",
+    "details": {
+      "original_prediction": "lakeside",
+      "defended_prediction": "lakeside",
+      "attack_score": 0.04011504681469272,
+      "trust_map": {
+        "global_trust_score": 1.0
+      },
+      "suspicious_regions": [],
+      "selected_defense": "none",
+      "verification_score": 1.0,
+      "final_state": "ABSTAIN",
+      "final_prediction": null,
+      "decision_reasons": [
+        "No defense produced a verified recovery result."
+      ],
+      "processing_time_ms": 514.6218000008957
+    },
+    "record_hash": "44c918f644efec23a108e029e6941d9267736c620fa21d0147d127aab7a033ec",
+    "previous_record_hash": "de780cd08e7752eb1927e76d1d2cb686eebe76c1adaf9e0cf6cc4a69ad9c31aa"
+  },
+  {
+    "request_id": "fgsm_e2-ILSVRC2012_val_00037375",
+    "stage": "decision",
+    "message": "The system abstained because available evidence was insufficient to safely select an interpretation.",
+    "timestamp": "2026-09-09T12:56:00.134061+00:00",
+    "details": {
+      "original_prediction": "tench",
+      "defended_prediction": "tench",
+      "attack_score": 0.11096277003104886,
+      "trust_map": {
+        "global_trust_score": 0.8625436425209045
+      },
+      "suspicious_regions": [],
+      "selected_defense": "none",
+      "verification_score": 1.0,
+      "final_state": "ABSTAIN",
+      "final_prediction": null,
+      "decision_reasons": [
+        "Adversarial evidence remained high.",
+        "No defense produced a verified recovery result."
+      ],
+      "processing_time_ms": 585.5807000043569
+    },
+    "record_hash": "95bd5a9d9449aaeca1d3f1761d97ca82266f6bd66fdcf655c434bb59f612c402",
+    "previous_record_hash": "44c918f644efec23a108e029e6941d9267736c620fa21d0147d127aab7a033ec"
+  },
+  {
+    "request_id": "fgsm_e4-ILSVRC2012_val_00012468",
+    "stage": "decision",
+    "message": "The system abstained because available evidence was insufficient to safely select an interpretation.",
+    "timestamp": "2026-09-09T12:56:01.179817+00:00",
+    "details": {
+      "original_prediction": "buckle",
+      "defended_prediction": "buckle",
+      "attack_score": 0.11995001516382656,
+      "trust_map": {
+        "global_trust_score": 0.8635269403457642
+      },
+      "suspicious_regions": [],
+      "selected_defense": "none",
+      "verification_score": 1.0,
+      "final_state": "ABSTAIN",
+      "final_prediction": null,
+      "decision_reasons": [
+        "Adversarial evidence remained high.",
+        "No defense produced a verified recovery result."
+      ],
+      "processing_time_ms": 602.6847999892198
+    },
+    "record_hash": "abd06034c12c5c78a510e57f4b15d01d48909675bf03708c79f9150eb373297c",
+    "previous_record_hash": "95bd5a9d9449aaeca1d3f1761d97ca82266f6bd66fdcf655c434bb59f612c402"
+  },
+  {
+    "request_id": "fgsm_e4-ILSVRC2012_val_00024269",
+    "stage": "decision",
+    "message": "The system abstained because available evidence was insufficient to safely select an interpretation.",
+    "timestamp": "2026-09-09T12:56:02.085444+00:00",
+    "details": {
+      "original_prediction": "barbell",
+      "defended_prediction": "barbell",
+      "attack_score": 0.08259571512183106,
+      "trust_map": {
+        "global_trust_score": 0.8384358882904053
+      },
+      "suspicious_regions": [],
+      "selected_defense": "none",
+      "verification_score": 1.0,
+      "final_state": "ABSTAIN",
+      "final_prediction": null,
+      "decision_reasons": [
+        "Adversarial evidence remained high.",
+        "No defense produced a verified recovery result."
+      ],
+      "processing_time_ms": 475.34899998572655
+    },
+    "record_hash": "8e1c44885ed0e7dbea5fb7f6c9d66e4123c1b36bf8abf0074b5f14e1e9e8c725",
+    "previous_record_hash": "abd06034c12c5c78a510e57f4b15d01d48909675bf03708c79f9150eb373297c"
+  },
+  {
+    "request_id": "fgsm_e4-ILSVRC2012_val_00004939",
+    "stage": "decision",
+    "message": "The input remained below attack risk thresholds and its interpretation was strongly verified.",
+    "timestamp": "2026-09-09T12:56:03.060691+00:00",
+    "details": {
+      "original_prediction": "monastery",
+      "defended_prediction": "monastery",
+      "attack_score": 0.02296870892518805,
+      "trust_map": {
+        "global_trust_score": 1.0
+      },
+      "suspicious_regions": [],
+      "selected_defense": "none",
+      "verification_score": 1.0,
+      "final_state": "TRUSTED",
+      "final_prediction": "monastery",
+      "decision_reasons": [
+        "Attack evidence remained below the detection threshold.",
+        "Global trust exceeded the configured high-trust threshold.",
+        "Object, geometry, and scene verification were strong.",
+        "Original prediction confidence was sufficient."
+      ],
+      "processing_time_ms": 560.7888999948045
+    },
+    "record_hash": "3345b8a9e5a2e8df814ca52156001393bd58ae8e998bc63a97cba270c596be51",
+    "previous_record_hash": "8e1c44885ed0e7dbea5fb7f6c9d66e4123c1b36bf8abf0074b5f14e1e9e8c725"
+  },
+  {
+    "request_id": "fgsm_e4-ILSVRC2012_val_00008334",
+    "stage": "decision",
+    "message": "The system abstained because available evidence was insufficient to safely select an interpretation.",
+    "timestamp": "2026-09-09T12:56:04.099053+00:00",
+    "details": {
+      "original_prediction": "Blenheim spaniel",
+      "defended_prediction": "Blenheim spaniel",
+      "attack_score": 0.03482117088861371,
+      "trust_map": {
+        "global_trust_score": 1.0
+      },
+      "suspicious_regions": [],
+      "selected_defense": "none",
+      "verification_score": 1.0,
+      "final_state": "ABSTAIN",
+      "final_prediction": null,
+      "decision_reasons": [
+        "No defense produced a verified recovery result."
+      ],
+      "processing_time_ms": 567.4274999910267
+    },
+    "record_hash": "c470ffddb55495c830544b3b3ae9dc88415edbc83e3a815ea4555695fa15d26e",
+    "previous_record_hash": "3345b8a9e5a2e8df814ca52156001393bd58ae8e998bc63a97cba270c596be51"
+  },
+  {
+    "request_id": "fgsm_e4-ILSVRC2012_val_00019593",
+    "stage": "decision",
+    "message": "The system abstained because available evidence was insufficient to safely select an interpretation.",
+    "timestamp": "2026-09-09T12:56:05.111080+00:00",
+    "details": {
+      "original_prediction": "sax",
+      "defended_prediction": "sax",
+      "attack_score": 0.19270960733956646,
+      "trust_map": {
+        "global_trust_score": 0.8592689037322998
+      },
+      "suspicious_regions": [],
+      "selected_defense": "none",
+      "verification_score": 1.0,
+      "final_state": "ABSTAIN",
+      "final_prediction": null,
+      "decision_reasons": [
+        "Adversarial evidence remained high.",
+        "No defense produced a verified recovery result."
+      ],
+      "processing_time_ms": 508.593300008215
+    },
+    "record_hash": "b929bcac8b51f5b3a8ad2d2384b85b23fde557bb680cf346226245158016bc0a",
+    "previous_record_hash": "c470ffddb55495c830544b3b3ae9dc88415edbc83e3a815ea4555695fa15d26e"
+  },
+  {
+    "request_id": "fgsm_e4-ILSVRC2012_val_00009345",
+    "stage": "decision",
+    "message": "The input remained below attack risk thresholds and its interpretation was strongly verified.",
+    "timestamp": "2026-09-09T12:56:06.341489+00:00",
+    "details": {
+      "original_prediction": "amphibian",
+      "defended_prediction": "amphibian",
+      "attack_score": 0.02851301024649376,
+      "trust_map": {
+        "global_trust_score": 1.0
+      },
+      "suspicious_regions": [],
+      "selected_defense": "none",
+      "verification_score": 1.0,
+      "final_state": "TRUSTED",
+      "final_prediction": "amphibian",
+      "decision_reasons": [
+        "Attack evidence remained below the detection threshold.",
+        "Global trust exceeded the configured high-trust threshold.",
+        "Object, geometry, and scene verification were strong.",
+        "Original prediction confidence was sufficient."
+      ],
+      "processing_time_ms": 583.6312999890652
+    },
+    "record_hash": "3eaac2c98edc8b01a8e27d93ca82a558a9354be984ec5dc0a0f2a9fc4eb65f32",
+    "previous_record_hash": "b929bcac8b51f5b3a8ad2d2384b85b23fde557bb680cf346226245158016bc0a"
+  },
+  {
+    "request_id": "fgsm_e4-ILSVRC2012_val_00022538",
+    "stage": "decision",
+    "message": "The input remained below attack risk thresholds and its interpretation was strongly verified.",
+    "timestamp": "2026-09-09T12:56:07.348206+00:00",
+    "details": {
+      "original_prediction": "pay-phone",
+      "defended_prediction": "pay-phone",
+      "attack_score": 0.02485777294899943,
+      "trust_map": {
+        "global_trust_score": 1.0
+      },
+      "suspicious_regions": [],
+      "selected_defense": "none",
+      "verification_score": 1.0,
+      "final_state": "TRUSTED",
+      "final_prediction": "pay-phone",
+      "decision_reasons": [
+        "Attack evidence remained below the detection threshold.",
+        "Global trust exceeded the configured high-trust threshold.",
+        "Object, geometry, and scene verification were strong.",
+        "Original prediction confidence was sufficient."
+      ],
+      "processing_time_ms": 586.1323999852175
+    },
+    "record_hash": "63e375cfe4c57370a38468493c91e080c3e1b7ec1ad464b68874471c0b56c005",
+    "previous_record_hash": "3eaac2c98edc8b01a8e27d93ca82a558a9354be984ec5dc0a0f2a9fc4eb65f32"
+  },
+  {
+    "request_id": "fgsm_e4-ILSVRC2012_val_00017247",
+    "stage": "decision",
+    "message": "The system abstained because available evidence was insufficient to safely select an interpretation.",
+    "timestamp": "2026-09-09T12:56:08.526319+00:00",
+    "details": {
+      "original_prediction": "joystick",
+      "defended_prediction": "joystick",
+      "attack_score": 0.019692866568125883,
+      "trust_map": {
+        "global_trust_score": 1.0
+      },
+      "suspicious_regions": [],
+      "selected_defense": "none",
+      "verification_score": 1.0,
+      "final_state": "ABSTAIN",
+      "final_prediction": null,
+      "decision_reasons": [
+        "No defense produced a verified recovery result."
+      ],
+      "processing_time_ms": 737.0070999895688
+    },
+    "record_hash": "82a644630813731dfdd56b8dc4f5ce6b49ee64727fca7c465770881e2219baca",
+    "previous_record_hash": "63e375cfe4c57370a38468493c91e080c3e1b7ec1ad464b68874471c0b56c005"
+  },
+  {
+    "request_id": "fgsm_e4-ILSVRC2012_val_00019289",
+    "stage": "decision",
+    "message": "The system abstained because available evidence was insufficient to safely select an interpretation.",
+    "timestamp": "2026-09-09T12:56:09.488338+00:00",
+    "details": {
+      "original_prediction": "American egret",
+      "defended_prediction": "American egret",
+      "attack_score": 0.11056465939215572,
+      "trust_map": {
+        "global_trust_score": 0.9000214338302612
+      },
+      "suspicious_regions": [],
+      "selected_defense": "none",
+      "verification_score": 1.0,
+      "final_state": "ABSTAIN",
+      "final_prediction": null,
+      "decision_reasons": [
+        "Adversarial evidence remained high.",
+        "No defense produced a verified recovery result."
+      ],
+      "processing_time_ms": 540.7240000204183
+    },
+    "record_hash": "0e16636c7939f477eea7293b2d17724c011e8d3888c7a0979ed1869ec51d130a",
+    "previous_record_hash": "82a644630813731dfdd56b8dc4f5ce6b49ee64727fca7c465770881e2219baca"
+  },
+  {
+    "request_id": "fgsm_e4-ILSVRC2012_val_00031333",
+    "stage": "decision",
+    "message": "The system abstained because available evidence was insufficient to safely select an interpretation.",
+    "timestamp": "2026-09-09T12:56:10.444108+00:00",
+    "details": {
+      "original_prediction": "barracouta",
+      "defended_prediction": "barracouta",
+      "attack_score": 0.09676444127348681,
+      "trust_map": {
+        "global_trust_score": 0.8236551284790039
+      },
+      "suspicious_regions": [],
+      "selected_defense": "none",
+      "verification_score": 1.0,
+      "final_state": "ABSTAIN",
+      "final_prediction": null,
+      "decision_reasons": [
+        "Adversarial evidence remained high.",
+        "No defense produced a verified recovery result."
+      ],
+      "processing_time_ms": 507.4691000045277
+    },
+    "record_hash": "f8db674e5d8cc07cb5575f6ad352528afb39937b9c64aaae8fca33c646a86fac",
+    "previous_record_hash": "0e16636c7939f477eea7293b2d17724c011e8d3888c7a0979ed1869ec51d130a"
+  },
+  {
+    "request_id": "fgsm_e8-ILSVRC2012_val_00012468",
+    "stage": "decision",
+    "message": "The system abstained because available evidence was insufficient to safely select an interpretation.",
+    "timestamp": "2026-09-09T12:56:11.399690+00:00",
+    "details": {
+      "original_prediction": "buckle",
+      "defended_prediction": "buckle",
+      "attack_score": 0.060424678432963785,
+      "trust_map": {
+        "global_trust_score": 0.8845407366752625
+      },
+      "suspicious_regions": [],
+      "selected_defense": "none",
+      "verification_score": 1.0,
+      "final_state": "ABSTAIN",
+      "final_prediction": null,
+      "decision_reasons": [
+        "Adversarial evidence remained high.",
+        "No defense produced a verified recovery result."
+      ],
+      "processing_time_ms": 495.14340001042
+    },
+    "record_hash": "b4d88566acdb8c06214619fb4cc040df26a2e33468bb03a67e4204d3f7bafec5",
+    "previous_record_hash": "f8db674e5d8cc07cb5575f6ad352528afb39937b9c64aaae8fca33c646a86fac"
+  },
+  {
+    "request_id": "fgsm_e8-ILSVRC2012_val_00024269",
+    "stage": "decision",
+    "message": "The system abstained because available evidence was insufficient to safely select an interpretation.",
+    "timestamp": "2026-09-09T12:56:12.320947+00:00",
+    "details": {
+      "original_prediction": "barbell",
+      "defended_prediction": "barbell",
+      "attack_score": 0.02529959083763156,
+      "trust_map": {
+        "global_trust_score": 1.0
+      },
+      "suspicious_regions": [],
+      "selected_defense": "none",
+      "verification_score": 1.0,
+      "final_state": "ABSTAIN",
+      "final_prediction": null,
+      "decision_reasons": [
+        "No defense produced a verified recovery result."
+      ],
+      "processing_time_ms": 491.81549999048
+    },
+    "record_hash": "c4fb35de8057083b90e13629bd0aa295fe3dbcff6ac751b9baef31b2bd974cea",
+    "previous_record_hash": "b4d88566acdb8c06214619fb4cc040df26a2e33468bb03a67e4204d3f7bafec5"
+  },
+  {
+    "request_id": "fgsm_e8-ILSVRC2012_val_00004939",
+    "stage": "decision",
+    "message": "The input remained below attack risk thresholds and its interpretation was strongly verified.",
+    "timestamp": "2026-09-09T12:56:13.366604+00:00",
+    "details": {
+      "original_prediction": "monastery",
+      "defended_prediction": "monastery",
+      "attack_score": 0.04907416620391114,
+      "trust_map": {
+        "global_trust_score": 1.0
+      },
+      "suspicious_regions": [],
+      "selected_defense": "none",
+      "verification_score": 1.0,
+      "final_state": "TRUSTED",
+      "final_prediction": "monastery",
+      "decision_reasons": [
+        "Attack evidence remained below the detection threshold.",
+        "Global trust exceeded the configured high-trust threshold.",
+        "Object, geometry, and scene verification were strong.",
+        "Original prediction confidence was sufficient."
+      ],
+      "processing_time_ms": 606.4523000095505
+    },
+    "record_hash": "5e91955f98f6d78076f7bccd7274fb4769981200b7151646dab8768d5014b34d",
+    "previous_record_hash": "c4fb35de8057083b90e13629bd0aa295fe3dbcff6ac751b9baef31b2bd974cea"
+  },
+  {
+    "request_id": "fgsm_e8-ILSVRC2012_val_00008334",
+    "stage": "decision",
+    "message": "The input remained below attack risk thresholds and its interpretation was strongly verified.",
+    "timestamp": "2026-09-09T12:56:14.459907+00:00",
+    "details": {
+      "original_prediction": "Blenheim spaniel",
+      "defended_prediction": "Blenheim spaniel",
+      "attack_score": 0.04108789305812152,
+      "trust_map": {
+        "global_trust_score": 1.0
+      },
+      "suspicious_regions": [],
+      "selected_defense": "none",
+      "verification_score": 1.0,
+      "final_state": "TRUSTED",
+      "final_prediction": "Blenheim spaniel",
+      "decision_reasons": [
+        "Attack evidence remained below the detection threshold.",
+        "Global trust exceeded the configured high-trust threshold.",
+        "Object, geometry, and scene verification were strong.",
+        "Original prediction confidence was sufficient."
+      ],
+      "processing_time_ms": 569.5537000137847
+    },
+    "record_hash": "4f3a18f67e9ff88791c509ffc3cbc1c1578324b193ac351a1ed1fd2104b3efeb",
+    "previous_record_hash": "5e91955f98f6d78076f7bccd7274fb4769981200b7151646dab8768d5014b34d"
+  },
+  {
+    "request_id": "fgsm_e8-ILSVRC2012_val_00019593",
+    "stage": "decision",
+    "message": "The system abstained because available evidence was insufficient to safely select an interpretation.",
+    "timestamp": "2026-09-09T12:56:15.545323+00:00",
+    "details": {
+      "original_prediction": "sax",
+      "defended_prediction": "sax",
+      "attack_score": 0.10286705889263582,
+      "trust_map": {
+        "global_trust_score": 0.8601729869842529
+      },
+      "suspicious_regions": [],
+      "selected_defense": "none",
+      "verification_score": 1.0,
+      "final_state": "ABSTAIN",
+      "final_prediction": null,
+      "decision_reasons": [
+        "Adversarial evidence remained high.",
+        "No defense produced a verified recovery result."
+      ],
+      "processing_time_ms": 545.8728000085102
+    },
+    "record_hash": "57ac713c05e8507d5d00f098f15903242d8873e0fec02bdcb7c14758d281f8d5",
+    "previous_record_hash": "4f3a18f67e9ff88791c509ffc3cbc1c1578324b193ac351a1ed1fd2104b3efeb"
+  },
+  {
+    "request_id": "fgsm_e8-ILSVRC2012_val_00009345",
+    "stage": "decision",
+    "message": "The input remained below attack risk thresholds and its interpretation was strongly verified.",
+    "timestamp": "2026-09-09T12:56:16.529869+00:00",
+    "details": {
+      "original_prediction": "amphibian",
+      "defended_prediction": "amphibian",
+      "attack_score": 0.03165652593519322,
+      "trust_map": {
+        "global_trust_score": 1.0
+      },
+      "suspicious_regions": [],
+      "selected_defense": "none",
+      "verification_score": 1.0,
+      "final_state": "TRUSTED",
+      "final_prediction": "amphibian",
+      "decision_reasons": [
+        "Attack evidence remained below the detection threshold.",
+        "Global trust exceeded the configured high-trust threshold.",
+        "Object, geometry, and scene verification were strong.",
+        "Original prediction confidence was sufficient."
+      ],
+      "processing_time_ms": 540.5186999996658
+    },
+    "record_hash": "c45885c88f3e8dc546eda0d8f15d4c316d94543ec33b279ed01a5690237055f6",
+    "previous_record_hash": "57ac713c05e8507d5d00f098f15903242d8873e0fec02bdcb7c14758d281f8d5"
+  },
+  {
+    "request_id": "fgsm_e8-ILSVRC2012_val_00022538",
+    "stage": "decision",
+    "message": "The system abstained because available evidence was insufficient to safely select an interpretation.",
+    "timestamp": "2026-09-09T12:56:17.491860+00:00",
+    "details": {
+      "original_prediction": "pay-phone",
+      "defended_prediction": "pay-phone",
+      "attack_score": 0.0409519024485874,
+      "trust_map": {
+        "global_trust_score": 1.0
+      },
+      "suspicious_regions": [],
+      "selected_defense": "none",
+      "verification_score": 1.0,
+      "final_state": "ABSTAIN",
+      "final_prediction": null,
+      "decision_reasons": [
+        "No defense produced a verified recovery result."
+      ],
+      "processing_time_ms": 554.8336999781895
+    },
+    "record_hash": "aa453a14a0125b1f91cba7cfd9b2a9981bf6a4e8a1b7cf3e1448aafe28de119b",
+    "previous_record_hash": "c45885c88f3e8dc546eda0d8f15d4c316d94543ec33b279ed01a5690237055f6"
+  },
+  {
+    "request_id": "fgsm_e8-ILSVRC2012_val_00017247",
+    "stage": "decision",
+    "message": "The system abstained because available evidence was insufficient to safely select an interpretation.",
+    "timestamp": "2026-09-09T12:56:18.485536+00:00",
+    "details": {
+      "original_prediction": "joystick",
+      "defended_prediction": "joystick",
+      "attack_score": 0.02372965662988995,
+      "trust_map": {
+        "global_trust_score": 1.0
+      },
+      "suspicious_regions": [],
+      "selected_defense": "none",
+      "verification_score": 1.0,
+      "final_state": "ABSTAIN",
+      "final_prediction": null,
+      "decision_reasons": [
+        "No defense produced a verified recovery result."
+      ],
+      "processing_time_ms": 526.5839000057895
+    },
+    "record_hash": "d9136e6eae9fec9da319fd321bcb36dd8c177710762a3bb93b7b9482541b73b6",
+    "previous_record_hash": "aa453a14a0125b1f91cba7cfd9b2a9981bf6a4e8a1b7cf3e1448aafe28de119b"
+  },
+  {
+    "request_id": "fgsm_e8-ILSVRC2012_val_00019289",
+    "stage": "decision",
+    "message": "The system abstained because available evidence was insufficient to safely select an interpretation.",
+    "timestamp": "2026-09-09T12:56:19.465381+00:00",
+    "details": {
+      "original_prediction": "lakeside",
+      "defended_prediction": "lakeside",
+      "attack_score": 0.09910546146867122,
+      "trust_map": {
+        "global_trust_score": 0.8811756372451782
+      },
+      "suspicious_regions": [],
+      "selected_defense": "none",
+      "verification_score": 1.0,
+      "final_state": "ABSTAIN",
+      "final_prediction": null,
+      "decision_reasons": [
+        "Adversarial evidence remained high.",
+        "No defense produced a verified recovery result."
+      ],
+      "processing_time_ms": 533.3275000011781
+    },
+    "record_hash": "66a9193d8eea84c4555ac0a7135961a3c3da4928a18cdcedc80496d78dfe82ea",
+    "previous_record_hash": "d9136e6eae9fec9da319fd321bcb36dd8c177710762a3bb93b7b9482541b73b6"
+  },
+  {
+    "request_id": "fgsm_e8-ILSVRC2012_val_00031333",
+    "stage": "decision",
+    "message": "The system abstained because available evidence was insufficient to safely select an interpretation.",
+    "timestamp": "2026-09-09T12:56:20.482287+00:00",
+    "details": {
+      "original_prediction": "barracouta",
+      "defended_prediction": "barracouta",
+      "attack_score": 0.18587999653713938,
+      "trust_map": {
+        "global_trust_score": 0.8280727863311768
+      },
+      "suspicious_regions": [],
+      "selected_defense": "none",
+      "verification_score": 1.0,
+      "final_state": "ABSTAIN",
+      "final_prediction": null,
+      "decision_reasons": [
+        "Adversarial evidence remained high.",
+        "No defense produced a verified recovery result."
+      ],
+      "processing_time_ms": 609.5478000061121
+    },
+    "record_hash": "e00fec678a48ef778d303dec4abb5cfeb4ae79ee4b948c93e745f45a4d76cba9",
+    "previous_record_hash": "66a9193d8eea84c4555ac0a7135961a3c3da4928a18cdcedc80496d78dfe82ea"
+  },
+  {
+    "request_id": "patch_s0.15-ILSVRC2012_val_00012468",
+    "stage": "decision",
+    "message": "The system abstained because available evidence was insufficient to safely select an interpretation.",
+    "timestamp": "2026-09-09T12:56:21.381413+00:00",
+    "details": {
+      "original_prediction": "microphone",
+      "defended_prediction": "radio",
+      "attack_score": 0.3689240028182879,
+      "trust_map": {
+        "global_trust_score": 0.8974146246910095
+      },
+      "suspicious_regions": [],
+      "selected_defense": "transform",
+      "verification_score": 0.5434908640686135,
+      "final_state": "ABSTAIN",
+      "final_prediction": null,
+      "decision_reasons": [
+        "Adversarial evidence remained high.",
+        "Defended confidence remained below the recovery threshold.",
+        "Semantic verification remained inconclusive or contradictory."
+      ],
+      "processing_time_ms": 462.7333000098588
+    },
+    "record_hash": "8a8c78c7e8faa4583988b290c9f8c055b92a31c3b260ce02735f13fecf4e921e",
+    "previous_record_hash": "e00fec678a48ef778d303dec4abb5cfeb4ae79ee4b948c93e745f45a4d76cba9"
+  },
+  {
+    "request_id": "patch_s0.15-ILSVRC2012_val_00024269",
+    "stage": "decision",
+    "message": "The system abstained because available evidence was insufficient to safely select an interpretation.",
+    "timestamp": "2026-09-09T12:56:22.452798+00:00",
+    "details": {
+      "original_prediction": "mousetrap",
+      "defended_prediction": "mousetrap",
+      "attack_score": 0.018494666824892335,
+      "trust_map": {
+        "global_trust_score": 1.0
+      },
+      "suspicious_regions": [],
+      "selected_defense": "none",
+      "verification_score": 1.0,
+      "final_state": "ABSTAIN",
+      "final_prediction": null,
+      "decision_reasons": [
+        "No defense produced a verified recovery result."
+      ],
+      "processing_time_ms": 654.7128000092926
+    },
+    "record_hash": "b04f89d3f935a6ad2a81b525856140c94ceb74d459c3c0770df887f0e66f432a",
+    "previous_record_hash": "8a8c78c7e8faa4583988b290c9f8c055b92a31c3b260ce02735f13fecf4e921e"
+  },
+  {
+    "request_id": "patch_s0.15-ILSVRC2012_val_00004939",
+    "stage": "decision",
+    "message": "The system abstained because available evidence was insufficient to safely select an interpretation.",
+    "timestamp": "2026-09-09T12:56:23.607090+00:00",
+    "details": {
+      "original_prediction": "monastery",
+      "defended_prediction": "monastery",
+      "attack_score": 0.11208082617460126,
+      "trust_map": {
+        "global_trust_score": 0.8451917767524719
+      },
+      "suspicious_regions": [],
+      "selected_defense": "none",
+      "verification_score": 1.0,
+      "final_state": "ABSTAIN",
+      "final_prediction": null,
+      "decision_reasons": [
+        "Adversarial evidence remained high.",
+        "No defense produced a verified recovery result."
+      ],
+      "processing_time_ms": 533.4973999852082
+    },
+    "record_hash": "499b50dd0521ba2ba4e3af94e8642fedf5b102eeb167327b9ff92ffd4b8367b8",
+    "previous_record_hash": "b04f89d3f935a6ad2a81b525856140c94ceb74d459c3c0770df887f0e66f432a"
+  },
+  {
+    "request_id": "patch_s0.15-ILSVRC2012_val_00008334",
+    "stage": "decision",
+    "message": "The system abstained because available evidence was insufficient to safely select an interpretation.",
+    "timestamp": "2026-09-09T12:56:24.584155+00:00",
+    "details": {
+      "original_prediction": "broom",
+      "defended_prediction": "broom",
+      "attack_score": 0.2686981029718508,
+      "trust_map": {
+        "global_trust_score": 0.8936125636100769
+      },
+      "suspicious_regions": [],
+      "selected_defense": "none",
+      "verification_score": 1.0,
+      "final_state": "ABSTAIN",
+      "final_prediction": null,
+      "decision_reasons": [
+        "Adversarial evidence remained high.",
+        "No defense produced a verified recovery result."
+      ],
+      "processing_time_ms": 499.07609999354463
+    },
+    "record_hash": "6133f23bade558fe78f3067af91f4069d8068529f39e7b244553a19e35ab5eb3",
+    "previous_record_hash": "499b50dd0521ba2ba4e3af94e8642fedf5b102eeb167327b9ff92ffd4b8367b8"
+  },
+  {
+    "request_id": "patch_s0.15-ILSVRC2012_val_00019593",
+    "stage": "decision",
+    "message": "The system abstained because available evidence was insufficient to safely select an interpretation.",
+    "timestamp": "2026-09-09T12:56:25.597464+00:00",
+    "details": {
+      "original_prediction": "sax",
+      "defended_prediction": "sax",
+      "attack_score": 0.16899233990249585,
+      "trust_map": {
+        "global_trust_score": 0.8642813563346863
+      },
+      "suspicious_regions": [],
+      "selected_defense": "none",
+      "verification_score": 1.0,
+      "final_state": "ABSTAIN",
+      "final_prediction": null,
+      "decision_reasons": [
+        "Adversarial evidence remained high.",
+        "No defense produced a verified recovery result."
+      ],
+      "processing_time_ms": 581.0216000099899
+    },
+    "record_hash": "253cde52ff7f4f9cefb08271c26a65f9b4c2a02799601f3420c6fab63ed78fd7",
+    "previous_record_hash": "6133f23bade558fe78f3067af91f4069d8068529f39e7b244553a19e35ab5eb3"
+  },
+  {
+    "request_id": "patch_s0.15-ILSVRC2012_val_00034417",
+    "stage": "decision",
+    "message": "The input remained below attack risk thresholds and its interpretation was strongly verified.",
+    "timestamp": "2026-09-09T12:56:26.614912+00:00",
+    "details": {
+      "original_prediction": "trailer truck",
+      "defended_prediction": "trailer truck",
+      "attack_score": 0.034358006475816424,
+      "trust_map": {
+        "global_trust_score": 1.0
+      },
+      "suspicious_regions": [],
+      "selected_defense": "none",
+      "verification_score": 1.0,
+      "final_state": "TRUSTED",
+      "final_prediction": "trailer truck",
+      "decision_reasons": [
+        "Attack evidence remained below the detection threshold.",
+        "Global trust exceeded the configured high-trust threshold.",
+        "Object, geometry, and scene verification were strong.",
+        "Original prediction confidence was sufficient."
+      ],
+      "processing_time_ms": 617.5606999895535
+    },
+    "record_hash": "34fe5d222a5a3be93042491d42e584c59febebc5bc5b46d01b65892cab3d4b1c",
+    "previous_record_hash": "253cde52ff7f4f9cefb08271c26a65f9b4c2a02799601f3420c6fab63ed78fd7"
+  },
+  {
+    "request_id": "patch_s0.15-ILSVRC2012_val_00031186",
+    "stage": "decision",
+    "message": "The system abstained because available evidence was insufficient to safely select an interpretation.",
+    "timestamp": "2026-09-09T12:56:27.622990+00:00",
+    "details": {
+      "original_prediction": "traffic light",
+      "defended_prediction": "traffic light",
+      "attack_score": 0.22884905652233664,
+      "trust_map": {
+        "global_trust_score": 0.8665330410003662
+      },
+      "suspicious_regions": [],
+      "selected_defense": "none",
+      "verification_score": 1.0,
+      "final_state": "ABSTAIN",
+      "final_prediction": null,
+      "decision_reasons": [
+        "Adversarial evidence remained high.",
+        "No defense produced a verified recovery result."
+      ],
+      "processing_time_ms": 547.9179000103613
+    },
+    "record_hash": "d88c150451e75dbbd5229c99167635a7764973728f68f92efe71526e1fd608ee",
+    "previous_record_hash": "34fe5d222a5a3be93042491d42e584c59febebc5bc5b46d01b65892cab3d4b1c"
+  },
+  {
+    "request_id": "patch_s0.15-ILSVRC2012_val_00017247",
+    "stage": "decision",
+    "message": "The system abstained because available evidence was insufficient to safely select an interpretation.",
+    "timestamp": "2026-09-09T12:56:28.551421+00:00",
+    "details": {
+      "original_prediction": "projector",
+      "defended_prediction": "projector",
+      "attack_score": 0.11639081170180758,
+      "trust_map": {
+        "global_trust_score": 0.8741845488548279
+      },
+      "suspicious_regions": [],
+      "selected_defense": "none",
+      "verification_score": 1.0,
+      "final_state": "ABSTAIN",
+      "final_prediction": null,
+      "decision_reasons": [
+        "Adversarial evidence remained high.",
+        "No defense produced a verified recovery result."
+      ],
+      "processing_time_ms": 538.3439999859547
+    },
+    "record_hash": "f5b4d8b8fda2d842a04aebe931663ba620700f80674e4308e78df89322b7b947",
+    "previous_record_hash": "d88c150451e75dbbd5229c99167635a7764973728f68f92efe71526e1fd608ee"
+  },
+  {
+    "request_id": "patch_s0.15-ILSVRC2012_val_00019289",
+    "stage": "decision",
+    "message": "The system abstained because available evidence was insufficient to safely select an interpretation.",
+    "timestamp": "2026-09-09T12:56:29.523619+00:00",
+    "details": {
+      "original_prediction": "flagpole",
+      "defended_prediction": "flagpole",
+      "attack_score": 0.14727019801748317,
+      "trust_map": {
+        "global_trust_score": 0.8907994627952576
+      },
+      "suspicious_regions": [],
+      "selected_defense": "none",
+      "verification_score": 1.0,
+      "final_state": "ABSTAIN",
+      "final_prediction": null,
+      "decision_reasons": [
+        "Adversarial evidence remained high.",
+        "No defense produced a verified recovery result."
+      ],
+      "processing_time_ms": 495.8476000028895
+    },
+    "record_hash": "8673805ebd6fdc4c3d460b51d86d5853c295e3c18efae369b6d4485fc50f05d4",
+    "previous_record_hash": "f5b4d8b8fda2d842a04aebe931663ba620700f80674e4308e78df89322b7b947"
+  },
+  {
+    "request_id": "patch_s0.15-ILSVRC2012_val_00037375",
+    "stage": "decision",
+    "message": "The input remained below attack risk thresholds and its interpretation was strongly verified.",
+    "timestamp": "2026-09-09T12:56:30.562293+00:00",
+    "details": {
+      "original_prediction": "reel",
+      "defended_prediction": "reel",
+      "attack_score": 0.029352606309715527,
+      "trust_map": {
+        "global_trust_score": 1.0
+      },
+      "suspicious_regions": [],
+      "selected_defense": "none",
+      "verification_score": 1.0,
+      "final_state": "TRUSTED",
+      "final_prediction": "reel",
+      "decision_reasons": [
+        "Attack evidence remained below the detection threshold.",
+        "Global trust exceeded the configured high-trust threshold.",
+        "Object, geometry, and scene verification were strong.",
+        "Original prediction confidence was sufficient."
+      ],
+      "processing_time_ms": 574.5636999927228
+    },
+    "record_hash": "c1ac2a9b91058adca3b61d59d3a5d74e7fe1641935c3b6b59620f804f99100f0",
+    "previous_record_hash": "8673805ebd6fdc4c3d460b51d86d5853c295e3c18efae369b6d4485fc50f05d4"
+  },
+  {
+    "request_id": "patch_s0.3-ILSVRC2012_val_00012468",
+    "stage": "decision",
+    "message": "The system abstained because available evidence was insufficient to safely select an interpretation.",
+    "timestamp": "2026-09-09T12:56:31.654585+00:00",
+    "details": {
+      "original_prediction": "loudspeaker",
+      "defended_prediction": "loudspeaker",
+      "attack_score": 0.195405684107947,
+      "trust_map": {
+        "global_trust_score": 0.8841859698295593
+      },
+      "suspicious_regions": [],
+      "selected_defense": "none",
+      "verification_score": 1.0,
+      "final_state": "ABSTAIN",
+      "final_prediction": null,
+      "decision_reasons": [
+        "Adversarial evidence remained high.",
+        "No defense produced a verified recovery result."
+      ],
+      "processing_time_ms": 629.4824999931734
+    },
+    "record_hash": "885880673ff84511457b9bbb83fa17e673eb941c02b9d7168924d46748de91ec",
+    "previous_record_hash": "c1ac2a9b91058adca3b61d59d3a5d74e7fe1641935c3b6b59620f804f99100f0"
+  },
+  {
+    "request_id": "patch_s0.3-ILSVRC2012_val_00024269",
+    "stage": "decision",
+    "message": "The system abstained because available evidence was insufficient to safely select an interpretation.",
+    "timestamp": "2026-09-09T12:56:32.834694+00:00",
+    "details": {
+      "original_prediction": "slot",
+      "defended_prediction": "pencil sharpener",
+      "attack_score": 0.34002860333881996,
+      "trust_map": {
+        "global_trust_score": 0.858858048915863
+      },
+      "suspicious_regions": [],
+      "selected_defense": "transform",
+      "verification_score": 0.5498288828470439,
+      "final_state": "ABSTAIN",
+      "final_prediction": null,
+      "decision_reasons": [
+        "Adversarial evidence remained high.",
+        "Defended confidence remained below the recovery threshold.",
+        "Semantic verification remained inconclusive or contradictory."
+      ],
+      "processing_time_ms": 572.9942000034498
+    },
+    "record_hash": "d6ba105646e451ec7c0053fb2c0dc762be65c754534478e4d09806c77bc6d1dd",
+    "previous_record_hash": "885880673ff84511457b9bbb83fa17e673eb941c02b9d7168924d46748de91ec"
+  },
+  {
+    "request_id": "patch_s0.3-ILSVRC2012_val_00004939",
+    "stage": "decision",
+    "message": "The input remained below attack risk thresholds and its interpretation was strongly verified.",
+    "timestamp": "2026-09-09T12:56:33.896536+00:00",
+    "details": {
+      "original_prediction": "shopping cart",
+      "defended_prediction": "shopping cart",
+      "attack_score": 0.01775933828190729,
+      "trust_map": {
+        "global_trust_score": 1.0
+      },
+      "suspicious_regions": [],
+      "selected_defense": "none",
+      "verification_score": 1.0,
+      "final_state": "TRUSTED",
+      "final_prediction": "shopping cart",
+      "decision_reasons": [
+        "Attack evidence remained below the detection threshold.",
+        "Global trust exceeded the configured high-trust threshold.",
+        "Object, geometry, and scene verification were strong.",
+        "Original prediction confidence was sufficient."
+      ],
+      "processing_time_ms": 509.84369999787305
+    },
+    "record_hash": "434eb4f070c679421740751d1afb0bbf52023ac52791afa46df94f0da91a0c93",
+    "previous_record_hash": "d6ba105646e451ec7c0053fb2c0dc762be65c754534478e4d09806c77bc6d1dd"
+  },
+  {
+    "request_id": "patch_s0.3-ILSVRC2012_val_00008334",
+    "stage": "decision",
+    "message": "The input remained below attack risk thresholds and its interpretation was strongly verified.",
+    "timestamp": "2026-09-09T12:56:34.838908+00:00",
+    "details": {
+      "original_prediction": "broom",
+      "defended_prediction": "broom",
+      "attack_score": 0.037748754379421545,
+      "trust_map": {
+        "global_trust_score": 1.0
+      },
+      "suspicious_regions": [],
+      "selected_defense": "none",
+      "verification_score": 1.0,
+      "final_state": "TRUSTED",
+      "final_prediction": "broom",
+      "decision_reasons": [
+        "Attack evidence remained below the detection threshold.",
+        "Global trust exceeded the configured high-trust threshold.",
+        "Object, geometry, and scene verification were strong.",
+        "Original prediction confidence was sufficient."
+      ],
+      "processing_time_ms": 517.8684999991674
+    },
+    "record_hash": "c8fab17b34fb4b7b630413267b2663de6d10a8742d3c7a3d5d0e7cdfcc17c7df",
+    "previous_record_hash": "434eb4f070c679421740751d1afb0bbf52023ac52791afa46df94f0da91a0c93"
+  },
+  {
+    "request_id": "patch_s0.3-ILSVRC2012_val_00019593",
+    "stage": "decision",
+    "message": "The system abstained because available evidence was insufficient to safely select an interpretation.",
+    "timestamp": "2026-09-09T12:56:35.894216+00:00",
+    "details": {
+      "original_prediction": "cornet",
+      "defended_prediction": "cornet",
+      "attack_score": 0.177088541583205,
+      "trust_map": {
+        "global_trust_score": 0.853529155254364
+      },
+      "suspicious_regions": [],
+      "selected_defense": "none",
+      "verification_score": 1.0,
+      "final_state": "ABSTAIN",
+      "final_prediction": null,
+      "decision_reasons": [
+        "Adversarial evidence remained high.",
+        "No defense produced a verified recovery result."
+      ],
+      "processing_time_ms": 604.7402000112925
+    },
+    "record_hash": "8fc23c5d79b4a8a45a519dfa0ae93361c8d1bd68cc7e08fa618109ebcf7bde16",
+    "previous_record_hash": "c8fab17b34fb4b7b630413267b2663de6d10a8742d3c7a3d5d0e7cdfcc17c7df"
+  },
+  {
+    "request_id": "patch_s0.3-ILSVRC2012_val_00009345",
+    "stage": "decision",
+    "message": "The input remained below attack risk thresholds and its interpretation was strongly verified.",
+    "timestamp": "2026-09-09T12:56:36.921675+00:00",
+    "details": {
+      "original_prediction": "amphibian",
+      "defended_prediction": "amphibian",
+      "attack_score": 0.03718146384973979,
+      "trust_map": {
+        "global_trust_score": 1.0
+      },
+      "suspicious_regions": [],
+      "selected_defense": "none",
+      "verification_score": 1.0,
+      "final_state": "TRUSTED",
+      "final_prediction": "amphibian",
+      "decision_reasons": [
+        "Attack evidence remained below the detection threshold.",
+        "Global trust exceeded the configured high-trust threshold.",
+        "Object, geometry, and scene verification were strong.",
+        "Original prediction confidence was sufficient."
+      ],
+      "processing_time_ms": 570.5528000107734
+    },
+    "record_hash": "9e18bfd1c7e5113fbcdd8ef41c27b9bf817c3ad0a3ff25a675083935d204315e",
+    "previous_record_hash": "8fc23c5d79b4a8a45a519dfa0ae93361c8d1bd68cc7e08fa618109ebcf7bde16"
+  },
+  {
+    "request_id": "patch_s0.3-ILSVRC2012_val_00022538",
+    "stage": "decision",
+    "message": "The input remained below attack risk thresholds and its interpretation was strongly verified.",
+    "timestamp": "2026-09-09T12:56:37.875927+00:00",
+    "details": {
+      "original_prediction": "shopping cart",
+      "defended_prediction": "shopping cart",
+      "attack_score": 0.017532542632330384,
+      "trust_map": {
+        "global_trust_score": 1.0
+      },
+      "suspicious_regions": [],
+      "selected_defense": "none",
+      "verification_score": 1.0,
+      "final_state": "TRUSTED",
+      "final_prediction": "shopping cart",
+      "decision_reasons": [
+        "Attack evidence remained below the detection threshold.",
+        "Global trust exceeded the configured high-trust threshold.",
+        "Object, geometry, and scene verification were strong.",
+        "Original prediction confidence was sufficient."
+      ],
+      "processing_time_ms": 540.0936000078218
+    },
+    "record_hash": "bbeadd0656a8bf8bb092c821e50ea46f9f460c370082c1be4c8c61caa64cd750",
+    "previous_record_hash": "9e18bfd1c7e5113fbcdd8ef41c27b9bf817c3ad0a3ff25a675083935d204315e"
+  },
+  {
+    "request_id": "patch_s0.3-ILSVRC2012_val_00017247",
+    "stage": "decision",
+    "message": "The input remained below attack risk thresholds and its interpretation was strongly verified.",
+    "timestamp": "2026-09-09T12:56:38.800461+00:00",
+    "details": {
+      "original_prediction": "jigsaw puzzle",
+      "defended_prediction": "jigsaw puzzle",
+      "attack_score": 0.00958859658690433,
+      "trust_map": {
+        "global_trust_score": 1.0
+      },
+      "suspicious_regions": [],
+      "selected_defense": "none",
+      "verification_score": 1.0,
+      "final_state": "TRUSTED",
+      "final_prediction": "jigsaw puzzle",
+      "decision_reasons": [
+        "Attack evidence remained below the detection threshold.",
+        "Global trust exceeded the configured high-trust threshold.",
+        "Object, geometry, and scene verification were strong.",
+        "Original prediction confidence was sufficient."
+      ],
+      "processing_time_ms": 512.0525999955134
+    },
+    "record_hash": "5ca23e70aae9cc86431f882cf99a68a62d8d142d43f16d4a768bb065d542c87f",
+    "previous_record_hash": "bbeadd0656a8bf8bb092c821e50ea46f9f460c370082c1be4c8c61caa64cd750"
+  },
+  {
+    "request_id": "patch_s0.3-ILSVRC2012_val_00011324",
+    "stage": "decision",
+    "message": "The input remained below attack risk thresholds and its interpretation was strongly verified.",
+    "timestamp": "2026-09-09T12:56:39.819197+00:00",
+    "details": {
+      "original_prediction": "water tower",
+      "defended_prediction": "water tower",
+      "attack_score": 0.02019197518575737,
+      "trust_map": {
+        "global_trust_score": 1.0
+      },
+      "suspicious_regions": [],
+      "selected_defense": "none",
+      "verification_score": 1.0,
+      "final_state": "TRUSTED",
+      "final_prediction": "water tower",
+      "decision_reasons": [
+        "Attack evidence remained below the detection threshold.",
+        "Global trust exceeded the configured high-trust threshold.",
+        "Object, geometry, and scene verification were strong.",
+        "Original prediction confidence was sufficient."
+      ],
+      "processing_time_ms": 554.0772000094876
+    },
+    "record_hash": "eb50800c5f806b092ebdb7314df19871a6d9df65fac4a5eeb5176ca220b4ea17",
+    "previous_record_hash": "5ca23e70aae9cc86431f882cf99a68a62d8d142d43f16d4a768bb065d542c87f"
+  },
+  {
+    "request_id": "patch_s0.3-ILSVRC2012_val_00031333",
+    "stage": "decision",
+    "message": "The input remained below attack risk thresholds and its interpretation was strongly verified.",
+    "timestamp": "2026-09-09T12:56:41.069119+00:00",
+    "details": {
+      "original_prediction": "jigsaw puzzle",
+      "defended_prediction": "jigsaw puzzle",
+      "attack_score": 0.025207513848512466,
+      "trust_map": {
+        "global_trust_score": 1.0
+      },
+      "suspicious_regions": [],
+      "selected_defense": "none",
+      "verification_score": 1.0,
+      "final_state": "TRUSTED",
+      "final_prediction": "jigsaw puzzle",
+      "decision_reasons": [
+        "Attack evidence remained below the detection threshold.",
+        "Global trust exceeded the configured high-trust threshold.",
+        "Object, geometry, and scene verification were strong.",
+        "Original prediction confidence was sufficient."
+      ],
+      "processing_time_ms": 571.6009000025224
+    },
+    "record_hash": "7997274138a53380097dc7b69d872374a4b820f3ef268a957df92a133e2e5465",
+    "previous_record_hash": "eb50800c5f806b092ebdb7314df19871a6d9df65fac4a5eeb5176ca220b4ea17"
+  },
+  {
+    "request_id": "pgd_e16-ILSVRC2012_val_00012468",
+    "stage": "decision",
+    "message": "The input remained below attack risk thresholds and its interpretation was strongly verified.",
+    "timestamp": "2026-09-09T12:56:42.137556+00:00",
+    "details": {
+      "original_prediction": "buckle",
+      "defended_prediction": "buckle",
+      "attack_score": 0.018780927849188726,
+      "trust_map": {
+        "global_trust_score": 1.0
+      },
+      "suspicious_regions": [],
+      "selected_defense": "none",
+      "verification_score": 1.0,
+      "final_state": "TRUSTED",
+      "final_prediction": "buckle",
+      "decision_reasons": [
+        "Attack evidence remained below the detection threshold.",
+        "Global trust exceeded the configured high-trust threshold.",
+        "Object, geometry, and scene verification were strong.",
+        "Original prediction confidence was sufficient."
+      ],
+      "processing_time_ms": 593.538900007843
+    },
+    "record_hash": "354381dc8ffca33312c24008e927eebce24a3a4140f159edebfe736376a26b1a",
+    "previous_record_hash": "7997274138a53380097dc7b69d872374a4b820f3ef268a957df92a133e2e5465"
+  },
+  {
+    "request_id": "pgd_e16-ILSVRC2012_val_00024269",
+    "stage": "decision",
+    "message": "The input remained below attack risk thresholds and its interpretation was strongly verified.",
+    "timestamp": "2026-09-09T12:56:43.077863+00:00",
+    "details": {
+      "original_prediction": "screw",
+      "defended_prediction": "screw",
+      "attack_score": 0.0065305133402861135,
+      "trust_map": {
+        "global_trust_score": 1.0
+      },
+      "suspicious_regions": [],
+      "selected_defense": "none",
+      "verification_score": 1.0,
+      "final_state": "TRUSTED",
+      "final_prediction": "screw",
+      "decision_reasons": [
+        "Attack evidence remained below the detection threshold.",
+        "Global trust exceeded the configured high-trust threshold.",
+        "Object, geometry, and scene verification were strong.",
+        "Original prediction confidence was sufficient."
+      ],
+      "processing_time_ms": 545.3642000065884
+    },
+    "record_hash": "1983686f69ed884fb3a73f65645777dfcc8789b1982f9371289e76158182dd06",
+    "previous_record_hash": "354381dc8ffca33312c24008e927eebce24a3a4140f159edebfe736376a26b1a"
+  },
+  {
+    "request_id": "pgd_e16-ILSVRC2012_val_00004939",
+    "stage": "decision",
+    "message": "The input remained below attack risk thresholds and its interpretation was strongly verified.",
+    "timestamp": "2026-09-09T12:56:44.029034+00:00",
+    "details": {
+      "original_prediction": "cliff dwelling",
+      "defended_prediction": "cliff dwelling",
+      "attack_score": 0.012315028817375697,
+      "trust_map": {
+        "global_trust_score": 1.0
+      },
+      "suspicious_regions": [],
+      "selected_defense": "none",
+      "verification_score": 1.0,
+      "final_state": "TRUSTED",
+      "final_prediction": "cliff dwelling",
+      "decision_reasons": [
+        "Attack evidence remained below the detection threshold.",
+        "Global trust exceeded the configured high-trust threshold.",
+        "Object, geometry, and scene verification were strong.",
+        "Original prediction confidence was sufficient."
+      ],
+      "processing_time_ms": 480.15810002107173
+    },
+    "record_hash": "c14fc80a6c1ae14fa3333aa4b0ea5ee45152d613f07ae90d6a5cb172745323d4",
+    "previous_record_hash": "1983686f69ed884fb3a73f65645777dfcc8789b1982f9371289e76158182dd06"
+  },
+  {
+    "request_id": "pgd_e16-ILSVRC2012_val_00008334",
+    "stage": "decision",
+    "message": "The input remained below attack risk thresholds and its interpretation was strongly verified.",
+    "timestamp": "2026-09-09T12:56:44.960580+00:00",
+    "details": {
+      "original_prediction": "Pekinese",
+      "defended_prediction": "Pekinese",
+      "attack_score": 0.003040148506639006,
+      "trust_map": {
+        "global_trust_score": 1.0
+      },
+      "suspicious_regions": [],
+      "selected_defense": "none",
+      "verification_score": 1.0,
+      "final_state": "TRUSTED",
+      "final_prediction": "Pekinese",
+      "decision_reasons": [
+        "Attack evidence remained below the detection threshold.",
+        "Global trust exceeded the configured high-trust threshold.",
+        "Object, geometry, and scene verification were strong.",
+        "Original prediction confidence was sufficient."
+      ],
+      "processing_time_ms": 494.8314999928698
+    },
+    "record_hash": "ad7b160f354c5509a26f1436daa472f5e9c7507e32fbcbbcf577a1446ed3f331",
+    "previous_record_hash": "c14fc80a6c1ae14fa3333aa4b0ea5ee45152d613f07ae90d6a5cb172745323d4"
+  },
+  {
+    "request_id": "pgd_e16-ILSVRC2012_val_00019593",
+    "stage": "decision",
+    "message": "The input remained below attack risk thresholds and its interpretation was strongly verified.",
+    "timestamp": "2026-09-09T12:56:46.175443+00:00",
+    "details": {
+      "original_prediction": "sax",
+      "defended_prediction": "sax",
+      "attack_score": 0.025062166506237236,
+      "trust_map": {
+        "global_trust_score": 1.0
+      },
+      "suspicious_regions": [],
+      "selected_defense": "none",
+      "verification_score": 1.0,
+      "final_state": "TRUSTED",
+      "final_prediction": "sax",
+      "decision_reasons": [
+        "Attack evidence remained below the detection threshold.",
+        "Global trust exceeded the configured high-trust threshold.",
+        "Object, geometry, and scene verification were strong.",
+        "Original prediction confidence was sufficient."
+      ],
+      "processing_time_ms": 777.0567999978084
+    },
+    "record_hash": "20573bae5b0e5d6b630a4bd0fceb412b4b05f9d2fd0b4d9d1016d5b2e2378ead",
+    "previous_record_hash": "ad7b160f354c5509a26f1436daa472f5e9c7507e32fbcbbcf577a1446ed3f331"
+  },
+  {
+    "request_id": "pgd_e16-ILSVRC2012_val_00009345",
+    "stage": "decision",
+    "message": "The input remained below attack risk thresholds and its interpretation was strongly verified.",
+    "timestamp": "2026-09-09T12:56:47.170484+00:00",
+    "details": {
+      "original_prediction": "amphibian",
+      "defended_prediction": "amphibian",
+      "attack_score": 0.028510166255060695,
+      "trust_map": {
+        "global_trust_score": 1.0
+      },
+      "suspicious_regions": [],
+      "selected_defense": "none",
+      "verification_score": 1.0,
+      "final_state": "TRUSTED",
+      "final_prediction": "amphibian",
+      "decision_reasons": [
+        "Attack evidence remained below the detection threshold.",
+        "Global trust exceeded the configured high-trust threshold.",
+        "Object, geometry, and scene verification were strong.",
+        "Original prediction confidence was sufficient."
+      ],
+      "processing_time_ms": 554.7220000153175
+    },
+    "record_hash": "d47613e77e06ef11570d1c6d743be30e6df15c734601e7d12f12571d6afaf588",
+    "previous_record_hash": "20573bae5b0e5d6b630a4bd0fceb412b4b05f9d2fd0b4d9d1016d5b2e2378ead"
+  },
+  {
+    "request_id": "pgd_e16-ILSVRC2012_val_00022538",
+    "stage": "decision",
+    "message": "The input remained below attack risk thresholds and its interpretation was strongly verified.",
+    "timestamp": "2026-09-09T12:56:48.173784+00:00",
+    "details": {
+      "original_prediction": "sock",
+      "defended_prediction": "sock",
+      "attack_score": 0.010075622703178555,
+      "trust_map": {
+        "global_trust_score": 1.0
+      },
+      "suspicious_regions": [],
+      "selected_defense": "none",
+      "verification_score": 1.0,
+      "final_state": "TRUSTED",
+      "final_prediction": "sock",
+      "decision_reasons": [
+        "Attack evidence remained below the detection threshold.",
+        "Global trust exceeded the configured high-trust threshold.",
+        "Object, geometry, and scene verification were strong.",
+        "Original prediction confidence was sufficient."
+      ],
+      "processing_time_ms": 570.6753999984358
+    },
+    "record_hash": "4c0d1c0288c066598a29af42301fcc732d8bf6935c360fcfa7114de3d20d3fbb",
+    "previous_record_hash": "d47613e77e06ef11570d1c6d743be30e6df15c734601e7d12f12571d6afaf588"
+  },
+  {
+    "request_id": "pgd_e16-ILSVRC2012_val_00017247",
+    "stage": "decision",
+    "message": "The input remained below attack risk thresholds and its interpretation was strongly verified.",
+    "timestamp": "2026-09-09T12:56:49.402072+00:00",
+    "details": {
+      "original_prediction": "remote control",
+      "defended_prediction": "remote control",
+      "attack_score": 0.007581573063588331,
+      "trust_map": {
+        "global_trust_score": 1.0
+      },
+      "suspicious_regions": [],
+      "selected_defense": "none",
+      "verification_score": 1.0,
+      "final_state": "TRUSTED",
+      "final_prediction": "remote control",
+      "decision_reasons": [
+        "Attack evidence remained below the detection threshold.",
+        "Global trust exceeded the configured high-trust threshold.",
+        "Object, geometry, and scene verification were strong.",
+        "Original prediction confidence was sufficient."
+      ],
+      "processing_time_ms": 562.6025000092341
+    },
+    "record_hash": "2614c1d3b906ed3dd3712c4f6b232f357678ae6a7d118898a92bdb8775e39482",
+    "previous_record_hash": "4c0d1c0288c066598a29af42301fcc732d8bf6935c360fcfa7114de3d20d3fbb"
+  },
+  {
+    "request_id": "pgd_e16-ILSVRC2012_val_00011324",
+    "stage": "decision",
+    "message": "The input remained below attack risk thresholds and its interpretation was strongly verified.",
+    "timestamp": "2026-09-09T12:56:50.441554+00:00",
+    "details": {
+      "original_prediction": "jigsaw puzzle",
+      "defended_prediction": "jigsaw puzzle",
+      "attack_score": 0.004087936939592221,
+      "trust_map": {
+        "global_trust_score": 1.0
+      },
+      "suspicious_regions": [],
+      "selected_defense": "none",
+      "verification_score": 1.0,
+      "final_state": "TRUSTED",
+      "final_prediction": "jigsaw puzzle",
+      "decision_reasons": [
+        "Attack evidence remained below the detection threshold.",
+        "Global trust exceeded the configured high-trust threshold.",
+        "Object, geometry, and scene verification were strong.",
+        "Original prediction confidence was sufficient."
+      ],
+      "processing_time_ms": 549.3425000022398
+    },
+    "record_hash": "a776b3ad195024ef8063d9daaaaaff2cd098f0024250f768bacac9356af672a3",
+    "previous_record_hash": "2614c1d3b906ed3dd3712c4f6b232f357678ae6a7d118898a92bdb8775e39482"
+  },
+  {
+    "request_id": "pgd_e16-ILSVRC2012_val_00031333",
+    "stage": "decision",
+    "message": "The input remained below attack risk thresholds and its interpretation was strongly verified.",
+    "timestamp": "2026-09-09T12:56:51.433097+00:00",
+    "details": {
+      "original_prediction": "fountain pen",
+      "defended_prediction": "fountain pen",
+      "attack_score": 0.010133837475007547,
+      "trust_map": {
+        "global_trust_score": 1.0
+      },
+      "suspicious_regions": [],
+      "selected_defense": "none",
+      "verification_score": 1.0,
+      "final_state": "TRUSTED",
+      "final_prediction": "fountain pen",
+      "decision_reasons": [
+        "Attack evidence remained below the detection threshold.",
+        "Global trust exceeded the configured high-trust threshold.",
+        "Object, geometry, and scene verification were strong.",
+        "Original prediction confidence was sufficient."
+      ],
+      "processing_time_ms": 553.6469999933615
+    },
+    "record_hash": "6169a6927c15a2b74a4e3f974e001a227906f3512647dc97490e2f051bc1cf64",
+    "previous_record_hash": "a776b3ad195024ef8063d9daaaaaff2cd098f0024250f768bacac9356af672a3"
+  },
+  {
+    "request_id": "pgd_e2-ILSVRC2012_val_00012468",
+    "stage": "decision",
+    "message": "The system abstained because available evidence was insufficient to safely select an interpretation.",
+    "timestamp": "2026-09-09T12:56:52.401544+00:00",
+    "details": {
+      "original_prediction": "buckle",
+      "defended_prediction": "buckle",
+      "attack_score": 0.2660785464935438,
+      "trust_map": {
+        "global_trust_score": 0.8672745227813721
+      },
+      "suspicious_regions": [],
+      "selected_defense": "none",
+      "verification_score": 1.0,
+      "final_state": "ABSTAIN",
+      "final_prediction": null,
+      "decision_reasons": [
+        "Adversarial evidence remained high.",
+        "No defense produced a verified recovery result."
+      ],
+      "processing_time_ms": 558.6249000043608
+    },
+    "record_hash": "da18f74c40189ced9cca304edab0abe36e57206ce481474a97d7081549f3a8da",
+    "previous_record_hash": "6169a6927c15a2b74a4e3f974e001a227906f3512647dc97490e2f051bc1cf64"
+  },
+  {
+    "request_id": "pgd_e2-ILSVRC2012_val_00024269",
+    "stage": "decision",
+    "message": "The input remained below attack risk thresholds and its interpretation was strongly verified.",
+    "timestamp": "2026-09-09T12:56:53.355051+00:00",
+    "details": {
+      "original_prediction": "barbell",
+      "defended_prediction": "barbell",
+      "attack_score": 0.029645469879409775,
+      "trust_map": {
+        "global_trust_score": 1.0
+      },
+      "suspicious_regions": [],
+      "selected_defense": "none",
+      "verification_score": 1.0,
+      "final_state": "TRUSTED",
+      "final_prediction": "barbell",
+      "decision_reasons": [
+        "Attack evidence remained below the detection threshold.",
+        "Global trust exceeded the configured high-trust threshold.",
+        "Object, geometry, and scene verification were strong.",
+        "Original prediction confidence was sufficient."
+      ],
+      "processing_time_ms": 483.6907999997493
+    },
+    "record_hash": "362ad162b021d9a4a63b4e977fd94dfb73cfebb378251a66b721e309f7586caa",
+    "previous_record_hash": "da18f74c40189ced9cca304edab0abe36e57206ce481474a97d7081549f3a8da"
+  },
+  {
+    "request_id": "pgd_e2-ILSVRC2012_val_00004939",
+    "stage": "decision",
+    "message": "The input remained below attack risk thresholds and its interpretation was strongly verified.",
+    "timestamp": "2026-09-09T12:56:54.383213+00:00",
+    "details": {
+      "original_prediction": "monastery",
+      "defended_prediction": "monastery",
+      "attack_score": 0.013379881045977045,
+      "trust_map": {
+        "global_trust_score": 1.0
+      },
+      "suspicious_regions": [],
+      "selected_defense": "none",
+      "verification_score": 1.0,
+      "final_state": "TRUSTED",
+      "final_prediction": "monastery",
+      "decision_reasons": [
+        "Attack evidence remained below the detection threshold.",
+        "Global trust exceeded the configured high-trust threshold.",
+        "Object, geometry, and scene verification were strong.",
+        "Original prediction confidence was sufficient."
+      ],
+      "processing_time_ms": 601.7528000083985
+    },
+    "record_hash": "2604a6e536c57756340ac5f5a0da59b158bbb43b1aa17237afb2ae9218b53d2e",
+    "previous_record_hash": "362ad162b021d9a4a63b4e977fd94dfb73cfebb378251a66b721e309f7586caa"
+  },
+  {
+    "request_id": "pgd_e2-ILSVRC2012_val_00008334",
+    "stage": "decision",
+    "message": "The input remained below attack risk thresholds and its interpretation was strongly verified.",
+    "timestamp": "2026-09-09T12:56:55.370664+00:00",
+    "details": {
+      "original_prediction": "Blenheim spaniel",
+      "defended_prediction": "Blenheim spaniel",
+      "attack_score": 0.007085453445402262,
+      "trust_map": {
+        "global_trust_score": 1.0
+      },
+      "suspicious_regions": [],
+      "selected_defense": "none",
+      "verification_score": 1.0,
+      "final_state": "TRUSTED",
+      "final_prediction": "Blenheim spaniel",
+      "decision_reasons": [
+        "Attack evidence remained below the detection threshold.",
+        "Global trust exceeded the configured high-trust threshold.",
+        "Object, geometry, and scene verification were strong.",
+        "Original prediction confidence was sufficient."
+      ],
+      "processing_time_ms": 482.2359000099823
+    },
+    "record_hash": "fa071f27f2c251e98c4d79f07e0aa5ae701cfa15f23ef95c7b4d21c5d86d69ca",
+    "previous_record_hash": "2604a6e536c57756340ac5f5a0da59b158bbb43b1aa17237afb2ae9218b53d2e"
+  },
+  {
+    "request_id": "pgd_e2-ILSVRC2012_val_00019593",
+    "stage": "decision",
+    "message": "The system abstained because available evidence was insufficient to safely select an interpretation.",
+    "timestamp": "2026-09-09T12:56:56.399994+00:00",
+    "details": {
+      "original_prediction": "sax",
+      "defended_prediction": "sax",
+      "attack_score": 0.21014479161185265,
+      "trust_map": {
+        "global_trust_score": 0.8718580603599548
+      },
+      "suspicious_regions": [],
+      "selected_defense": "none",
+      "verification_score": 1.0,
+      "final_state": "ABSTAIN",
+      "final_prediction": null,
+      "decision_reasons": [
+        "Adversarial evidence remained high.",
+        "No defense produced a verified recovery result."
+      ],
+      "processing_time_ms": 569.0671000047587
+    },
+    "record_hash": "4f3c187bf4ac720144e90239205e55fb2360b13b77102f2adcf9486394456cc6",
+    "previous_record_hash": "fa071f27f2c251e98c4d79f07e0aa5ae701cfa15f23ef95c7b4d21c5d86d69ca"
+  },
+  {
+    "request_id": "pgd_e2-ILSVRC2012_val_00009345",
+    "stage": "decision",
+    "message": "The input remained below attack risk thresholds and its interpretation was strongly verified.",
+    "timestamp": "2026-09-09T12:56:57.340311+00:00",
+    "details": {
+      "original_prediction": "amphibian",
+      "defended_prediction": "amphibian",
+      "attack_score": 0.02613831238782126,
+      "trust_map": {
+        "global_trust_score": 1.0
+      },
+      "suspicious_regions": [],
+      "selected_defense": "none",
+      "verification_score": 1.0,
+      "final_state": "TRUSTED",
+      "final_prediction": "amphibian",
+      "decision_reasons": [
+        "Attack evidence remained below the detection threshold.",
+        "Global trust exceeded the configured high-trust threshold.",
+        "Object, geometry, and scene verification were strong.",
+        "Original prediction confidence was sufficient."
+      ],
+      "processing_time_ms": 471.5954999846872
+    },
+    "record_hash": "4a07ab290d3433fe803b1c4c295b998091147a0a5bbbd6cf8d6775a21714001f",
+    "previous_record_hash": "4f3c187bf4ac720144e90239205e55fb2360b13b77102f2adcf9486394456cc6"
+  },
+  {
+    "request_id": "pgd_e2-ILSVRC2012_val_00022538",
+    "stage": "decision",
+    "message": "The input remained below attack risk thresholds and its interpretation was strongly verified.",
+    "timestamp": "2026-09-09T12:56:58.482782+00:00",
+    "details": {
+      "original_prediction": "pay-phone",
+      "defended_prediction": "pay-phone",
+      "attack_score": 0.009314238295320841,
+      "trust_map": {
+        "global_trust_score": 1.0
+      },
+      "suspicious_regions": [],
+      "selected_defense": "none",
+      "verification_score": 1.0,
+      "final_state": "TRUSTED",
+      "final_prediction": "pay-phone",
+      "decision_reasons": [
+        "Attack evidence remained below the detection threshold.",
+        "Global trust exceeded the configured high-trust threshold.",
+        "Object, geometry, and scene verification were strong.",
+        "Original prediction confidence was sufficient."
+      ],
+      "processing_time_ms": 527.6878000004217
+    },
+    "record_hash": "1ced6769264acc1a0bdb6eb886ffcee7282a11163c10fba89dbebdb72637b007",
+    "previous_record_hash": "4a07ab290d3433fe803b1c4c295b998091147a0a5bbbd6cf8d6775a21714001f"
+  },
+  {
+    "request_id": "pgd_e2-ILSVRC2012_val_00017247",
+    "stage": "decision",
+    "message": "The input remained below attack risk thresholds and its interpretation was strongly verified.",
+    "timestamp": "2026-09-09T12:56:59.531042+00:00",
+    "details": {
+      "original_prediction": "joystick",
+      "defended_prediction": "joystick",
+      "attack_score": 0.03994103133268858,
+      "trust_map": {
+        "global_trust_score": 1.0
+      },
+      "suspicious_regions": [],
+      "selected_defense": "none",
+      "verification_score": 1.0,
+      "final_state": "TRUSTED",
+      "final_prediction": "joystick",
+      "decision_reasons": [
+        "Attack evidence remained below the detection threshold.",
+        "Global trust exceeded the configured high-trust threshold.",
+        "Object, geometry, and scene verification were strong.",
+        "Original prediction confidence was sufficient."
+      ],
+      "processing_time_ms": 535.7659000001149
+    },
+    "record_hash": "17eeee4b835401eb24642f8d267310ef94bbb5ddcce509e5b755f56b45fe639b",
+    "previous_record_hash": "1ced6769264acc1a0bdb6eb886ffcee7282a11163c10fba89dbebdb72637b007"
+  },
+  {
+    "request_id": "pgd_e2-ILSVRC2012_val_00011324",
+    "stage": "decision",
+    "message": "The input remained below attack risk thresholds and its interpretation was strongly verified.",
+    "timestamp": "2026-09-09T12:57:00.426354+00:00",
+    "details": {
+      "original_prediction": "balloon",
+      "defended_prediction": "balloon",
+      "attack_score": 0.0042602682066500705,
+      "trust_map": {
+        "global_trust_score": 1.0
+      },
+      "suspicious_regions": [],
+      "selected_defense": "none",
+      "verification_score": 1.0,
+      "final_state": "TRUSTED",
+      "final_prediction": "balloon",
+      "decision_reasons": [
+        "Attack evidence remained below the detection threshold.",
+        "Global trust exceeded the configured high-trust threshold.",
+        "Object, geometry, and scene verification were strong.",
+        "Original prediction confidence was sufficient."
+      ],
+      "processing_time_ms": 494.6274999965681
+    },
+    "record_hash": "a678c4a882f0ad333239e6ad3a0b382d767d96752a098b2dbc43e4b2d2d56038",
+    "previous_record_hash": "17eeee4b835401eb24642f8d267310ef94bbb5ddcce509e5b755f56b45fe639b"
+  },
+  {
+    "request_id": "pgd_e2-ILSVRC2012_val_00031333",
+    "stage": "decision",
+    "message": "The system abstained because available evidence was insufficient to safely select an interpretation.",
+    "timestamp": "2026-09-09T12:57:01.492627+00:00",
+    "details": {
+      "original_prediction": "barracouta",
+      "defended_prediction": "barracouta",
+      "attack_score": 0.11885050094107268,
+      "trust_map": {
+        "global_trust_score": 0.8077887296676636
+      },
+      "suspicious_regions": [],
+      "selected_defense": "none",
+      "verification_score": 1.0,
+      "final_state": "ABSTAIN",
+      "final_prediction": null,
+      "decision_reasons": [
+        "Adversarial evidence remained high.",
+        "No defense produced a verified recovery result."
+      ],
+      "processing_time_ms": 576.9281999964733
+    },
+    "record_hash": "56d434679f14eab939fa363298cb1fb9d292dc06258e7a3de4d3a668a636d339",
+    "previous_record_hash": "a678c4a882f0ad333239e6ad3a0b382d767d96752a098b2dbc43e4b2d2d56038"
+  },
+  {
+    "request_id": "pgd_e4-ILSVRC2012_val_00012468",
+    "stage": "decision",
+    "message": "The input remained below attack risk thresholds and its interpretation was strongly verified.",
+    "timestamp": "2026-09-09T12:57:02.465629+00:00",
+    "details": {
+      "original_prediction": "buckle",
+      "defended_prediction": "buckle",
+      "attack_score": 0.024384412863653615,
+      "trust_map": {
+        "global_trust_score": 1.0
+      },
+      "suspicious_regions": [],
+      "selected_defense": "none",
+      "verification_score": 1.0,
+      "final_state": "TRUSTED",
+      "final_prediction": "buckle",
+      "decision_reasons": [
+        "Attack evidence remained below the detection threshold.",
+        "Global trust exceeded the configured high-trust threshold.",
+        "Object, geometry, and scene verification were strong.",
+        "Original prediction confidence was sufficient."
+      ],
+      "processing_time_ms": 561.1969000019599
+    },
+    "record_hash": "5264bb59bba0e707214ff1b1e7ee5db4df1894adc11a8264c736cb372a35caab",
+    "previous_record_hash": "56d434679f14eab939fa363298cb1fb9d292dc06258e7a3de4d3a668a636d339"
+  },
+  {
+    "request_id": "pgd_e4-ILSVRC2012_val_00024269",
+    "stage": "decision",
+    "message": "The input remained below attack risk thresholds and its interpretation was strongly verified.",
+    "timestamp": "2026-09-09T12:57:03.481934+00:00",
+    "details": {
+      "original_prediction": "barbell",
+      "defended_prediction": "barbell",
+      "attack_score": 0.015124487847673524,
+      "trust_map": {
+        "global_trust_score": 1.0
+      },
+      "suspicious_regions": [],
+      "selected_defense": "none",
+      "verification_score": 1.0,
+      "final_state": "TRUSTED",
+      "final_prediction": "barbell",
+      "decision_reasons": [
+        "Attack evidence remained below the detection threshold.",
+        "Global trust exceeded the configured high-trust threshold.",
+        "Object, geometry, and scene verification were strong.",
+        "Original prediction confidence was sufficient."
+      ],
+      "processing_time_ms": 586.8122000101721
+    },
+    "record_hash": "420641366eaf2c6dcd8a9f1559cebeb5812d9a95fcfd4893cafdb8f70f449e5f",
+    "previous_record_hash": "5264bb59bba0e707214ff1b1e7ee5db4df1894adc11a8264c736cb372a35caab"
+  },
+  {
+    "request_id": "pgd_e4-ILSVRC2012_val_00004939",
+    "stage": "decision",
+    "message": "The input remained below attack risk thresholds and its interpretation was strongly verified.",
+    "timestamp": "2026-09-09T12:57:04.438770+00:00",
+    "details": {
+      "original_prediction": "monastery",
+      "defended_prediction": "monastery",
+      "attack_score": 0.011602274019097652,
+      "trust_map": {
+        "global_trust_score": 1.0
+      },
+      "suspicious_regions": [],
+      "selected_defense": "none",
+      "verification_score": 1.0,
+      "final_state": "TRUSTED",
+      "final_prediction": "monastery",
+      "decision_reasons": [
+        "Attack evidence remained below the detection threshold.",
+        "Global trust exceeded the configured high-trust threshold.",
+        "Object, geometry, and scene verification were strong.",
+        "Original prediction confidence was sufficient."
+      ],
+      "processing_time_ms": 466.62360000482295
+    },
+    "record_hash": "6148a186663f22338e2c29cecb75f9a05738ab2d7cda01828dd3d2c94fb0d166",
+    "previous_record_hash": "420641366eaf2c6dcd8a9f1559cebeb5812d9a95fcfd4893cafdb8f70f449e5f"
+  },
+  {
+    "request_id": "pgd_e4-ILSVRC2012_val_00008334",
+    "stage": "decision",
+    "message": "The input remained below attack risk thresholds and its interpretation was strongly verified.",
+    "timestamp": "2026-09-09T12:57:05.462983+00:00",
+    "details": {
+      "original_prediction": "Pekinese",
+      "defended_prediction": "Pekinese",
+      "attack_score": 0.0013880644056016216,
+      "trust_map": {
+        "global_trust_score": 1.0
+      },
+      "suspicious_regions": [],
+      "selected_defense": "none",
+      "verification_score": 1.0,
+      "final_state": "TRUSTED",
+      "final_prediction": "Pekinese",
+      "decision_reasons": [
+        "Attack evidence remained below the detection threshold.",
+        "Global trust exceeded the configured high-trust threshold.",
+        "Object, geometry, and scene verification were strong.",
+        "Original prediction confidence was sufficient."
+      ],
+      "processing_time_ms": 619.818099992699
+    },
+    "record_hash": "383f60a904d65de582562a1de7df8367a2568d6bb91a33cefb7634ec3aacd609",
+    "previous_record_hash": "6148a186663f22338e2c29cecb75f9a05738ab2d7cda01828dd3d2c94fb0d166"
+  },
+  {
+    "request_id": "pgd_e4-ILSVRC2012_val_00019593",
+    "stage": "decision",
+    "message": "The input remained below attack risk thresholds and its interpretation was strongly verified.",
+    "timestamp": "2026-09-09T12:57:06.626138+00:00",
+    "details": {
+      "original_prediction": "sax",
+      "defended_prediction": "sax",
+      "attack_score": 0.025002206326169635,
+      "trust_map": {
+        "global_trust_score": 1.0
+      },
+      "suspicious_regions": [],
+      "selected_defense": "none",
+      "verification_score": 1.0,
+      "final_state": "TRUSTED",
+      "final_prediction": "sax",
+      "decision_reasons": [
+        "Attack evidence remained below the detection threshold.",
+        "Global trust exceeded the configured high-trust threshold.",
+        "Object, geometry, and scene verification were strong.",
+        "Original prediction confidence was sufficient."
+      ],
+      "processing_time_ms": 517.6405000092927
+    },
+    "record_hash": "9f80560f5ed651bc0a82e708755c8a5a4e2aa38374b35cbed299277c62329870",
+    "previous_record_hash": "383f60a904d65de582562a1de7df8367a2568d6bb91a33cefb7634ec3aacd609"
+  },
+  {
+    "request_id": "pgd_e4-ILSVRC2012_val_00009345",
+    "stage": "decision",
+    "message": "The input remained below attack risk thresholds and its interpretation was strongly verified.",
+    "timestamp": "2026-09-09T12:57:07.604273+00:00",
+    "details": {
+      "original_prediction": "amphibian",
+      "defended_prediction": "amphibian",
+      "attack_score": 0.0256694476188416,
+      "trust_map": {
+        "global_trust_score": 1.0
+      },
+      "suspicious_regions": [],
+      "selected_defense": "none",
+      "verification_score": 1.0,
+      "final_state": "TRUSTED",
+      "final_prediction": "amphibian",
+      "decision_reasons": [
+        "Attack evidence remained below the detection threshold.",
+        "Global trust exceeded the configured high-trust threshold.",
+        "Object, geometry, and scene verification were strong.",
+        "Original prediction confidence was sufficient."
+      ],
+      "processing_time_ms": 548.2744000037201
+    },
+    "record_hash": "29f38c6a61e9727d382bbb590b338970c37ff739ae264cbc08aeb9f2f55b5cad",
+    "previous_record_hash": "9f80560f5ed651bc0a82e708755c8a5a4e2aa38374b35cbed299277c62329870"
+  },
+  {
+    "request_id": "pgd_e4-ILSVRC2012_val_00022538",
+    "stage": "decision",
+    "message": "The input remained below attack risk thresholds and its interpretation was strongly verified.",
+    "timestamp": "2026-09-09T12:57:08.669821+00:00",
+    "details": {
+      "original_prediction": "pay-phone",
+      "defended_prediction": "pay-phone",
+      "attack_score": 0.008074570510326593,
+      "trust_map": {
+        "global_trust_score": 1.0
+      },
+      "suspicious_regions": [],
+      "selected_defense": "none",
+      "verification_score": 1.0,
+      "final_state": "TRUSTED",
+      "final_prediction": "pay-phone",
+      "decision_reasons": [
+        "Attack evidence remained below the detection threshold.",
+        "Global trust exceeded the configured high-trust threshold.",
+        "Object, geometry, and scene verification were strong.",
+        "Original prediction confidence was sufficient."
+      ],
+      "processing_time_ms": 607.4466999998549
+    },
+    "record_hash": "c9b451eaa5f535b0b19073da0b15e737d824b14b8a6095c8c4dcbe998a7ca8e8",
+    "previous_record_hash": "29f38c6a61e9727d382bbb590b338970c37ff739ae264cbc08aeb9f2f55b5cad"
+  },
+  {
+    "request_id": "pgd_e4-ILSVRC2012_val_00017247",
+    "stage": "decision",
+    "message": "The input remained below attack risk thresholds and its interpretation was strongly verified.",
+    "timestamp": "2026-09-09T12:57:09.628907+00:00",
+    "details": {
+      "original_prediction": "joystick",
+      "defended_prediction": "joystick",
+      "attack_score": 0.006190725384583095,
+      "trust_map": {
+        "global_trust_score": 1.0
+      },
+      "suspicious_regions": [],
+      "selected_defense": "none",
+      "verification_score": 1.0,
+      "final_state": "TRUSTED",
+      "final_prediction": "joystick",
+      "decision_reasons": [
+        "Attack evidence remained below the detection threshold.",
+        "Global trust exceeded the configured high-trust threshold.",
+        "Object, geometry, and scene verification were strong.",
+        "Original prediction confidence was sufficient."
+      ],
+      "processing_time_ms": 515.4781000019284
+    },
+    "record_hash": "48f9e8abd0ee46396c87b5e1246e1d8716062f41a1eb2936aeff6fc7c5eecf82",
+    "previous_record_hash": "c9b451eaa5f535b0b19073da0b15e737d824b14b8a6095c8c4dcbe998a7ca8e8"
+  },
+  {
+    "request_id": "pgd_e4-ILSVRC2012_val_00011324",
+    "stage": "decision",
+    "message": "The input remained below attack risk thresholds and its interpretation was strongly verified.",
+    "timestamp": "2026-09-09T12:57:10.648334+00:00",
+    "details": {
+      "original_prediction": "balloon",
+      "defended_prediction": "balloon",
+      "attack_score": 0.0026802237610497105,
+      "trust_map": {
+        "global_trust_score": 1.0
+      },
+      "suspicious_regions": [],
+      "selected_defense": "none",
+      "verification_score": 1.0,
+      "final_state": "TRUSTED",
+      "final_prediction": "balloon",
+      "decision_reasons": [
+        "Attack evidence remained below the detection threshold.",
+        "Global trust exceeded the configured high-trust threshold.",
+        "Object, geometry, and scene verification were strong.",
+        "Original prediction confidence was sufficient."
+      ],
+      "processing_time_ms": 529.7408999904292
+    },
+    "record_hash": "d6c3483ede46f0a9d140161d538f27d22556cbeac117db8f3c8e876a4589c5ce",
+    "previous_record_hash": "48f9e8abd0ee46396c87b5e1246e1d8716062f41a1eb2936aeff6fc7c5eecf82"
+  },
+  {
+    "request_id": "pgd_e4-ILSVRC2012_val_00031333",
+    "stage": "decision",
+    "message": "The system abstained because available evidence was insufficient to safely select an interpretation.",
+    "timestamp": "2026-09-09T12:57:11.623676+00:00",
+    "details": {
+      "original_prediction": "gar",
+      "defended_prediction": "gar",
+      "attack_score": 0.25888993621277595,
+      "trust_map": {
+        "global_trust_score": 0.8142575025558472
+      },
+      "suspicious_regions": [],
+      "selected_defense": "none",
+      "verification_score": 1.0,
+      "final_state": "ABSTAIN",
+      "final_prediction": null,
+      "decision_reasons": [
+        "Adversarial evidence remained high.",
+        "No defense produced a verified recovery result."
+      ],
+      "processing_time_ms": 592.3512999870582
+    },
+    "record_hash": "45c6d1ea441351b18937954964b88a26ca22e86c3173c8053b6bfa09a88b7de5",
+    "previous_record_hash": "d6c3483ede46f0a9d140161d538f27d22556cbeac117db8f3c8e876a4589c5ce"
+  },
+  {
+    "request_id": "pgd_e8-ILSVRC2012_val_00012468",
+    "stage": "decision",
+    "message": "The input remained below attack risk thresholds and its interpretation was strongly verified.",
+    "timestamp": "2026-09-09T12:57:12.656657+00:00",
+    "details": {
+      "original_prediction": "buckle",
+      "defended_prediction": "buckle",
+      "attack_score": 0.018925498771292442,
+      "trust_map": {
+        "global_trust_score": 1.0
+      },
+      "suspicious_regions": [],
+      "selected_defense": "none",
+      "verification_score": 1.0,
+      "final_state": "TRUSTED",
+      "final_prediction": "buckle",
+      "decision_reasons": [
+        "Attack evidence remained below the detection threshold.",
+        "Global trust exceeded the configured high-trust threshold.",
+        "Object, geometry, and scene verification were strong.",
+        "Original prediction confidence was sufficient."
+      ],
+      "processing_time_ms": 567.1734000061406
+    },
+    "record_hash": "9062ac52cd871dc340a064fb8e1f6fe216069366f3d0f6a1c00e6935dffa8f8f",
+    "previous_record_hash": "45c6d1ea441351b18937954964b88a26ca22e86c3173c8053b6bfa09a88b7de5"
+  },
+  {
+    "request_id": "pgd_e8-ILSVRC2012_val_00024269",
+    "stage": "decision",
+    "message": "The input remained below attack risk thresholds and its interpretation was strongly verified.",
+    "timestamp": "2026-09-09T12:57:13.600736+00:00",
+    "details": {
+      "original_prediction": "barbell",
+      "defended_prediction": "barbell",
+      "attack_score": 0.007666696392418921,
+      "trust_map": {
+        "global_trust_score": 1.0
+      },
+      "suspicious_regions": [],
+      "selected_defense": "none",
+      "verification_score": 1.0,
+      "final_state": "TRUSTED",
+      "final_prediction": "barbell",
+      "decision_reasons": [
+        "Attack evidence remained below the detection threshold.",
+        "Global trust exceeded the configured high-trust threshold.",
+        "Object, geometry, and scene verification were strong.",
+        "Original prediction confidence was sufficient."
+      ],
+      "processing_time_ms": 505.7974999945145
+    },
+    "record_hash": "53ddf3b11e29dfb53c01e744eac0670a1e45b6eb30520cf65b48b39f71320ce5",
+    "previous_record_hash": "9062ac52cd871dc340a064fb8e1f6fe216069366f3d0f6a1c00e6935dffa8f8f"
+  },
+  {
+    "request_id": "pgd_e8-ILSVRC2012_val_00004939",
+    "stage": "decision",
+    "message": "The input remained below attack risk thresholds and its interpretation was strongly verified.",
+    "timestamp": "2026-09-09T12:57:14.782464+00:00",
+    "details": {
+      "original_prediction": "monastery",
+      "defended_prediction": "monastery",
+      "attack_score": 0.016959509228549274,
+      "trust_map": {
+        "global_trust_score": 1.0
+      },
+      "suspicious_regions": [],
+      "selected_defense": "none",
+      "verification_score": 1.0,
+      "final_state": "TRUSTED",
+      "final_prediction": "monastery",
+      "decision_reasons": [
+        "Attack evidence remained below the detection threshold.",
+        "Global trust exceeded the configured high-trust threshold.",
+        "Object, geometry, and scene verification were strong.",
+        "Original prediction confidence was sufficient."
+      ],
+      "processing_time_ms": 497.1649999934016
+    },
+    "record_hash": "0b1dddad409105757000b2a4f090c2dd5b474aff4e1f583684fe5453e2eb0f57",
+    "previous_record_hash": "53ddf3b11e29dfb53c01e744eac0670a1e45b6eb30520cf65b48b39f71320ce5"
+  },
+  {
+    "request_id": "pgd_e8-ILSVRC2012_val_00008334",
+    "stage": "decision",
+    "message": "The input remained below attack risk thresholds and its interpretation was strongly verified.",
+    "timestamp": "2026-09-09T12:57:15.748642+00:00",
+    "details": {
+      "original_prediction": "Pomeranian",
+      "defended_prediction": "Pomeranian",
+      "attack_score": 0.0013658840423915021,
+      "trust_map": {
+        "global_trust_score": 1.0
+      },
+      "suspicious_regions": [],
+      "selected_defense": "none",
+      "verification_score": 1.0,
+      "final_state": "TRUSTED",
+      "final_prediction": "Pomeranian",
+      "decision_reasons": [
+        "Attack evidence remained below the detection threshold.",
+        "Global trust exceeded the configured high-trust threshold.",
+        "Object, geometry, and scene verification were strong.",
+        "Original prediction confidence was sufficient."
+      ],
+      "processing_time_ms": 474.5997999998508
+    },
+    "record_hash": "099d3981c86ee8703089c5ce22874c186bc5c506510664082e82157d32802d76",
+    "previous_record_hash": "0b1dddad409105757000b2a4f090c2dd5b474aff4e1f583684fe5453e2eb0f57"
+  },
+  {
+    "request_id": "pgd_e8-ILSVRC2012_val_00019593",
+    "stage": "decision",
+    "message": "The input remained below attack risk thresholds and its interpretation was strongly verified.",
+    "timestamp": "2026-09-09T12:57:16.747053+00:00",
+    "details": {
+      "original_prediction": "sax",
+      "defended_prediction": "sax",
+      "attack_score": 0.024158194343294935,
+      "trust_map": {
+        "global_trust_score": 1.0
+      },
+      "suspicious_regions": [],
+      "selected_defense": "none",
+      "verification_score": 1.0,
+      "final_state": "TRUSTED",
+      "final_prediction": "sax",
+      "decision_reasons": [
+        "Attack evidence remained below the detection threshold.",
+        "Global trust exceeded the configured high-trust threshold.",
+        "Object, geometry, and scene verification were strong.",
+        "Original prediction confidence was sufficient."
+      ],
+      "processing_time_ms": 530.6992999976501
+    },
+    "record_hash": "27e70ec2d7403df3205cdda0cd590af0d777b9921ba0f04395971b8de3584b4a",
+    "previous_record_hash": "099d3981c86ee8703089c5ce22874c186bc5c506510664082e82157d32802d76"
+  },
+  {
+    "request_id": "pgd_e8-ILSVRC2012_val_00009345",
+    "stage": "decision",
+    "message": "The input remained below attack risk thresholds and its interpretation was strongly verified.",
+    "timestamp": "2026-09-09T12:57:17.792434+00:00",
+    "details": {
+      "original_prediction": "amphibian",
+      "defended_prediction": "amphibian",
+      "attack_score": 0.026235633420818364,
+      "trust_map": {
+        "global_trust_score": 1.0
+      },
+      "suspicious_regions": [],
+      "selected_defense": "none",
+      "verification_score": 1.0,
+      "final_state": "TRUSTED",
+      "final_prediction": "amphibian",
+      "decision_reasons": [
+        "Attack evidence remained below the detection threshold.",
+        "Global trust exceeded the configured high-trust threshold.",
+        "Object, geometry, and scene verification were strong.",
+        "Original prediction confidence was sufficient."
+      ],
+      "processing_time_ms": 591.8291999987559
+    },
+    "record_hash": "2d29535fee651b9557dd131086de5157d7f0f576f58ce03328a91135dcf73fd4",
+    "previous_record_hash": "27e70ec2d7403df3205cdda0cd590af0d777b9921ba0f04395971b8de3584b4a"
+  },
+  {
+    "request_id": "pgd_e8-ILSVRC2012_val_00022538",
+    "stage": "decision",
+    "message": "The input remained below attack risk thresholds and its interpretation was strongly verified.",
+    "timestamp": "2026-09-09T12:57:18.807368+00:00",
+    "details": {
+      "original_prediction": "pay-phone",
+      "defended_prediction": "pay-phone",
+      "attack_score": 0.008305589141702364,
+      "trust_map": {
+        "global_trust_score": 1.0
+      },
+      "suspicious_regions": [],
+      "selected_defense": "none",
+      "verification_score": 1.0,
+      "final_state": "TRUSTED",
+      "final_prediction": "pay-phone",
+      "decision_reasons": [
+        "Attack evidence remained below the detection threshold.",
+        "Global trust exceeded the configured high-trust threshold.",
+        "Object, geometry, and scene verification were strong.",
+        "Original prediction confidence was sufficient."
+      ],
+      "processing_time_ms": 508.6522000055993
+    },
+    "record_hash": "d54deeb644defb71a345a94eb46c3ff82b6eed0b886e0e6d2d2fef2a7b8cfa3f",
+    "previous_record_hash": "2d29535fee651b9557dd131086de5157d7f0f576f58ce03328a91135dcf73fd4"
+  },
+  {
+    "request_id": "pgd_e8-ILSVRC2012_val_00017247",
+    "stage": "decision",
+    "message": "The input remained below attack risk thresholds and its interpretation was strongly verified.",
+    "timestamp": "2026-09-09T12:57:19.742425+00:00",
+    "details": {
+      "original_prediction": "joystick",
+      "defended_prediction": "joystick",
+      "attack_score": 0.0063367210097590955,
+      "trust_map": {
+        "global_trust_score": 1.0
+      },
+      "suspicious_regions": [],
+      "selected_defense": "none",
+      "verification_score": 1.0,
+      "final_state": "TRUSTED",
+      "final_prediction": "joystick",
+      "decision_reasons": [
+        "Attack evidence remained below the detection threshold.",
+        "Global trust exceeded the configured high-trust threshold.",
+        "Object, geometry, and scene verification were strong.",
+        "Original prediction confidence was sufficient."
+      ],
+      "processing_time_ms": 520.1867000141647
+    },
+    "record_hash": "dd601a879b895e6969a638e9cfac63bc0047f640fce05b683fea368747c42871",
+    "previous_record_hash": "d54deeb644defb71a345a94eb46c3ff82b6eed0b886e0e6d2d2fef2a7b8cfa3f"
+  },
+  {
+    "request_id": "pgd_e8-ILSVRC2012_val_00011324",
+    "stage": "decision",
+    "message": "The input remained below attack risk thresholds and its interpretation was strongly verified.",
+    "timestamp": "2026-09-09T12:57:20.735612+00:00",
+    "details": {
+      "original_prediction": "balloon",
+      "defended_prediction": "balloon",
+      "attack_score": 0.0029661979837860386,
+      "trust_map": {
+        "global_trust_score": 1.0
+      },
+      "suspicious_regions": [],
+      "selected_defense": "none",
+      "verification_score": 1.0,
+      "final_state": "TRUSTED",
+      "final_prediction": "balloon",
+      "decision_reasons": [
+        "Attack evidence remained below the detection threshold.",
+        "Global trust exceeded the configured high-trust threshold.",
+        "Object, geometry, and scene verification were strong.",
+        "Original prediction confidence was sufficient."
+      ],
+      "processing_time_ms": 528.1306999968365
+    },
+    "record_hash": "f4d6298103e50f241a993f537d960a179b69d8a7a6cc3a83e3e54b8097dd7f64",
+    "previous_record_hash": "dd601a879b895e6969a638e9cfac63bc0047f640fce05b683fea368747c42871"
+  },
+  {
+    "request_id": "pgd_e8-ILSVRC2012_val_00031333",
+    "stage": "decision",
+    "message": "The input remained below attack risk thresholds and its interpretation was strongly verified.",
+    "timestamp": "2026-09-09T12:57:21.834160+00:00",
+    "details": {
+      "original_prediction": "gar",
+      "defended_prediction": "gar",
+      "attack_score": 0.01307947111887228,
+      "trust_map": {
+        "global_trust_score": 1.0
+      },
+      "suspicious_regions": [],
+      "selected_defense": "none",
+      "verification_score": 1.0,
+      "final_state": "TRUSTED",
+      "final_prediction": "gar",
+      "decision_reasons": [
+        "Attack evidence remained below the detection threshold.",
+        "Global trust exceeded the configured high-trust threshold.",
+        "Object, geometry, and scene verification were strong.",
+        "Original prediction confidence was sufficient."
+      ],
+      "processing_time_ms": 677.7953999990132
+    },
+    "record_hash": "9aa1dbc00fca3f657717cc608a750121fcf472f86ab88471df8e822313061188",
+    "previous_record_hash": "f4d6298103e50f241a993f537d960a179b69d8a7a6cc3a83e3e54b8097dd7f64"
+  },
+  {
+    "request_id": "f276aa82-b212-4155-88b1-ac25a98ca12d",
+    "stage": "decision",
+    "message": "The input remained below attack risk thresholds and its interpretation was strongly verified.",
+    "timestamp": "2026-09-09T12:58:54.741231+00:00",
+    "details": {
+      "original_prediction": "tench",
+      "defended_prediction": "tench",
+      "attack_score": 0.008715208626306998,
+      "trust_map": {
+        "global_trust_score": 1.0
+      },
+      "suspicious_regions": [],
+      "selected_defense": "none",
+      "verification_score": 1.0,
+      "final_state": "TRUSTED",
+      "final_prediction": "tench",
+      "decision_reasons": [
+        "Attack evidence remained below the detection threshold.",
+        "Global trust exceeded the configured high-trust threshold.",
+        "Object, geometry, and scene verification were strong.",
+        "Original prediction confidence was sufficient."
+      ],
+      "processing_time_ms": 579.8829999985173
+    },
+    "record_hash": "0ef801b7c21113d91833a1565cebfaa075e2c30383b5f8f72eb8ada9041e4784",
+    "previous_record_hash": "9aa1dbc00fca3f657717cc608a750121fcf472f86ab88471df8e822313061188"
+  },
+  {
+    "request_id": "855d09a8-4f3a-4c86-9034-8bcd4505771f",
+    "stage": "decision",
+    "message": "The system abstained because available evidence was insufficient to safely select an interpretation.",
+    "timestamp": "2026-09-09T13:01:31.771851+00:00",
+    "details": {
+      "original_prediction": "bathtub",
+      "defended_prediction": "bathtub",
+      "attack_score": 0.08468316567036455,
+      "trust_map": {
+        "global_trust_score": 0.864271342754364
+      },
+      "suspicious_regions": [],
+      "selected_defense": "none",
+      "verification_score": 1.0,
+      "final_state": "ABSTAIN",
+      "final_prediction": null,
+      "decision_reasons": [
+        "Adversarial evidence remained high.",
+        "No defense produced a verified recovery result."
+      ],
+      "processing_time_ms": 1605.3529999917373
+    },
+    "record_hash": "be1b1def18254ce762553221c975ceb48c23de6914aebc3026c63d65b6e3a3c9",
+    "previous_record_hash": "0ef801b7c21113d91833a1565cebfaa075e2c30383b5f8f72eb8ada9041e4784"
+  },
+  {
+    "request_id": "b9eb9fb4-4f16-4511-ac74-c9bd01945225",
+    "stage": "decision",
+    "message": "The system abstained because available evidence was insufficient to safely select an interpretation.",
+    "timestamp": "2026-09-09T13:02:05.746688+00:00",
+    "details": {
+      "original_prediction": "chain saw",
+      "defended_prediction": "chain saw",
+      "attack_score": 0.028579075055689223,
+      "trust_map": {
+        "global_trust_score": 1.0
+      },
+      "suspicious_regions": [],
+      "selected_defense": "none",
+      "verification_score": 1.0,
+      "final_state": "ABSTAIN",
+      "final_prediction": null,
+      "decision_reasons": [
+        "No defense produced a verified recovery result."
+      ],
+      "processing_time_ms": 934.955999997328
+    },
+    "record_hash": "9a9f6df923dba95e04129801fff43e2bf1b8642bb20a30a20b4d5d0b23626169",
+    "previous_record_hash": "be1b1def18254ce762553221c975ceb48c23de6914aebc3026c63d65b6e3a3c9"
+  },
+  {
+    "request_id": "73e4c99e-9891-41c9-8482-70a26548a681",
+    "stage": "decision",
+    "message": "The system abstained because available evidence was insufficient to safely select an interpretation.",
+    "timestamp": "2026-09-09T13:04:03.136674+00:00",
+    "details": {
+      "original_prediction": "ice lolly",
+      "defended_prediction": "ice lolly",
+      "attack_score": 0.009802891632058027,
+      "trust_map": {
+        "global_trust_score": 1.0
+      },
+      "suspicious_regions": [],
+      "selected_defense": "none",
+      "verification_score": 1.0,
+      "final_state": "ABSTAIN",
+      "final_prediction": null,
+      "decision_reasons": [
+        "No defense produced a verified recovery result."
+      ],
+      "processing_time_ms": 1093.0545999872265
+    },
+    "record_hash": "eb5ed0d19ca663f8670bb860161f1657cfd6c1aae90463224c3b372978d5e952",
+    "previous_record_hash": "9a9f6df923dba95e04129801fff43e2bf1b8642bb20a30a20b4d5d0b23626169"
+  },
+  {
+    "request_id": "cbe9ab19-51a5-4e4e-b97d-e5a7257f3b25",
+    "stage": "decision",
+    "message": "The input remained below attack risk thresholds and its interpretation was strongly verified.",
+    "timestamp": "2026-09-09T13:25:25.529439+00:00",
+    "details": {
+      "original_prediction": "person",
+      "defended_prediction": "person",
+      "attack_score": 0.00838444400886034,
+      "trust_map": {
+        "global_trust_score": 1.0
+      },
+      "suspicious_regions": [],
+      "selected_defense": "none",
+      "verification_score": 1.0,
+      "final_state": "TRUSTED",
+      "final_prediction": "person",
+      "decision_reasons": [
+        "Attack evidence remained below the detection threshold.",
+        "Global trust exceeded the configured high-trust threshold.",
+        "Object, geometry, and scene verification were strong.",
+        "Original prediction confidence was sufficient."
+      ],
+      "processing_time_ms": 1843.5514000011608
+    },
+    "record_hash": "ebf1b27c2049b5f4c66c7a17f9fa06116a7a7661b3de594ee58c477e91437b71",
+    "previous_record_hash": "eb5ed0d19ca663f8670bb860161f1657cfd6c1aae90463224c3b372978d5e952"
+  },
+  {
+    "request_id": "a014864e-0690-4185-a376-fcaf15690534",
+    "stage": "decision",
+    "message": "The input remained below attack risk thresholds and its interpretation was strongly verified.",
+    "timestamp": "2026-09-09T13:25:29.173636+00:00",
+    "details": {
+      "original_prediction": "person",
+      "defended_prediction": "person",
+      "attack_score": 0.01188589848326238,
+      "trust_map": {
+        "global_trust_score": 1.0
+      },
+      "suspicious_regions": [],
+      "selected_defense": "none",
+      "verification_score": 1.0,
+      "final_state": "TRUSTED",
+      "final_prediction": "person",
+      "decision_reasons": [
+        "Attack evidence remained below the detection threshold.",
+        "Global trust exceeded the configured high-trust threshold.",
+        "Object, geometry, and scene verification were strong.",
+        "Original prediction confidence was sufficient."
+      ],
+      "processing_time_ms": 1896.6551999910735
+    },
+    "record_hash": "5c6c3dfb78f1f6370803958be97c0b82bd3277464d1f7966a6fc7ed6c98a8fff",
+    "previous_record_hash": "ebf1b27c2049b5f4c66c7a17f9fa06116a7a7661b3de594ee58c477e91437b71"
+  },
+  {
+    "request_id": "d881d207-1333-418b-bc5b-96fc0d4d8640",
+    "stage": "decision",
+    "message": "The input remained below attack risk thresholds and its interpretation was strongly verified.",
+    "timestamp": "2026-09-09T13:30:50.788437+00:00",
+    "details": {
+      "original_prediction": "person",
+      "defended_prediction": "person",
+      "attack_score": 0.00838444400886034,
+      "trust_map": {
+        "global_trust_score": 1.0
+      },
+      "suspicious_regions": [],
+      "selected_defense": "none",
+      "verification_score": 1.0,
+      "final_state": "TRUSTED",
+      "final_prediction": "person",
+      "decision_reasons": [
+        "Attack evidence remained below the detection threshold.",
+        "Global trust exceeded the configured high-trust threshold.",
+        "Object, geometry, and scene verification were strong.",
+        "Original prediction confidence was sufficient."
+      ],
+      "processing_time_ms": 1618.0763000011211
+    },
+    "record_hash": "12b9f022d8b6d79ad1bdc35ea341e9e3aee524e7f3e2f6db4949dded4343f234",
+    "previous_record_hash": "5c6c3dfb78f1f6370803958be97c0b82bd3277464d1f7966a6fc7ed6c98a8fff"
+  },
+  {
+    "request_id": "95357454-c4db-4d52-8ac5-1f6b71b51283",
+    "stage": "decision",
+    "message": "The input remained below attack risk thresholds and its interpretation was strongly verified.",
+    "timestamp": "2026-09-09T13:30:53.304872+00:00",
+    "details": {
+      "original_prediction": "tench",
+      "defended_prediction": "tench",
+      "attack_score": 0.008715208626306998,
+      "trust_map": {
+        "global_trust_score": 1.0
+      },
+      "suspicious_regions": [],
+      "selected_defense": "none",
+      "verification_score": 1.0,
+      "final_state": "TRUSTED",
+      "final_prediction": "tench",
+      "decision_reasons": [
+        "Attack evidence remained below the detection threshold.",
+        "Global trust exceeded the configured high-trust threshold.",
+        "Object, geometry, and scene verification were strong.",
+        "Original prediction confidence was sufficient."
+      ],
+      "processing_time_ms": 1146.9012999878032
+    },
+    "record_hash": "eadb009a4ed73573fe6cce4bef2cf784dbe06200bae69cce8aff27cde7e9801a",
+    "previous_record_hash": "12b9f022d8b6d79ad1bdc35ea341e9e3aee524e7f3e2f6db4949dded4343f234"
+  },
+  {
+    "request_id": "audit-adv",
+    "stage": "decision",
+    "message": "The input remained below attack risk thresholds and its interpretation was strongly verified.",
+    "timestamp": "2026-09-09T13:44:53.958684+00:00",
+    "details": {
+      "original_prediction": "nail",
+      "defended_prediction": "nail",
+      "attack_score": 0.01896747360063862,
+      "trust_map": {
+        "global_trust_score": 1.0
+      },
+      "suspicious_regions": [],
+      "selected_defense": "none",
+      "verification_score": 1.0,
+      "final_state": "TRUSTED",
+      "final_prediction": "nail",
+      "decision_reasons": [
+        "Attack evidence remained below the detection threshold.",
+        "Global trust exceeded the configured high-trust threshold.",
+        "Object, geometry, and scene verification were strong.",
+        "Original prediction confidence was sufficient."
+      ],
+      "processing_time_ms": 526.4788999920711
+    },
+    "record_hash": "b91563fd305d05624e4a3cd31ea50ba33cec03416144494b1d1dc75b91df9c85",
+    "previous_record_hash": "eadb009a4ed73573fe6cce4bef2cf784dbe06200bae69cce8aff27cde7e9801a"
+  },
+  {
+    "request_id": "audit-clean",
+    "stage": "decision",
+    "message": "The input remained below attack risk thresholds and its interpretation was strongly verified.",
+    "timestamp": "2026-09-09T13:44:55.024600+00:00",
+    "details": {
+      "original_prediction": "tench",
+      "defended_prediction": "tench",
+      "attack_score": 0.008715208626306998,
+      "trust_map": {
+        "global_trust_score": 1.0
+      },
+      "suspicious_regions": [],
+      "selected_defense": "none",
+      "verification_score": 1.0,
+      "final_state": "TRUSTED",
+      "final_prediction": "tench",
+      "decision_reasons": [
+        "Attack evidence remained below the detection threshold.",
+        "Global trust exceeded the configured high-trust threshold.",
+        "Object, geometry, and scene verification were strong.",
+        "Original prediction confidence was sufficient."
+      ],
+      "processing_time_ms": 635.1078000006964
+    },
+    "record_hash": "5afc3e27e02908653ffd5e374b1ef8610e6bd4bcb6075520ecfa1bc9efd34e4e",
+    "previous_record_hash": "b91563fd305d05624e4a3cd31ea50ba33cec03416144494b1d1dc75b91df9c85"
+  },
+  {
+    "request_id": "audit-adv",
+    "stage": "decision",
+    "message": "The system abstained because available evidence was insufficient to safely select an interpretation.",
+    "timestamp": "2026-09-09T13:50:55.379087+00:00",
+    "details": {
+      "original_prediction": "nail",
+      "defended_prediction": "nail",
+      "attack_score": 0.3143343263224463,
+      "trust_map": {
+        "global_trust_score": 0.795348584651947
+      },
+      "suspicious_regions": [
+        {
+          "region_id": 1,
+          "x": 227,
+          "y": 194,
+          "width": 8,
+          "height": 6,
+          "area_pixels": 18,
+          "area_percentage": 0.013204225352112674,
+          "anomaly_score": 0.8301530927419662,
+          "trust_score": 0.16984690725803375
+        }
+      ],
+      "selected_defense": "mask",
+      "verification_score": 0.9997288226173261,
+      "final_state": "ABSTAIN",
+      "final_prediction": null,
+      "decision_reasons": [
+        "Adversarial evidence remained high."
+      ],
+      "processing_time_ms": 758.5125000041444
+    },
+    "record_hash": "2ae29fde2b1b57d35fdc6719e8eacf16c58d8e4999c12bbd26db21d5d5042924",
+    "previous_record_hash": "5afc3e27e02908653ffd5e374b1ef8610e6bd4bcb6075520ecfa1bc9efd34e4e"
+  },
+  {
+    "request_id": "audit-clean",
+    "stage": "decision",
+    "message": "The input remained below attack risk thresholds and its interpretation was strongly verified.",
+    "timestamp": "2026-09-09T13:50:56.550964+00:00",
+    "details": {
+      "original_prediction": "tench",
+      "defended_prediction": "tench",
+      "attack_score": 0.008737588399541571,
+      "trust_map": {
+        "global_trust_score": 1.0
+      },
+      "suspicious_regions": [],
+      "selected_defense": "none",
+      "verification_score": 1.0,
+      "final_state": "TRUSTED",
+      "final_prediction": "tench",
+      "decision_reasons": [
+        "Attack evidence remained below the detection threshold.",
+        "Global trust exceeded the configured high-trust threshold.",
+        "Object, geometry, and scene verification were strong.",
+        "Original prediction confidence was sufficient."
+      ],
+      "processing_time_ms": 637.4896999914199
+    },
+    "record_hash": "2b38464d6a35aa313546706a6d60f222e13b9620c2dcbb04daca43d2f2d6df1a",
+    "previous_record_hash": "2ae29fde2b1b57d35fdc6719e8eacf16c58d8e4999c12bbd26db21d5d5042924"
+  },
+  {
+    "request_id": "audit-adv",
+    "stage": "decision",
+    "message": "Adversarial evidence was detected, but the defended interpretation met the configured verification requirements.",
+    "timestamp": "2026-09-09T13:56:47.527036+00:00",
+    "details": {
+      "original_prediction": "nail",
+      "defended_prediction": "nail",
+      "attack_score": 0.3143343263224463,
+      "trust_map": {
+        "global_trust_score": 0.795348584651947
+      },
+      "suspicious_regions": [
+        {
+          "region_id": 1,
+          "x": 227,
+          "y": 194,
+          "width": 8,
+          "height": 6,
+          "area_pixels": 18,
+          "area_percentage": 0.013204225352112674,
+          "anomaly_score": 0.8301530927419662,
+          "trust_score": 0.16984690725803375
+        }
+      ],
+      "selected_defense": "purification",
+      "verification_score": 0.9856730548833244,
+      "final_state": "DEFENDED",
+      "final_prediction": "nail",
+      "decision_reasons": [
+        "Adversarial evidence exceeded the detection threshold.",
+        "A purification defense was applied.",
+        "Object, geometry, and scene verification exceeded the configured threshold.",
+        "The defended prediction retained sufficient confidence.",
+        "1 suspicious region(s) were included in the evidence chain."
+      ],
+      "processing_time_ms": 780.6644999946002
+    },
+    "record_hash": "2fcc75910aa1431fe10f15d5a131373dc3701172f43890dd825b85d79f15c97a",
+    "previous_record_hash": "2b38464d6a35aa313546706a6d60f222e13b9620c2dcbb04daca43d2f2d6df1a"
+  },
+  {
+    "request_id": "audit-clean",
+    "stage": "decision",
+    "message": "The input remained below attack risk thresholds and its interpretation was strongly verified.",
+    "timestamp": "2026-09-09T13:56:48.657404+00:00",
+    "details": {
+      "original_prediction": "tench",
+      "defended_prediction": "tench",
+      "attack_score": 0.008737588399541571,
+      "trust_map": {
+        "global_trust_score": 1.0
+      },
+      "suspicious_regions": [],
+      "selected_defense": "none",
+      "verification_score": 1.0,
+      "final_state": "TRUSTED",
+      "final_prediction": "tench",
+      "decision_reasons": [
+        "Attack evidence remained below the detection threshold.",
+        "Global trust exceeded the configured high-trust threshold.",
+        "Object, geometry, and scene verification were strong.",
+        "Original prediction confidence was sufficient."
+      ],
+      "processing_time_ms": 594.8446000111289
+    },
+    "record_hash": "94f5699e8c68e8fa7bfc64ebd0068e02fd58a1c22ec0227557e01faab99e2059",
+    "previous_record_hash": "2fcc75910aa1431fe10f15d5a131373dc3701172f43890dd825b85d79f15c97a"
+  },
+  {
+    "request_id": "audit-adv",
+    "stage": "decision",
+    "message": "The system abstained because available evidence was insufficient to safely select an interpretation.",
+    "timestamp": "2026-09-09T14:01:33.170233+00:00",
+    "details": {
+      "original_prediction": "nail",
+      "defended_prediction": "nail",
+      "attack_score": 0.3143343263224463,
+      "trust_map": {
+        "global_trust_score": 0.795348584651947
+      },
+      "suspicious_regions": [
+        {
+          "region_id": 1,
+          "x": 227,
+          "y": 194,
+          "width": 8,
+          "height": 6,
+          "area_pixels": 18,
+          "area_percentage": 0.013204225352112674,
+          "anomaly_score": 0.8301530927419662,
+          "trust_score": 0.16984690725803375
+        }
+      ],
+      "selected_defense": "purification",
+      "verification_score": 0.9856730548833244,
+      "final_state": "ABSTAIN",
+      "final_prediction": null,
+      "decision_reasons": [
+        "Adversarial evidence remained high.",
+        "The applied defense did not change the suspicious interpretation."
+      ],
+      "processing_time_ms": 837.2165000037057
+    },
+    "record_hash": "ba96cbdec8e06074dfa8e6ee850fe4e206d0a6cd37772cbbd1e4e6c712e6e04c",
+    "previous_record_hash": "94f5699e8c68e8fa7bfc64ebd0068e02fd58a1c22ec0227557e01faab99e2059"
+  },
+  {
+    "request_id": "audit-clean",
+    "stage": "decision",
+    "message": "The input remained below attack risk thresholds and its interpretation was strongly verified.",
+    "timestamp": "2026-09-09T14:01:34.314081+00:00",
+    "details": {
+      "original_prediction": "tench",
+      "defended_prediction": "tench",
+      "attack_score": 0.008737588399541571,
+      "trust_map": {
+        "global_trust_score": 1.0
+      },
+      "suspicious_regions": [],
+      "selected_defense": "none",
+      "verification_score": 1.0,
+      "final_state": "TRUSTED",
+      "final_prediction": "tench",
+      "decision_reasons": [
+        "Attack evidence remained below the detection threshold.",
+        "Global trust exceeded the configured high-trust threshold.",
+        "Object, geometry, and scene verification were strong.",
+        "Original prediction confidence was sufficient."
+      ],
+      "processing_time_ms": 612.4497999844607
+    },
+    "record_hash": "b7a6f0ae03c4a74836ce99052f9394e8145c0b1ee4659fb749fb7e1dc1f962f3",
+    "previous_record_hash": "ba96cbdec8e06074dfa8e6ee850fe4e206d0a6cd37772cbbd1e4e6c712e6e04c"
+  },
+  {
+    "request_id": "audit-PGD 8/255",
+    "stage": "decision",
+    "message": "The system abstained because available evidence was insufficient to safely select an interpretation.",
+    "timestamp": "2026-09-09T14:02:08.117120+00:00",
+    "details": {
+      "original_prediction": "gar",
+      "defended_prediction": "gar",
+      "attack_score": 0.1879631789850195,
+      "trust_map": {
+        "global_trust_score": 0.8217876553535461
+      },
+      "suspicious_regions": [],
+      "selected_defense": "purification",
+      "verification_score": 0.9396557451802794,
+      "final_state": "ABSTAIN",
+      "final_prediction": null,
+      "decision_reasons": [
+        "Adversarial evidence remained high.",
+        "The applied defense did not change the suspicious interpretation."
+      ],
+      "processing_time_ms": 768.0404999991879
+    },
+    "record_hash": "8358ae0336cf6c5221d78220d6c5ce123e92b8c13e3f1adb94d6cb3b3d9e66e9",
+    "previous_record_hash": "b7a6f0ae03c4a74836ce99052f9394e8145c0b1ee4659fb749fb7e1dc1f962f3"
+  },
+  {
+    "request_id": "audit-FGSM 8/255",
+    "stage": "decision",
+    "message": "The system abstained because available evidence was insufficient to safely select an interpretation.",
+    "timestamp": "2026-09-09T14:02:09.623375+00:00",
+    "details": {
+      "original_prediction": "barracouta",
+      "defended_prediction": "barracouta",
+      "attack_score": 0.15792042146593807,
+      "trust_map": {
+        "global_trust_score": 0.8280727863311768
+      },
+      "suspicious_regions": [],
+      "selected_defense": "purification",
+      "verification_score": 0.9784152324050737,
+      "final_state": "ABSTAIN",
+      "final_prediction": null,
+      "decision_reasons": [
+        "Adversarial evidence remained high.",
+        "The applied defense did not change the suspicious interpretation."
+      ],
+      "processing_time_ms": 755.5569999967702
+    },
+    "record_hash": "377ae61af8b50bdea9698d61530f427a5cfdeb188cb9d9aee7f43b63db930f9b",
+    "previous_record_hash": "8358ae0336cf6c5221d78220d6c5ce123e92b8c13e3f1adb94d6cb3b3d9e66e9"
   }
 ]
